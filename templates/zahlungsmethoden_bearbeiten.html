@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% include "header.html" %}
+
+
+<link rel="stylesheet" href="/static/zahlungsmethoden_page_2.css" type="text/css" media="all" />
+
+</head>
+<div class="header_top_all"><div class="header_top"></div></div>
+<body style="font-family: 'Roboto', sans-serif;">
+    <div class="overlay" onclick='reset_sidebar()'></div>
+          <div class="modal_login"></div>
+  <div class="modal_2"></div>
+  <div class="modal_medium"></div>
+  <div class="modal_mobile_sidebar">					  
+  	<div id="mySidenav" class="sidenav">
+
+		</div>
+</div>
+	<div id="x-mask" class="uebersicht">
+
+
+  {% include "modals.html" %}
+
+
+		<br><br><br><b><div class="profil_beschriftung"><div class="links" onclick="profil_hauptseite()">Dein Profil</div>> Zahlungsmethoden bearbeiten</b><br></div>
+
+
+
+		<div class="hauptseite_zahlungsmethoden_bearbeiten">
+			<div class="profil_beschriftung"><b>Zahlungsmethoden</b><br><br><br>
+				<div class="button_main" style='width:250px' onclick="zahlungsmethoden_hinzufuegen()">Neue Kreditkarte</div>
+			<br>
+			</div>
+			
+			
+			
+
+		 
+		 
+		 
+		 
+			
+			<div class="header_style">
+				<div class="zusammenfassung">
+					
+
+						<div class="eingabefelder_headline"><b>Karteninhaber</b><br>
+							<input class="eingabefelder_karteninhaber" onkeydown='input_on_change(this)' type='text'/>
+						</div>
+						
+						<div class="eingabefelder_headline"><b>Kartennummer</b><br>
+							<input class="eingabefelder_kartennummer" placeholder='' type='text' onKeyUp='kreditkarten_show(event,-1)' onKeyDown='kreditkarten_show(event,-1)' maxlength='19' onBlur='kreditkarten_show(event,-1)'/>
+						</div>							
+									
+						<div class="eingabefelder_headline"><b>Ablaufdatum</b><br>
+							<select class="eingabefelder_ablaufdatum_monat" style='width:45%;float:left;' onclick='input_on_change(this)'></select>
+							<select class="eingabefelder_ablaufdatum_jahr" style='width:45%;float:right;' onclick='input_on_change(this)'></select>
+						</div>	
+						
+						
+						<div class="eingabefelder_headline"><b>Prüfziffer</b><br>
+							<input type="text" class="eingabefelder_pruefziffer" maxlength='3' onkeydown='input_on_change(this)'/>
+						</div>	
+						
+						<div class='warnhinweis' style='color:red;float:right;'> </div>			
+						<br><br><br><br>
+						<form id='payment-form' action='#' method='POST'>
+						<input class='card-amount-int' type='hidden' value='0001' />
+						<input class='card-currency' type='hidden' value='EUR' />
+						<input class='card-number' type='hidden'  value='4111111111111111'/>
+						<input class='card-cvc' type='hidden' value='123' />
+						<input class='card-holdername' type='hidden'   value='asdasd' />
+						<input class='card-expiry-month' type='hidden'  value='03' />
+						<input class='card-expiry-year' type='hidden'  value='2018' />
+						</form>
+						<div class="adresse_speichern_button" onclick="zahlungsmethode_speichern(-1)" >Speichern</div>
+						<div class='button_abbrechen' onclick='zahlungsmethode_abbrechen(-1)'>Abbrechen</div>
+				
+
+				  
+				  
+				</div>
+			</div>
+
+			<div id="existierende_zahlungsmethoden_anzeigen"></div>
+		</div>
+	</div>
+
+
+
+
+
+
+</div>
+
+</body>
+<div class="header_bottom_all"><div class="header-bottom"></div></div>
+
+<script type="text/javascript">
+    var PAYMILL_PUBLIC_KEY='7591869860159290bb485732ac7a78da';
+</script>
+
+
+ 		<script src="https://bridge.paymill.com/"></script>
+<script type="text/javascript"  class="zahlungsmethoden_daten" >{{zahlungsmethoden | safe}}</script>
+<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>	
+<script type="text/javascript"  class="links" >{{links | safe}}</script>
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>	
+		<script src="/static/zahlungsmethoden_js.js"></script>
+
+
+	{% include "header_sub.html" %}
+	
+	
+		<script type="text/javascript">load_header("{{login}}");test();array_definieren();zahlungsmethoden_laden();warenkorb_abrufen("{{cart_gesamt}}");password_check("{{password}}");links_laden(-1);</script>
+
+
+
+
+
+
+</html>

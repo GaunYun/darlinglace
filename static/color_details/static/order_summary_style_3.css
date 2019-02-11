@@ -1,0 +1,544 @@
+
+
+ .schliessen_alert
+{
+	margin-right:10px;
+	margin-top:-10px;
+	float:right;
+	cursor:pointer;
+}
+
+.profil_beschriftung
+{
+	font-size:16px;
+}
+ 
+ 
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-padding-end: 20px;
+    -moz-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -moz-padding-start: 2px;
+    background-color: #ffffff; /* fallback color if gradients are not supported */
+    background-image: url(/static/arrow_new.png); /* For Chrome and Safari */
+    background-image: url(/static/arrow_new.png); /* For old Fx (3.6 to 15) */
+    background-image: url(/static/arrow_new.png); /* For pre-releases of IE 10*/
+    background-image: url(/static/arrow_new.png); /* For old Opera (11.1 to 12.0) */ 
+    background-image: url(/static/arrow_new.png); /* Standard syntax; must be last */
+    background-position: center right;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+	cursor:pointer;
+    color: #555;
+    font-size: inherit;
+    font-size:14px;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+
+.dialogIsOpen #page-wrap {
+
+  /* Blur and de-color */
+  -webkit-filter: blur(5px) grayscale(50%);
+
+  /* Recede */
+  -webkit-transform: scale(0.9);
+
+}
+
+.links
+{
+	cursor:pointer;
+	color: #DB7093;
+	float:left;
+	margin-right:5px;
+	
+}
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-top:90px;
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+    }
+}
+
+	 @media only screen and (min-width: 768px) and (max-width: 1199px){
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-top:90px;
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+
+	margin-top:30px;
+	font-size:14px;
+	float:left;
+	font-family:Helvetica;
+    }
+}
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+		.lingerie_with_border{
+			border-right: 1px solid #e6e6e6
+		}
+	}
+
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+   .lingerie_with_border,.lingerie_wo_border{
+	width:30%;
+	margin-right:10px;
+	 padding-right:10px;
+	 
+	float:left;
+	height:100%;
+	
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+ .lingerie_with_border,.lingerie_wo_border {
+	width:100%;
+	margin-bottom:20px;
+	font-size:16px;
+	height:100%;
+	float:left;
+
+    }
+}
+
+
+
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+		.details_order{
+			font-size:12px;
+			margin-left:10px;
+			float:left;
+		}
+	}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+		.details_order{
+			font-size:14px;
+			margin-left:10px;
+			float:left;
+		}
+	}
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+		.ueberschrift_gruppen{
+	height:25px;
+	font-weight:bold;
+	font-size:16px;
+	margin:0 auto;
+		}
+	}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+		.ueberschrift_gruppen{
+	height:25px;
+	font-weight:bold;
+	font-size:18px;
+	margin:0 auto;
+		}
+	}
+
+ 
+
+.textarea_lieferhinweise
+{
+	width:100%;
+	height:70px;
+	resize: none;
+	font-family:Helvetica;
+	font-size:12px;
+}
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+		.textarea_lieferhinweise{
+	font-size:12px;
+		}
+	}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+		.textarea_lieferhinweise{
+	font-size:16px;
+		}
+	}
+
+
+
+ 
+ .bestellung
+ {
+ 		width:100%;
+ 		float:left;
+ 		margin-bottom:-20px;
+ 		
+
+
+ }
+ 
+ 
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:50px;
+	 margin-top:50px;
+	 margin-right:50px;
+	 font-family:Helvetica;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:10px;
+	 margin-top:10px;
+	 margin-right:10px;
+	 font-family:Helvetica;
+        
+    }
+}
+ 
+ 
+ .headline{
+	 
+	 
+	 border-bottom: 1px solid #e6e6e6 ;
+	 
+	 line-height:35px;
+	 
+ }
+ 
+ 
+ .gerichte_uebersicht
+ {
+	float:left;
+	width:30%;
+
+	 
+ }
+ 
+ 
+
+ 
+ 
+   .lieferungs_uebersicht
+ {
+	 
+	 width:270px;
+	 font-family:Helvetica;
+	 
+ }
+ 
+
+ 
+ .zahlung{
+
+ 	line-height:35px;
+ 	
+ 
+ }
+ 
+
+ 
+ h1 {
+  position: relative;
+  text-align: center;
+  z-index:0;
+}
+
+
+h1 span {
+  background: #ffffff;
+
+  position: relative;
+  top:10px;
+
+
+  
+  
+  
+  
+
+}
+
+ 	 @media only screen and (max-width: 999px) {
+    /* For mobile phones: */
+    [class*="profil_beschriftung"] {
+	margin-left:10px;
+    }
+}
+
+
+.horizontaler_strich{
+	text-align:center;
+	border-bottom: 3px solid #DB7093 ;
+margin: 0 auto;
+	width:60px;
+	
+}
+
+
+
+
+
+
+
+
+h1:before {
+  background: #e6e6e6;
+  content: "";
+
+  height: 2px;
+
+  position: absolute;
+	top: 50%;
+
+
+	
+	
+}
+h1:before {
+  left: 0;
+  right:0px;
+  z-index:-1;
+}
+
+
+
+
+
+input{
+	
+	border:1px solid #e6e6e6 ;
+	color:#4E4E4E;
+	padding-left:10px;
+	box-sizing: border-box;
+	height:28px;
+	font-size:12px;
+}
+
+textarea{
+	padding: 10px;
+	border:1px solid #e6e6e6 ;
+	color:#4E4E4E;
+	box-sizing: border-box;
+
+	font-size:14px;
+}
+ 
+ 
+ 
+ 
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="trennlinie_main"] {
+	float:left;
+	margin-left:20px;
+	margin-right:20px;
+	width:2px;
+	margin-top:65px;
+	border-right: 1px solid #e6e6e6 ;
+	background-color:#000000;
+	height:100%;
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="trennlinie_main"] {
+		display:none;
+    }
+}
+ 
+ 
+
+ 
+ 
+ .bestellnummer{
+	 
+	 
+	 text-align:center;
+	 font-weight: bold;
+
+	 
+	 font-size:20px;
+	 font-family:Helvetica;
+	 line-height:35px;
+	 
+ }
+ 
+ .headline_text{
+	 
+	 text-align:center;
+	 
+ }
+ 
+ 
+
+ 
+  .lingerie_i{ 
+	width:100%;
+	 float:left;	
+	 font-family:Helvetica;
+	 
+ }
+ 
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+  .lingerie_i{
+  	margin-top:-25px;
+  	margin-bottom:30px;
+ 
+    }
+}
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+  .zahlung{
+  	margin-top:-25px;
+  	margin-bottom:40px;
+ 
+    }
+}
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+  .lieferung_i{
+  	margin-top:-25px;
+  	margin-bottom:30px;
+ 
+    }
+}
+ 
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+      max-width:1200px; 
+	padding:0px 0; 
+	margin:0 auto;
+	font-family:Helvetica; 
+	height:100%
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+      width:100%
+	padding:0px 0; 
+	margin:0 auto;
+	font-family:Helvetica; 
+	height:100%
+    }
+}
+ 
+
+ 
+	html, body {
+
+
+
+margin: 0px;
+	
+
+
+}
+body {
+  position: relative
+}
+ 
+
+
+
+	
+
+
+
+
+.block {   
+    width: 100%
+
+    margin-left: auto; 
+    margin-right: auto;
+
+     text-align:center;
+
+
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

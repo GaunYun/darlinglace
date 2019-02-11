@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+{% include "header.html" %}
+<link rel="stylesheet" href="/static/detail_page.css" type="text/css" media="all" />
+
+ 
+
+</head>
+<body style="font-family: 'Roboto', sans-serif;">
+
+  <div class="overlay" onclick='reset_sidebar()'><div class="loader"></div> </div>
+
+  <div class="modal_mobile_sidebar">					  
+  	<div id="mySidenav" class="sidenav">
+
+		</div>
+</div>
+	<div id="overall_page" >
+
+			 {% include "header_main_body.html" %}
+
+
+	<div id="x-mask" class="uebersicht">
+
+  {% include "modals.html" %}
+
+
+	<b><div class="profil_beschriftung"><div class="links_profil" onclick="profil_hauptseite()">Mein Profil</div>> VIP Mitgliedschaft</b><br></div>
+
+
+
+		
+		
+		<div class="header_style">
+			<div class="zusammenfassung">
+				<div class="headline"><div class="headline_text">VIP MITGLIEDSCHAFT</div></div><br>
+
+
+							<b><div class="eingabefelder_VIP">Das 6. Set geschenkt</b>
+							<div class="guthaben_rueckerstattung_text">Wenn Du fünf Sets gekauft hast, ist das sechste Set für Dich geschenkt.</div>
+							<div class="get_for_free">
+								<div class="img_box">
+									<img class="bra_img" src="/static/bra_unfilled.png" width="25" height="25"/>
+									<img class="bra_img" src="/static/bra_unfilled.png" width="25" height="25"/>
+									<img class="bra_img" src="/static/bra_unfilled.png" width="25" height="25"/>
+									<img class="bra_img" src="/static/bra_unfilled.png" width="25" height="25"/>
+									<img class="bra_img" src="/static/bra_unfilled.png" width="25" height="25"/><br>
+								</div>
+								Kaufe 5, erhalte 1 umsonst<br>
+								<div class="anzahl" style="float:center;font-weight:normal;"></div>
+								
+							</div>
+							<br></div>
+							
+							
+					
+							<b><div class="eingabefelder_VIP">Guthaben</b>
+							<div class="guthaben_text">Dein Guthaben kannst Du für Einkäufe einsetzen. Guthaben auf Deinem Kundenkonto verfällt nie und auch kannst Du es Dir jederzeit zurückzahlen lassen</div><div class="vorhandenes_guthaben">Vorhandenes Guthaben: {{guthaben}} €</div></div>
+							
+							
+
+							
+							
+							<b><div class="eingabefelder_VIP">Guthaben Rückerstattung</b>
+								
+								<div class="guthaben_rueckerstattung_text">Falls Du zwischen dem 1. und dem 10. eines Monats weder gekauft hast noch ausgewählt hast den Monat auszusetzen, berechnen wir Dir 29,95€. Dieser Betrag wird Deinem Kundenkonto gutgeschrieben und steht Dir sofort für Einkäufe zur Verfügung. <br><br> Guthaben auf Deinem Kundenkonto verfällt nie und auch kannst Du es Dir jederzeit zurückzahlen lassen. 
+								</div><br>
+
+							<div style='width:100%;display: flex;align-items: center;justify-content: center;'>
+
+
+								<button  id="guthaben_rueckerstattung" name="submit" class="guthaben_rueckerstattung_button"  onclick="rueckerstattung_beantragen()" >		
+									<i class="fa fa-circle-o-notch fa-spin" id='guthaben_rueckerstattung_logo' style='display:none'></i>
+									<div id='guthaben_rueckerstattung_text'>Rückerstattung bearbeiten</div>
+								</button>
+							</div>
+				
+
+								
+								<br></div>
+				
+							
+
+							<b><div class="eingabefelder_VIP">Kauf aussetzen</b>
+								
+								<div class="kauf_aussetzen_text">Besuche zwischen dem 1. und dem 10. jedes Monats unsere Website und kaufe ein oder wähle hier einfach „Diesen Monat aussetzen“. </div><br>
+
+							<div style='width:100%;display: flex;align-items: center;justify-content: center;'>
+								<button  id="kauf_aussetzen" name="submit" class="kauf_aussetzen_button"  onclick="kauf_aussetzen()" >		
+									<i class="fa fa-circle-o-notch fa-spin" id='kauf_aussetzen_logo' style='display:none'></i>
+									<div id='kauf_aussetzen_text'>Diesen Monat aussetzen</div>
+								</button>
+							</div>
+							
+							</div>
+
+					
+					
+
+				
+				</div>
+	
+					
+
+			</div>
+
+		<div class="header_style">
+			<div class="zusammenfassung">
+						<div class="headline"><div class="headline_text" >FRAGEN ZUR VIP MITGLIEDSCHAFT</div></div><br>
+						<div class='text_VIP_mitgliedschaft'>
+						
+						Möchtest Du kein VIP Mitglied mehr sein? Kein Problem, denn Du kannst Deine Mitglieschaft jederzeit beenden<br>
+						
+						<button class="button_kuendigung_VIP" onclick="show_page_VIP_kuendigung()">VIP beenden</button><br><br>
+						
+				</div>
+				
+			</div>			
+		</div>
+		
+
+				<button class="button_zurueck_VIP" onclick="profil_hauptseite()" style='float:right'>Zurück</button>
+
+		
+
+		<script src="/static/VIP_bearbeiten1.js"></script>
+
+
+{% include "header_sub.html" %}
+</div>
+<br><br><br><div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+			<script type="text/javascript"  class="profil_daten" >{{profildaten | safe}}</script>
+<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>	
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+<script type="text/javascript"  class="links" >{{links | safe}}</script>
+
+<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>	
+		<script type="text/javascript">load_header("{{login}}");warenkorb_abrufen("{{cart_gesamt}}");check_skip_button("{{skip}}","{{skip_rueckerstattung}}");check_free_bras("{{bra_ordered}}","{{bra_for_free}}");links_laden("None");</script>	
+</body>
+
+
+
+
+		<div id="overlay" >
+			 <div id="alert_address">
+
+			 </div>
+		</div>
+
+
+
+
+</html>

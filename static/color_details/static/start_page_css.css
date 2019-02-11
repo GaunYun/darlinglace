@@ -1,0 +1,508 @@
+
+body{
+
+
+	color: #4E4E4E;
+	background-color:#ffffff;
+	
+}
+
+ @media only screen and (min-width: 768px) {
+    /* For desktop : */
+    body{
+ 		  background: url("/static/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  
+  -o-background-size: cover;
+  background-size: cover;
+    	width:100%; 
+background-color:#ffffff;
+	height:100%;
+    }
+}
+
+
+
+.trenner_login{
+text-align:center;font-style:italic;
+}
+
+
+ @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="trenner_login"] {
+        display:none;
+        
+    }
+}
+
+html {
+    overflow: hidden;
+}
+
+
+
+.transparent_background{
+	
+	
+	height:100%;
+	width:100%;
+	float:left;
+	position:absolute;
+	
+
+	background-color:#ffffff;
+	display:none;
+	margin-top:-10px;
+	margin-left:-10px;
+	opacity:0.7;
+	
+	
+
+	
+}
+
+.columns{
+float:left;width:220px;font-size:12px;
+}
+
+ @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="columns"] {
+        width:100%
+        
+    }
+}
+
+
+.header_style {
+
+background-color:#ffffff;
+	
+	
+	
+	width:100%;
+	
+
+	margin-top:50px;
+	font-size:14px;
+	float:left;
+	font-family:Helvetica;
+	height:575px;
+	
+	 
+ }
+ 
+ @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+        margin-top: 0px;
+        height:100%;
+        border:""
+        
+    }
+}
+	
+ 
+ 
+ .plz_fehler{
+	 color:red;
+ }
+ 
+ 
+ input{
+	
+	border:1px solid #e6e6e6 ;
+	width:218px;
+	float:right;
+	font-size:12px;
+	height:28px;
+	color:#4E4E4E;
+	
+}
+
+ @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    input{
+	width:100%;
+	padding-right:10px;
+    }
+}
+
+
+
+
+ @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+.column_plz{
+float:right;width:220px;font-size:12px;
+}
+}
+
+
+
+
+
+ h1 {
+  position: relative;
+  text-align: center;
+  z-index:0;
+}
+
+
+h1 span {
+  background: #ffffff;
+
+  position: relative;
+  top:5px;
+  font-size:14px;
+}
+
+h1:before {
+  background: #e6e6e6;
+  content: "";
+
+  height: 2px;
+
+  position: absolute;
+	top: 50%;
+
+
+	
+	
+}
+h1:before {
+  left: 0;
+  right:0px;
+  z-index:-1;
+}
+
+.ueberschrift_gruppen{
+	
+	height:25px;
+	border: 3px solid #e6e6e6;
+
+	float:center;
+	background:#ffffff;
+
+	
+
+}
+ 
+
+
+ .summary {
+
+
+	background-color:#ffffff;
+	
+	
+	height:450px;
+	width:300px;
+	border:1px solid #e6e6e6 ;
+
+		font-size:14px;
+	float:left;
+	font-family:Helvetica;
+	 
+ }
+ 
+ 
+ .zusammenfassung{
+	 
+	 margin-left:50px;
+	 margin-top:50px;
+	 margin-right:50px;
+	 font-family:Helvetica;
+	 
+ }
+ 
+ 
+ .headline{
+	 
+	 
+
+	 
+	 line-height:35px;
+	 font-size:20px;
+	 font-weight:bold;
+	 text-align:center;
+	 
+ }
+ 
+  .subtitle{
+	 
+	 
+	 border-bottom: 1px solid #e6e6e6 ;
+	 
+	 line-height:35px;
+	 font-size:15px;
+	text-align:center;
+	 
+ }
+
+
+ @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    .trennlinie_main{
+	float:left;
+	margin-left:25px;
+	margin-right:25px;
+	width:2px;
+	height:300px;
+	border-right: 1px solid #e6e6e6 ;
+	background-color:#ffffff;
+    }
+}
+
+
+
+
+#overlay {
+     visibility: hidden;
+	position:absolute;
+	width:100%;
+	height:100%;
+	
+	top:0px;
+	left:0px;
+     text-align:center;
+     z-index: 1000;
+	
+	 
+	
+}
+
+#overlay div {
+     width:500px;
+	 height:230px;
+	padding:10px 0; 
+	margin:0 auto;
+	top:35%;
+	
+	
+	 position: relative;
+     background-color: #ffffff;
+
+     text-align:center;
+	 border: 1px solid #e6e6e6 ;
+	 
+}
+
+.schliessen_alert
+{
+	margin-right:10px;
+	margin-top:-10px;
+	float:right;
+	cursor:pointer;
+}
+
+
+
+.button_warteliste
+{
+	background: #e65c00;
+	border:none;
+	border-radius: 2px;
+	font-size:14px;
+	color: #FFFFFF;
+	height:30px;
+	cursor: pointer;	
+}
+
+
+
+
+
+
+
+.dialogIsOpen #page-wrap {
+
+  /* Blur and de-color */
+  -webkit-filter: blur(5px) grayscale(50%);
+
+  /* Recede */
+  -webkit-transform: scale(0.9);
+
+}
+
+ 
+
+
+
+
+
+
+ .uebersicht	{ 
+	max-width:600px; 
+	padding:0px 0; 
+	margin:0 auto;
+	font-family:Helvetica; 
+	height:100%
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+        max-width: 100%;
+        
+    }
+}
+	
+	
+	
+.facebook_login {
+
+
+	background-color:#ff761a;
+	color:#FFFFFF;
+
+	font-weight:bold;
+	height:25px;
+	width:100%;
+	border-radius: 2px;
+	cursor:pointer;
+	font-size:13px;
+	text-align:center;
+	padding-top:5px;
+		line-height:20px;
+		background: url("/static/facebook_button.png");
+
+}
+
+
+
+
+
+
+.plz_ueberpruefen {
+
+
+	background-color:#ff761a;
+	color:#FFFFFF;
+
+	font-weight:bold;
+	float:left;
+	height:25px;
+	width:100%;
+	border-radius: 2px;
+	cursor:pointer;
+	font-size:13px;
+	text-align:center;
+	padding-top:5px;
+	line-height:20px;
+
+}
+
+
+
+
+
+.login_logo{
+	
+	background: url("/static/ajax-loader.gif");
+	 background-size: 15px 15px;
+	 background-position:absolute;
+	 	height:25px;
+	width:100%;
+
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	display:none;
+	
+	
+}
+
+
+.registrierung_logo{
+	
+	background: url("/static/ajax-loader.gif");
+	 background-size: 15px 15px;
+	 background-position:absolute;
+	 	height:25px;
+	width:100%;
+
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	display:none;
+	
+	
+}
+
+.plz_ueberpruefen_logo{
+	
+	background: url("/static/ajax-loader.gif");
+	 background-size: 15px 15px;
+	 background-position:absolute;
+	 	height:25px;
+	width:100%;
+
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	display:none;
+	
+	
+}
+
+.login {
+	float:left;
+	background-color:#ff761a;
+	color:#FFFFFF;
+	font-weight:bold;
+	height:25px;
+	width:45%;
+	border-radius: 2px;
+	cursor:pointer;
+	font-size:13px;
+	text-align:center;
+	padding-top:5px;
+	line-height:20px;
+	
+	
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="login"] {
+        margin-left:-15px;
+        
+    }
+}
+
+
+
+.registrierung {
+	float:right;
+
+	background-color:#ff761a;
+	color:#FFFFFF;
+
+	font-weight:bold;
+	height:25px;
+	width:45%;
+	border-radius: 2px;
+	cursor:pointer;
+	font-size:13px;
+	text-align:center;
+	padding-top:5px;
+		line-height:20px;
+
+}
+
+
+.horizontaler_strich{
+	text-align:center;
+	border-bottom: 2px solid #FF8C00 ;
+	margin-left:100px;
+	margin-top:4px;
+	width:20px;
+	
+}
+
+
+
+ 
+ 
+ 

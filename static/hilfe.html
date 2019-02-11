@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% include "header.html" %}
+
+		
+
+<link type="text/css" rel="stylesheet" media="screen" href="/static/hilfe_page.css" />
+<link rel="stylesheet" href="/static/verschicke_gutscheine.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/static/account_page.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/static/detail_page.css" type="text/css" media="all" />
+
+<link type="text/css" rel="stylesheet" media="screen" href="/static/showroom.css" />
+
+
+
+</head>
+  
+
+  <body style="font-family: 'Roboto', sans-serif;;color: #4E4E4E;" onclick='reset_header()' >
+  <div class="overlay" onclick='reset_sidebar()'><div class="loader"></div> </div>
+
+
+   <div class="modal_mobile_sidebar">					  
+  	<div id="mySidenav" class="sidenav">
+
+		</div>
+</div> 
+<div id="overall_page">
+
+
+  {% include "modals.html" %}
+
+  
+
+
+
+	<div class="wrapper cf" style="font-family: 'Roboto', sans-serif;;">
+		<div class="header_top_all" >
+			<div class="header_top"></div>
+			<div class="header_top_line"></div> 	
+			<div class="sidebar" >
+		
+				<div id="x-mask" class="mask">
+					<div class="sidebar_content" ></div>
+					<div class="header_top_line"></div> 	
+				</div>
+					
+			</div>
+	 		
+		</div>
+		<div class="header_top_line"></div> 	
+	
+
+	
+
+	<div id="x-mask_2" class="mask">
+		
+	
+		<div class="header_style">
+			<div class="zusammenfassung">
+
+					<div class="gruppen">Erhalte schnell Hilfe</div><br>
+					<div class="service_text" >Hast Du Dir schon unser <a style='text-decoration:underline' href='https://darlinglace.zendesk.com/hc/de' target="_blank">Help Center</a> angesehen? Hier findest du alle Fragen zu Darling Lace: Dein Account, deine Bestellungen, VIP Model und vieles mehr.</div><br>
+					<div class="button_helpdesk_open" onclick='open_help_center()'>Besuche Help Center</div><br>
+				</div>
+
+		</div>
+		
+		<br>
+		<div class="header_style" style='margin-top:0px'>
+			<div class="zusammenfassung">
+					<div class="gruppen"><h1 style='font-size:16px;line-height:35px; font-weight: bold;'>Wie kontaktierst Du den Kundendienst?</h1></div><br>
+					
+					<div class="gruppe_gruppenelement">
+						<div class="gruppenelement">
+							<div class="service_headline"><h2 style='line-height:20px;font-weight:bold;'>Sende uns eine Nachricht</h2></div>
+							<div class="service_text">Wir werden dir innerhalb von zwei Stunden während der Geschätfszeiten antworten.</div><br>
+							<div class="button_helpdesk_open" onclick='open_email()'>E-Mail senden</div>
+						</div>
+						
+						<div class="gruppenelement">
+							<div class="service_headline"><h2 style='line-height:20px;font-weight:bold;'>Chatte mit uns</h2></div>
+							<div class="service_text">Wir antworten dir sofort zwischen 09:00-19:00 Uhr, Montag-Freitag</div><br>
+							<div class="button_helpdesk_open" onclick='open_chat()'>Chat öffnen</div>
+						</div>
+						
+						<div class="gruppenelement">
+							<div class="service_headline"><h2 style='line-height:20px;font-weight:bold;'>Rufe uns an</h2></div>
+							<div class="service_text">Rufe uns an unter +49 30 588 49584. Wir sind erreichbar zwischen 09:00-19:00 Uhr, Montag-Freitag</div><br>
+							<div class="button_helpdesk_open" onclick='call_support()'>Anrufen</div>
+						</div>
+						
+					</div>
+
+				
+
+			</div>
+		</div>	
+
+
+</div>
+
+
+<script src="/static/hilfe_page.js"></script>
+
+{% include "header_sub.html" %}
+
+
+
+
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+
+</body>
+<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>
+
+<script type="text/javascript"  class="telefonnummer" >{{telefonnummer | safe}}</script>
+<script type="text/javascript"  class="lingerie_data" >{{lingerie_offerings | safe}}</script>
+<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>	
+<script type="text/javascript"  class="colors" >{{colors | safe}}</script>	
+<script type="text/javascript"  class="links" >{{links | safe}}</script>
+<script type="text/javascript"  class="filter" >{{filter | safe}}</script>		
+<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+
+<script type="text/javascript">load_header("{{login}}");links_laden("{{url}}");</script>
+
+
+</html>

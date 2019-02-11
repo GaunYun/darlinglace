@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{{title}}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="/static/jquery-1.9.1.min.js"></script>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+
+<link rel="stylesheet" href="/static/gutscheinkonto_css.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/static/header.css" type="text/css" media="all" />
+
+
+
+
+
+
+ 
+
+</head>
+<div class="header_top_all"><div class="header_top"></div></div>
+<body bgcolor="#F5F7FA" style="font-family:Helvetica;">
+
+
+
+<main class="o-content">
+  <div class="o-container">
+    <div class="o-section">
+      
+    </div>
+
+  </div>
+</main>
+
+
+
+	<div id="x-mask" class="uebersicht">
+
+
+
+		<br><br><br><br><br><b><div class="profil_beschriftung"><div class="links" onclick="profil_hauptseite()">Dein Profil</div>> Gutscheinkonto ansehen</b></div>
+
+			
+			
+		<div class="header_style">
+			<div class="spalte_1">
+				<div class="spalte_headline_1">Art</div><div class="spalte_headline_2">Datum</div><div class="spalte_headline_3">Betrag</div><br><br><div class="headline"></div><br>
+				<div class="spalte_text_1"></div><div class="spalte_text_2"></div><div class="spalte_text_3"></div>
+				<br><br>
+				
+
+			<b><div style='line-height:30px;font-size:16px;'>Verbleinder Betrag<div style='float:right' id='total_amount'></div></div></b>
+			<div class="button_zurueck" onclick="profil_hauptseite()">Zurück</div>
+			
+			<br><br>
+			
+			
+			
+			</div>
+			
+			
+
+			
+			
+		</div>
+		
+
+
+		
+		
+
+
+
+		
+
+
+		
+
+		<script src="/static/gutscheinkonto_js.js"></script>
+
+		<script src="/static/load_header.js"></script>
+
+
+
+</div>
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+<script type="text/javascript"  class="gutscheinkonto_daten" >{{gutscheine | safe}}</script>
+<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>	
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>	
+<script type="text/javascript">load_header("{{login}}");gutscheinkonto_laden();warenkorb_abrufen("{{cart_gesamt}}");</script>
+
+
+
+
+
+</body>
+
+		<div id="overlay" >
+
+		</div>
+
+
+
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+{% include "header.html" %}
+
+
+<link rel="stylesheet" href="/static/detail_page.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/static/fitting_quiz.css" type="text/css" media="all" />
+
+</head>
+  
+
+  <body style="font-family: 'Roboto', sans-serif;color: #4E4E4E;font-weight: 300;" onclick='reset_header()'>
+  
+
+
+
+
+  <div class="overlay" onclick='reset_sidebar()' ><div class="loader"></div> </div>
+   <div class="modal_mobile_sidebar">					  
+  	<div id="mySidenav" class="sidenav">
+
+		</div>
+</div> 
+
+<div id="overall_page" >
+
+  {% include "modals.html" %}
+
+
+
+			 {% include "header_main_body.html" %}
+
+	
+		<div id='fortschrittsbalken_gruppe'>
+			<div id='fortschrittsbalken_links'>&nbsp;</div>
+			<div id='fortschrittsbalken_rechts'>&nbsp;</div>
+		</div>
+<br>
+	<div id="x-mask_2_fitting_quiz" class="mask_fitting_quiz">
+
+
+		<div class="content_quiz_fitting_question" id='content_quiz_fitting_question_1' >
+			{% include "fitting_quiz_start.html" %}
+
+		</div>
+		
+			
+	
+		<div class="content_quiz_fitting_question" style='display:none;'>
+			{% include "fitting_quiz_question_1.html" %}
+
+		</div>
+
+
+
+		<div class="content_quiz_fitting_question"  style='display:none;margin:0 auto;'>
+			{% include "fitting_quiz_question_2.html" %}
+
+		</div>
+
+
+
+		<div class="content_quiz_fitting_question"  style='display:none;'>
+			{% include "fitting_quiz_answer_2.html" %}
+
+		</div>
+
+
+
+		<div class="content_quiz_fitting_question"  style='display:none;margin:0 auto;'>
+			{% include "fitting_quiz_question_3.html" %}
+
+		</div>
+
+
+
+		<div class="content_quiz_fitting_question"  style='display:none;'>
+			{% include "fitting_quiz_answer_3.html" %}
+
+		</div>
+		
+
+		<div class="content_quiz_fitting_question"  style='display:none;margin:0 auto;'>
+			{% include "fitting_quiz_question_4.html" %}
+
+		</div>
+
+
+
+		<div class="content_quiz_fitting_question"  style='display:none;'>
+			{% include "fitting_quiz_answer_4.html" %}
+
+		</div>
+		
+		<div class="content_quiz_fitting_question"  style='display:none;margin:0 auto;'>
+			{% include "fitting_quiz_question_5.html" %}
+
+		</div>
+
+
+
+		<div class="content_quiz_fitting_question"  style='display:none;'>
+			{% include "fitting_quiz_answer_5.html" %}
+
+		</div>
+		
+		<div class="content_quiz_fitting_question"  style='display:none;margin:0 auto;'>
+			{% include "fitting_quiz_question_6.html" %}
+
+		</div>
+
+
+
+		<div class="content_quiz_fitting_question"  style='display:none;'>
+			{% include "fitting_quiz_answer_6.html" %}
+
+		</div>				
+
+
+		<div class="content_quiz_fitting_question"  style='display:none;margin:0 auto;'>
+			{% include "fitting_quiz_question_6a.html" %}
+
+		</div>
+
+
+
+
+
+		
+		<div class="content_quiz_fitting_question"  style='display:none;margin:0 auto;'>
+			{% include "fitting_quiz_question_7.html" %}
+
+		</div>
+		
+		<div class="content_quiz_fitting_question"  style='display:none;margin:0 auto;'>
+			{% include "fitting_quiz_question_8.html" %}
+
+		</div>
+		
+		<div class="content_quiz_fitting_question"  style='display:none;'>
+			{% include "fitting_quiz_answer_8.html" %}
+
+		</div>		
+
+
+		<div class="content_quiz_fitting_question"  style='display:none;margin:0 auto;'>
+			{% include "fitting_quiz_question_9.html" %}
+
+		</div>
+		
+
+
+
+		<div class="content_quiz_fitting_question"  style='display:none;margin:0 auto;'>
+			{% include "fitting_quiz_question_10.html" %}
+
+		</div>
+
+
+
+		<div class="content_quiz_fitting_question"  style='display:none;margin:0 auto;'>
+			{% include "fitting_quiz_question_11.html" %}
+
+		</div>		
+
+
+
+	
+
+	<div class="sub_header_group_fitting_quiz" id='sub_header_group_fitting_quiz_impressum'>
+			<div style='text-align:right;'>Impressum</div>
+		</div>		
+	</div>
+
+
+
+
+{% include "header_sub.html" %}
+
+<script src="/static/quiz_fitting_js.js"></script>
+
+
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+
+</body>
+
+
+
+<script type="text/javascript"  id="email_provided_quiz" >{{email_provided_quiz | safe}}</script>
+
+<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>
+<script type="text/javascript"  class="quiz_data" >{{quiz_data | safe}}</script>
+<script type="text/javascript"  class="shippo_data" >{{shippo_data | safe}}</script>
+<script type="text/javascript"  class="lingerie_data" >{{lingerie_offerings | safe}}</script>
+<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>	
+<script type="text/javascript"  class="colors" >{{colors | safe}}</script>	
+<script type="text/javascript"  class="links" >{{links | safe}}</script>
+<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+
+<script type="text/javascript">load_header("{{login}}");links_laden("{{url}}");initiate_values();</script>
+
+
+</html>

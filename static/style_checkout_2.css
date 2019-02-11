@@ -1,0 +1,1003 @@
+
+
+
+
+
+
+#myform {
+    text-align: center;
+
+
+}
+.qty {
+    width: 15px;
+    height: 20px;
+
+
+    border:none;
+}
+input.qtyplus { 
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	border: 1px solid #e6e6e6 ;
+	
+}
+
+
+input.qtyminus { 
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	float:left;
+	font-size:25px;
+
+
+	background-color:#ffffff;
+	border: 1px solid #e6e6e6 ;
+
+}
+
+.side3 {
+	padding: 0.1px;
+
+	height:60px;
+	
+	margin-top:20px;
+
+
+	
+	
+	background-color: #f2f2f2;
+	border: 1px solid #e6e6e6 ;
+	color: #00000;
+
+	cursor:pointer;
+	font-family:Helvetica;
+  
+}
+
+
+
+	 @media only screen and  (min-width: 401px) and (max-width: 600px)  {
+    /* For mobile phones: */
+    [class*="side3"] {
+		width:55%;
+		float:right;
+			font-size:14px;
+    }
+}
+
+	 @media only screen and (max-width: 400px) {
+    /* For mobile phones: */
+    [class*="side3"] {
+		width:50%;
+		float:right;
+			font-size:14px;
+    }
+}
+
+	 @media only screen and (min-width: 560px) and (max-width: 770px)  {
+    /* For mobile phones: */
+    [class*="side3"] {
+		width:50%;
+		float:left;;
+		margin-left:30px;
+		margin-bottom:10px;
+			font-size:14px;
+    }
+}
+
+	 @media only screen and (min-width: 771px)  {
+    /* For mobile phones: */
+    [class*="side3"] {
+		width:50%;
+		float:right;
+			font-size:12px;
+    }
+}
+
+ .side3:hover{
+	 background-Color:#f2f2f2;
+ }
+ 
+ 
+ 
+ 	 @media only screen and (min-width: 560px) and (max-width: 770px)  {
+    /* For mobile phones: */
+    [class*="lieferhinweise"] {
+    	width:50%;
+    	margin-left:30px;
+    		 float:left;	
+
+    }
+ }
+ 
+ 
+  	 @media only screen and (max-width: 559px)  {
+    /* For mobile phones: */
+    [class*="lieferhinweise"] {
+    	width:100%;
+    		 float:right;	
+	 margin-top:20px;
+	 margin-bottom:20px;
+    }
+ }
+ 
+   	 @media only screen and (min-width: 770px)  {
+    /* For mobile phones: */
+    [class*="lieferhinweise"] {
+    	width:100%;
+    		 float:right;	
+
+	 margin-bottom:20px;
+    }
+ }
+ 
+
+
+
+
+
+	 @media only screen and (max-width: 566px) {
+    /* For mobile phones: */
+    [class*="zahlungsmethoden_anzeigen"] {
+        width:85%;
+        height:130px;
+        float:right;
+
+        margin-bottom:20px;
+        cursor:pointer;
+        z-index:10;
+    }
+}
+
+	 @media only screen and (min-width: 567px)  and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="zahlungsmethoden_anzeigen"] {
+        width:60%;
+        height:100px;
+        float:right;
+
+        margin-bottom:20px;
+        cursor:pointer;
+        z-index:10;
+    }
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="zahlungsmethoden_anzeigen"] {
+        width:300px;
+        height:100px;
+        float:right;
+        
+        margin-bottom:20px;
+        cursor:pointer;
+        z-index:10;
+        
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="zahlungsmethoden_anzeigen_block1"] {
+		width:100%;
+		height:35px;
+		background-color:#DB7093;
+		float:left;
+		z-index:5
+    }
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="zahlungsmethoden_anzeigen_block1"] {
+		width:100%;
+		height:35px;
+		background-color:#DB7093;
+		z-index:5;
+		float:left;
+    }
+}
+
+
+
+
+
+
+
+
+.side3 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+
+
+
+ 
+.output_adresse{
+	
+	background-color:#ffffff;
+	border: 1px solid #e6e6e6 ;
+	height:60px;
+	cursor:pointer;
+	
+	
+}
+
+
+ .output_adresse:hover{
+	 background-color:#f2f2f2;
+	 
+ }
+
+ 
+	 @media only screen and (min-width: 768px) and (max-width: 999px){
+    /* For mobile phones: */
+    [class*="sidebar_checkout"] {
+	padding: 0.1px;
+	width: 39%;
+	height:300px;
+	float:right;
+	margin-top:70px;
+	border-bottom: 1px solid #e6e6e6 ;
+	color: #00000;
+	z-index: 1;
+	font-family:Helvetica;	
+    }
+}
+
+
+
+
+	 @media only screen and (min-width: 1000px)  {
+    /* For mobile phones: */
+    [class*="sidebar_checkout"] {
+	padding: 0.1px;
+	width: 45%;
+	height:300px;
+	float:right;
+	margin-top:70px;
+	border-bottom: 1px solid #e6e6e6 ;
+	color: #00000;
+	z-index: 1;
+	font-family:Helvetica;	
+    }
+}
+
+
+
+	 @media only screen and (max-width: 767px)  {
+    /* For mobile phones: */
+    [class*="sidebar_checkout"] {
+	padding: 0.1px;
+	width: 100%;
+	height:300px;
+	float:right;
+
+	border-bottom: 1px solid #e6e6e6 ;
+	color: #00000;
+	z-index: 1;
+	font-family:Helvetica;	
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* The sticky */
+.sidebar_checkout {
+
+  top: 70px;
+  overflow:auto;
+  height:100%;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+select{
+	
+	
+	color:#4E4E4E;
+	
+}
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+		.address_text{
+			width:30%;
+			line-height:20px;
+			text-transform: uppercase;
+			font-size:12px;
+			display: inline-block;
+		}
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+		.address_text{
+			width:50%;
+			line-height:20px;
+			text-transform: uppercase;
+			font-size:16px;
+			display: inline-block;
+			margin-bottom:20px;
+		}
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+		.address_mobilnummer{
+			width:30%;
+			line-height:20px;
+			text-transform: uppercase;
+			font-size:12px;
+			display: inline-block;
+		}
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+		.address_mobilnummer{
+			width:100%;
+			line-height:20px;
+			text-transform: uppercase;
+			font-size:16px;
+			display: inline-block;
+			margin-bottom:20px;
+		}
+}
+
+
+
+
+
+input{
+	
+	border:1px solid #e6e6e6 ;
+	color:#4E4E4E;
+	padding-left:10px;
+	box-sizing: border-box;
+	height:28px;
+	font-size:12px;
+	
+}
+
+textarea{
+	padding: 10px;
+	border:1px solid #e6e6e6 ;
+	color:#4E4E4E;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+
+	margin-top:50px;
+	font-size:16px;
+	float:left;
+	font-family:Helvetica;
+    }
+}
+
+
+
+ 
+ .bestellung{
+	 
+	 font-size:15px;
+	 line-height:35px;
+	 font-family:Helvetica;
+	 
+ }
+ 
+
+
+input[type="checkbox"] {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+
+    cursor:pointer;
+}
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="header_top"] {
+        width:100%;
+    }
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="header_top"] {
+        width:200px;
+    }
+}
+
+
+.image_order{
+	width:90px;
+	height:125px;
+	float:left;	
+}
+
+.style
+{
+	margin-left:10px;
+	float:left;
+	height:125px;
+
+	width:calc(100% - 150px - 100px)
+	
+}
+
+
+.product_price
+{
+	width:150px;
+
+	float:left;
+
+	height:20px;
+	text-align:right;
+}
+
+
+ .select_size
+ {
+
+
+ 	width:150px;
+
+
+ 	height:105px;
+ 	vertical-align: bottom;
+ 	display: table-cell;
+ 	text-align:right;
+}
+
+
+
+.select_anzahl{
+	height:28px;	
+}
+
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .karten_text_css,.karten_text_css_pruefnummer,.ablaufdatum_text,.promo_code,.unternehmensdetails,.zahlung,.product_price,.style,.anzahl{
+    	font-size:16px;
+    	
+    }
+    
+  }
+  
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    .karten_text_css,.karten_text_css_pruefnummer,.ablaufdatum_text,.promo_code,.unternehmensdetails,.zahlung,.product_price,.style,.anzahl {
+    	font-size:12px;
+    	
+    }
+    
+  }
+
+
+
+.karten_text_css{
+		float:left;
+		line-height:20px;
+		text-transform: uppercase;
+		
+		width:100%;
+
+    
+}
+
+
+
+
+
+
+
+.karten_text_css_pruefnummer{
+	float:right;
+	line-height:20px;
+	text-transform: uppercase;
+
+	width:30%;
+}
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    .ablaufdatum_text,.karten_text_css_pruefnummer,.karten_text_css {
+		margin-top:10px;
+    }
+}
+
+	 @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .ablaufdatum_text,.karten_text_css_pruefnummer,.karten_text_css {
+		margin-top:10px;
+    }
+}
+
+
+
+.ablaufdatum_text{
+	float:left;
+	line-height:20px;
+	text-transform: uppercase;
+	width:70%;	
+}
+
+
+
+
+
+
+.gutscheincode_input{
+	
+	float:left;
+	width:80%;
+	 font-family:Helvetica;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdown-content {
+
+
+
+  background-color: #FFFFFF;
+
+  color: #00000;
+  z-index: 1;
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ .promo_code{
+	 
+	 cursor:pointer;
+	 color:#DB7093;
+	 font-family:Helvetica;
+	 
+ }
+ 
+
+ 
+ 
+  	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="summary"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+    }
+}
+  	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="summary"] {
+	background-color:#ffffff;
+	width:100%;
+
+	font-size:16px;
+	float:left;
+	font-family:Helvetica;
+    }
+}
+ 
+ 
+
+ 
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:50px;
+	 margin-top:50px;
+	 margin-right:50px;
+	 font-family:Helvetica;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:10px;
+	 margin-top:10px;
+	 margin-right:10px;
+	 font-family:Helvetica;
+        
+    }
+}
+ 
+ 
+ 
+ .shopping_selection{
+ width:49%;float:left;border:1.0px solid #DB7093;
+ cursor:pointer;
+ }
+ 
+ 
+ .headline{
+	 
+
+	 border-bottom: 1px solid #e6e6e6 ;
+	 font-weight: bold;
+	 text-transform:uppercase;
+	 font-size:20px;
+	 font-family:Helvetica;
+
+	 
+ }
+ 
+  .lingerie{
+	 width:100%;
+	
+
+
+	 font-family:Helvetica;
+
+	 
+ }
+ 
+  .checkbox_unternehmensangaben{
+	margin-right:10px;
+	height:15px;
+	width:15px;
+	float:left;
+ }
+ 
+
+ 
+  	 @media only screen and (max-width: 767px) {
+    .vorwahl
+ {
+
+	margin-top:-30px;
+	margin-left:10px;
+	width:5px;
+
+ } 	 	
+  	 	
+  	 }
+  
+  
+  
+    	 @media only screen and (min-width: 768px) {
+    .vorwahl
+ {
+
+	margin-top:-23px;
+	margin-left:10px;
+	width:5px;
+
+ } 	 	
+  	 	
+  	 }
+
+ 
+
+ 
+ .map{
+ 	border: 1px solid #e6e6e6;
+ 	pointer-events: none;
+ 	margin-top:20px;
+ 	float:left;
+
+ 
+ }
+
+ 
+ 	 @media only screen and (min-width: 767px) and (max-width: 1000px)  {
+    /* For mobile phones: */
+    [class*="map"] {
+         width:136px;height:136px;
+          	margin-bottom:40px;
+        
+    }
+}
+
+ 	 @media only screen and (min-width: 1000px)   {
+    /* For mobile phones: */
+    [class*="map"] {
+         width:186px;height:186px;
+          	margin-bottom:20px;
+        
+    }
+}
+
+
+
+
+
+ 	 @media only screen and (min-width: 400px) and (max-width: 766px) {
+    /* For mobile phones: */
+    [class*="map"] {
+         width:150px;height:150px;
+         margin-bottom:20px;
+        
+    }
+}
+
+ 	 @media only screen and (min-width: 10px) and (max-width: 400px) {
+    /* For mobile phones: */
+    [class*="map"] {
+         width:130px;height:130px;
+        
+    }
+}
+
+ .pac-container {
+
+    position: absolute;
+
+
+}
+ 
+ .adresse_input{
+	 
+
+	 height:28px;
+	 font-family:Helvetica;
+	 width:100%;
+
+	 box-sizing: border-box;
+	 
+
+
+	 
+ }
+ 
+
+ 
+  .unternehmensdetails{
+	 
+
+	 	width:100%;
+	line-height:20px;
+	text-transform: uppercase;
+
+	display: inline-block;
+	 
+ }
+
+ 
+ 
+ 
+ 
+ .zahlung{
+	 
+	display:inline-block;
+
+	 border:1px solid #e6e6e6;
+	 text-align: center;
+	 height:60px;
+	 width:31%;
+	
+	 cursor:pointer;	
+
+	 line-height:20px;
+	 font-family:Helvetica;
+	 margin-bottom:10px;
+	 
+ }
+ 
+ 
+
+.zahlungs_container {   
+    width: 100%
+
+    margin-left: auto; 
+    margin-right: auto;
+
+     text-align: justify;
+
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+ 
+  @media only screen and (min-width: 768px) {
+    /* For desktop : */
+    .karten_css{
+	width:100%;
+	 height:28px;
+	 font-family:Helvetica;
+	 font-size:12px;
+	 
+    }
+}
+
+
+ 
+  @media only screen and (max-width: 767px) {
+    /* For desktop : */
+    .karten_css{
+	width:100%;
+	 height:40px;
+	 font-family:Helvetica;
+	 font-size:16px;
+	 	border:1px solid #e6e6e6 ;
+    }
+}
+ 
+ 
+ 
+ 
+ 
+
+
+ .schliessen_alert
+{
+	margin-right:10px;
+	margin-top:-10px;
+	float:right;
+	cursor:pointer;
+}
+ 
+ 
+
+
+
+
+
+
+
+
+.dialogIsOpen #page-wrap {
+
+  /* Blur and de-color */
+  -webkit-filter: blur(5px) grayscale(50%);
+
+  /* Recede */
+  -webkit-transform: scale(0.9);
+
+}
+
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+    	
+      max-width:1200px; 
+	padding:0px 0; 
+	margin:0 auto;
+	font-family:Helvetica; 
+	height:100%
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+      width:100%
+	padding:0px 0; 
+	margin:0 auto;
+	font-family:Helvetica; 
+	height:100%
+    }
+}
+
+
+	html, body {
+
+  	background-color:#F5F7FA;
+
+
+margin: 0px;
+	
+
+
+}
+body {
+  position: relative
+}
+ 
+ 
+ 
+  .namen{
+	 
+	 width:140px;
+	 height:28px;
+	 font-family:Helvetica;
+	 
+ }
+
+  
+  .trennlinie_datum{
+	 float:left;
+	 border-left:1px solid #e6e6e6;
+	 height:42px;
+ }
+ 
+ 
+
+ 
+
+
+ 

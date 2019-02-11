@@ -1,0 +1,1439 @@
+
+ .button_alert{
+	background-color:#DB7093;
+	color:#FFFFFF;
+	float:center;
+	font-weight:bold;
+
+	border-radius: 5px;
+	cursor:pointer;
+	font-size:14px;
+	width:80px;
+	text-align:center;
+
+	margin-bottom:10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="button_alert"] {
+	height:35px;
+		font-size:14px;
+	padding-top:7px;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="button_alert"] {
+	height:40px;
+		font-size:16px;
+	padding-top:8px;
+    }
+}
+
+.button_alert:hover
+{
+background-color:#bc6582;	
+	
+}
+ 
+ 
+ 
+ .button_main{
+	background-color:#DB7093;
+	color:#FFFFFF;
+	float:right;
+	font-weight:bold;
+
+	border-radius: 5px;
+
+	text-align:center;
+
+	margin-bottom:40px;
+	cursor:pointer;
+
+
+}
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="button_main"] {
+	width:180px;
+	margin-top:20px;
+	height:35px;
+	padding-top:7px;
+	font-size:14px;
+
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="button_main"] {
+	width:47%;
+	height:40px;
+	padding-top:8px;
+		font-size:16px;
+    }
+}
+
+
+
+
+ .button_main_sizing_calc{
+	background-color:#DB7093;
+	color:#FFFFFF;
+	margin-left:auto;
+	margin-right:auto;
+	font-weight:bold;
+	height:35px;
+	border-radius: 5px;
+	font-size:14px;
+	text-align:center;
+	padding-top:7px;
+
+	cursor:pointer;
+
+
+}
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="button_main_sizing_calc"] {
+	width:180px;
+
+
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="button_main_sizing_calc"] {
+	width:47%;
+	
+    }
+}
+
+
+ .button_main_2{
+	background-color:#DB7093;
+	color:#FFFFFF;
+	font-weight:bold;
+	
+	border-radius: 5px;
+	cursor:pointer;
+	
+	text-align:center;
+
+
+}
+ 
+ 
+ 
+ 	 @media only screen and (min-width: 568px) {
+    /* For mobile phones: */
+    [class*="button_main_2"] {
+		width:140px;
+		font-size:12px;	
+		height:35px;
+		margin-bottom:20px;
+		
+        
+    }
+}
+
+
+	 @media only screen and (min-width: 321px) and (max-width: 414px) {
+    /* For mobile phones: */
+    [class*="button_main_2"] {
+		width:35%;
+		font-size:16px;
+		margin-left:10px;
+		line-height:18px;
+		height:40px;
+		margin-top:15px;
+		float:right;;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 320px) {
+    /* For mobile phones: */
+    [class*="button_main_2"] {
+		width:135px;
+		font-size:12px;
+		height:35px;
+		margin-top:15px;
+		margin-left:10px;
+			display:inline-block;
+	
+        
+    }
+}
+
+
+
+
+
+ .button_zurueck{
+
+	
+	background-color:#808080;
+	color:#FFFFFF;
+	
+	
+	font-weight:bold;
+
+	border-radius: 5px;
+	cursor:pointer;
+
+	text-align:center;
+
+	margin-bottom:40px;
+
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="button_zurueck"] {
+	width:180px;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+	height:35px;
+	padding-top:7px;
+	font-size:14px;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="button_zurueck"] {
+	width:47%;
+	float:left;
+	height:40px;
+	padding-top:8px;
+	font-size:16px;
+    }
+}
+
+
+ .button_zurueck_VIP{
+
+	
+	background-color:#808080;
+	color:#FFFFFF;
+	
+	
+	font-weight:bold;
+
+	border-radius: 5px;
+	cursor:pointer;
+
+	text-align:center;
+
+	margin-bottom:40px;
+
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="button_zurueck_VIP"] {
+	width:180px;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+	height:35px;
+	padding-top:7px;
+	font-size:14px;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="button_zurueck_VIP"] {
+	width:100%;
+	float:left;
+	height:40px;
+	padding-top:8px;
+	font-size:16px;
+	margin-top:30px;
+    }
+}
+
+
+  .guthaben_rueckerstattung_button{
+	background-color:#DB7093;
+	color:#FFFFFF;
+	
+	font-weight:bold;
+
+	border-radius: 5px;
+	cursor:pointer;
+
+	text-align:center;
+
+	margin-bottom:50px;
+	margin-top:20px;
+}
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="guthaben_rueckerstattung_button"] {
+	width:100%;
+	height:35px;
+	padding-top:7px;
+	font-size:14px;
+	line-height:27px;
+	float:left;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="guthaben_rueckerstattung_button"] {
+	width:47%;
+	height:40px;
+	padding-top:8px;
+	font-size:16px;
+	line-height:15px;
+	margin: 0 auto;
+    }
+}
+
+ .kauf_aussetzen_button{
+	background-color:#DB7093;
+	color:#FFFFFF;
+
+	font-weight:bold;
+
+	border-radius: 5px;
+	cursor:pointer;
+
+	text-align:center;
+
+	margin-bottom:50px;
+	margin-top:20px;
+}
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="kauf_aussetzen_button"] {
+	width:100%;
+	height:35px;
+	padding-top:7px;
+	font-size:14px;
+	line-height:27px;
+		float:right;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="kauf_aussetzen_button"] {
+	width:47%;
+	width:47%;
+	height:40px;
+	padding-top:8px;
+	font-size:16px;
+	line-height:15px;
+	 	margin: 0 auto;
+	
+    }
+}
+
+
+ .adresse_speichern_button{
+
+	
+	background-color:#DB7093;
+	color:#FFFFFF;
+	float:right;
+	
+	font-weight:bold;
+	
+
+	border-radius: 5px;
+	cursor:pointer;
+
+	text-align:center;
+	
+	margin-bottom:50px;
+	margin-top:20px;
+	
+	
+}
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="adresse_speichern_button"] {
+	width:180px;
+	font-size:14px;
+	padding-top:7px;
+	height:35px;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="adresse_speichern_button"] {
+	width:47%;
+	font-size:16px;
+	padding-top:8px;
+	height:40px;
+    }
+}
+
+
+
+
+ .button_abbrechen{
+
+	
+	background-color:#808080;
+	color:#FFFFFF;
+	
+	
+	font-weight:bold;
+
+	border-radius: 5px;
+	cursor:pointer;
+
+	text-align:center;
+
+	margin-top:20px;
+
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="button_abbrechen"] {
+	width:180px;
+	float:right;
+	margin-right:20px;
+	font-size:14px;
+	padding-top:7px;
+	height:35px;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="button_abbrechen"] {
+	width:47%;
+	float:left;
+	font-size:16px;
+	padding-top:8px;
+	height:40px;
+    }
+}
+
+ .button_loeschen {
+
+	cursor:pointer;
+	color: #DB7093;
+	float:left;
+	margin-right:5px;
+	margin-top:10px;
+ }
+
+
+ .copybutton
+ {
+	 font-size:14px;
+	margin-left:-53px;
+	margin-top:5px;
+
+	 width:50px;
+
+	 	background-color:#ff761a;
+	color:#FFFFFF;
+	
+	 position: absolute;
+
+
+	font-weight:bold;
+	height:20px;
+
+	border-radius: 5px;
+	cursor:pointer;
+	font-size:12px;
+	text-align:center;
+	padding-top:3px;
+	line-height:18px;
+	 display: inline-block;
+ }
+ 
+ 
+ 
+ .button_freunde_einladen_alert {
+
+	background-color:#ff761a;
+	color:#FFFFFF;
+
+
+	font-weight:bold;
+	height:35px;
+
+	border-radius: 5px;
+	cursor:pointer;
+	font-size:12px;
+	text-align:center;
+	padding-top:7px;
+	line-height:20px;
+	display: inline-block;
+	margin-bottom:20px;
+
+}
+
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="button_freunde_einladen_alert"] {
+	width:20%;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="button_freunde_einladen_alert"] {
+	width:45%;
+        
+    }
+}
+ 
+
+.button_freunde_einladen_alert_facebook {
+
+	background: url("/static/facebook_button.png");
+	color:#FFFFFF;
+	margin-left:20px;
+
+	font-weight:bold;
+	height:35px;
+	border-radius: 5px;
+	cursor:pointer;
+	font-size:12px;
+	text-align:center;
+	padding-top:7px;
+	line-height:20px;
+	display: inline-block;
+	margin-bottom:20px;
+
+}
+
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="button_freunde_einladen_alert_facebook"] {
+	width:20%;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="button_freunde_einladen_alert_facebook"] {
+	width:45%;
+        
+    }
+}
+
+
+.add_panties{
+	float:left;
+	border:none;
+
+	font-size:14px;
+	text-align:center;
+line-height:25px;
+	text-decoration:underline;
+	height:30px;
+	width:100%;
+	border-radius: 5px;
+	cursor:pointer;	
+
+	
+	
+}
+
+
+.button_cart {
+	float:left;
+	border:none;
+	background-color:#DB7093;
+	color:#FFFFFF;
+	font-size:14px;
+	text-align:center;
+	line-height:30px;
+	font-weight:bold;
+	height:30px;
+	width:100%;
+	border-radius: 5px;
+	cursor:pointer;
+}
+
+.add_to_wishlist {
+	float:left;
+	border:none;
+	background-color:#4E4E4E;
+	color:#FFFFFF;
+	font-size:14px;
+	text-align:center;
+	line-height:30px;
+	font-weight:bold;
+	height:30px;
+	width:100%;
+	border-radius: 5px;
+	cursor:pointer;
+		margin-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.button_cart:hover
+{
+background-color:#bc6582;	
+	
+}
+
+
+
+.button_detail
+{
+	font-size:11px;
+	float:left;
+	background-color:#F4F7FA;
+	
+	font-size:17px;
+	text-align:center;
+	line-height:35px;
+	height:40px;
+	width:49.8%;
+	border-bottom:0.5px solid #e6e6e6 ;
+	
+
+	cursor:pointer;	
+
+	
+}
+
+
+.button_detail:hover
+
+{
+	background-color:#e6e6e6;
+	
+}
+
+
+.button_rechnungsbetrag_akzeptieren{
+	background-color:#DB7093;
+	color:#FFFFFF;
+	font-weight:bold;
+
+	border-radius: 5px;
+	cursor:pointer;
+
+	width:100px;
+	text-align:center;
+
+	margin-bottom:10px;
+	display:inline-block;
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="button_rechnungsbetrag_akzeptieren"] {
+
+	height:35px;
+	font-size:14px;
+	padding-top:7px;	
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="button_rechnungsbetrag_akzeptieren"] {
+
+	height:40px;
+	font-size:16px;
+	padding-top:8px;	
+    }
+}
+
+
+
+.button_rechnungsbetrag_abbrechen {
+
+	background-color:#4E4E4E;
+	color:#FFFFFF;
+	font-weight:bold;
+	height:20px;
+	border-radius: 5px;
+	cursor:pointer;
+	font-size:14px;
+	width:100px;
+	text-align:center;
+	padding-top:7px;
+	margin-bottom:10px;
+	display:inline-block;
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="button_rechnungsbetrag_abbrechen"] {
+
+	height:35px;
+	font-size:14px;
+	padding-top:7px;	
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="button_rechnungsbetrag_abbrechen"] {
+
+	height:40px;
+	font-size:16px;
+	padding-top:8px;	
+    }
+}
+
+
+.button_rechnungsbetrag_akzeptieren_logo{
+	background: url("/static/ajax-loader.gif");
+	 background-size: 15px 15px;
+	 background-position:absolute;
+/* 		 	height:35px; */
+	width:100%;
+
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	display:none;
+	
+}
+
+
+
+.button_bearbeiten {
+
+	float:right;
+	background-color:#DB7093;
+	color:#FFFFFF;
+
+	font-weight:bold;
+
+
+	border-radius: 5px;
+	cursor:pointer;
+
+	text-align:center;
+
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="button_bearbeiten"] {
+	width:100px;
+	height:35px;
+	font-size:14px;
+	padding-top:7px;	
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="button_bearbeiten"] {
+	width:30%;
+	max-width:100px;
+	height:40px;
+	font-size:16px;
+	padding-top:8px;	
+    }
+}
+
+
+
+	
+
+
+.button_uebernehmen {
+
+
+	background-color:#DB7093;
+	color:#FFFFFF;
+
+	font-weight:bold;
+
+
+	border-radius: 5px;
+	cursor:pointer;
+
+	text-align:center;
+
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="button_uebernehmen"] {
+	width:100px;
+	float:right;
+	margin-right:20px;
+	height:35px;
+	font-size:14px;
+	padding-top:7px;	
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="button_uebernehmen"] {
+	width:30%;
+	float:right;
+	max-width:100px;
+	height:40px;
+	font-size:16px;
+	padding-top:8px;	
+    }
+}
+
+
+.button_check_kreditkarte_logo{
+	
+	background: url("/static/ajax-loader.gif");
+	 background-size: 15px 15px;
+	 background-position:absolute;
+	 	height:35px;
+	width:100%;
+
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	display:none;
+	
+	
+}
+
+
+ .kreditkarte_check_button{
+
+
+	float:right;
+	background-color:#DB7093;
+	color:#FFFFFF;
+	font-weight:bold;
+
+	width:100%;
+	border-radius: 5px;
+	cursor:pointer;
+
+	text-align:center;
+
+	margin-top:10px;
+
+
+}
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+   .button_check_kreditkarte_abbrechen,.neue_kreditkarte_hinzufuegen_check,.kreditkarte_check_button,.gutschein_button{
+
+        height:35px;
+        padding-top:7px;
+        font-size:12px;
+	
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .button_check_kreditkarte_abbrechen,.neue_kreditkarte_hinzufuegen_check,.kreditkarte_check_button,.gutschein_button{
+        height:40px;
+        padding-top:7px;
+        font-size:16px;
+	
+    }
+}
+
+
+
+
+
+
+ .button_check_kreditkarte_abbrechen{
+	float:left;
+	background-color:#4E4E4E;
+	color:#FFFFFF;
+	font-weight:bold;
+	width:45%;
+	border-radius: 5px;
+	cursor:pointer;
+	text-align:center;
+	margin-top:10px;
+}
+
+
+ .neue_kreditkarte_hinzufuegen_check{
+	text-align:center;
+	color:#DB7093;
+	margin-bottom:20px;
+	width:100%;
+	float:left;
+	cursor:pointer;
+	font-family:Helvetica;
+}
+
+
+
+
+
+ .button_cancel_card{
+
+
+	float:right;
+	border:none;
+	background-color:#4E4E4E;
+	color:#FFFFFF;
+	font-size:12px;
+
+	height:35px;
+	width:90px;
+	border-radius: 5px;
+	
+	
+	margin-right:10px;
+	font-family:Helvetica;
+}
+
+
+
+
+ .button_cancel_address{
+
+
+	float:right;
+	border:none;
+	background-color:#4E4E4E;
+	color:#FFFFFF;
+	font-size:12px;
+
+	height:35px;
+	width:90px;
+	border-radius: 5px;
+	cursor:pointer;
+	margin-right:10px;
+	font-family:Helvetica;
+}
+
+
+.kreditkarte_loeschen{
+	
+	border-radius: 20px;
+	width:20px;
+	height:20px;
+	float:left;
+	margin-left:5px;
+	color:#ffffff;
+	background-color:#4E4E4E;
+	text-align: center;
+	line-Height:18px;
+	cursor:pointer;
+	
+	
+	
+}
+
+.kreditkarte_loeschen:hover{
+	background-color:#e65c00;
+	
+}
+
+
+
+.gutschein_button {
+
+
+	float:right;
+	border:none;
+	background-color:#DB7093;
+	color:#FFFFFF;
+
+	font-weight:bold;
+
+	width:100px;
+	border-radius: 5px;
+	cursor:pointer;
+	font-family:Helvetica;
+		text-align:center;
+	padding-top:6px;
+
+
+
+
+}
+
+
+ .button_cart_large {
+
+
+
+	border:none;
+	background-color:#DB7093;
+	color:#FFFFFF;
+	font-size:17px;
+	text-transform:uppercase;
+	font-weight:bold;
+	height:50px;
+	
+	border-radius: 5px;
+	cursor:pointer;
+	margin-right:20px;
+	font-family:Helvetica;
+	text-align:center;
+	line-height:50px;
+	
+
+	margin: auto;
+	margin-bottom:30px;
+
+
+
+}
+
+
+ .button_alert_passwort{
+	background-color:#DB7093;
+	color:#FFFFFF;
+	float:center;
+	font-weight:bold;
+	height:35px;
+	border-radius: 5px;
+	cursor:pointer;
+	font-size:14px;
+	width:150px;
+	text-align:center;
+	padding-top:7px;
+	margin-bottom:10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.button_alert_passwort:hover
+{
+background-color:#bc6582;	
+	
+}
+
+.facebook_login {
+
+
+	background-color:#DB7093;
+	color:#FFFFFF;
+
+	font-weight:bold;
+	height:35px;
+	width:100%;
+	border-radius: 2px;
+	cursor:pointer;
+	font-size:13px;
+	text-align:center;
+	padding-top:7px;
+	line-height:20px;
+	background: url("/static/facebook_button.png");
+
+}
+
+
+ .button_check_address{
+
+
+	float:right;
+	border:none;
+	background-color:#DB7093;
+	color:#FFFFFF;
+	font-size:12px;
+
+	height:40px;
+	width:120px;
+	border-radius: 5px;
+	cursor:pointer;
+	font-family:Helvetica;
+
+}
+
+.button_check_logo{
+	
+	background: url("/static/ajax-loader.gif");
+	 background-size: 15px 15px;
+	 background-position:absolute;
+	 	height:35px;
+	width:100%;
+
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	display:none;
+	
+	
+}
+
+
+
+.gutschein_button_logo{
+	
+	background: url("/static/ajax-loader.gif");
+	 background-size: 15px 15px;
+	 background-position:absolute;
+	 	height:35px;
+	width:100%;
+
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	display:none;
+	
+	
+}
+
+ .button_check{
+	background-color:#DB7093;
+	color:#FFFFFF;
+	font-weight:bold;
+	
+	float:right;
+	
+	border-radius: 5px;
+	cursor:pointer;
+	
+	text-align:center;
+	
+
+
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="button_check"] {
+        width:100%;
+        height:40px;
+        padding-top:7px;
+        font-size:16px;
+    }
+}
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="button_check"] {
+        width:120px;
+        height:35px;
+        padding-top:7px;
+        font-size:12px;
+    }
+}
+
+
+
+ .button_main_showroom{
+	background-color:#DB7093;
+	color:#FFFFFF;
+
+	
+	font-weight:bold;
+	height:35px;
+	width:100px;
+	border-radius: 5px;
+	cursor:pointer;
+	font-size:14px;
+	text-align:center;
+	padding-top:7px;
+	float:right;
+
+
+ 
+
+}
+
+
+
+
+
+ .button_zurueck_showroom{
+	background-color:#808080;
+	color:#FFFFFF;
+	font-weight:bold;
+	height:35px;
+	border-radius: 5px;
+	cursor:pointer;
+	font-size:14px;
+	text-align:center;
+	padding-top:7px;
+	width:100px;
+	float:left;
+
+
+
+}
+
+
+
+ .button_share_facebook{
+	background-color:#DB7093;
+	color:#FFFFFF;
+	float:right;
+	font-weight:bold;
+
+	border-radius: 5px;
+
+	text-align:center;
+
+	margin-bottom:40px;
+	cursor:pointer;
+	background: url("/static/facebook_button.png");
+
+
+}
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="button_share_facebook"] {
+	width:47%;
+	margin-top:20px;
+	font-size:14px;
+	height:35px;
+	padding-top:7px;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="button_share_facebook"] {
+	width:100%;
+	margin-bottom:20px;
+	font-size:16px;
+	height:40px;
+	padding-top:8px;
+	
+    }
+}
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="login"] {
+	font-size:17px;
+	
+	
+    }
+}
+
+	 @media only screen and (min-width: 767px) {
+    /* For mobile phones: */
+    [class*="login"] {
+	font-size:13px;
+	
+	
+    }
+}
+
+	 	
+	
+.login {
+	float:left;
+	background-color:#DB7093;
+	color:#FFFFFF;
+	font-weight:bold;
+	height:35px;
+	width:45%;
+	border-radius: 2px;
+	cursor:pointer;
+	
+	text-align:center;
+	padding-top:7px;
+	line-height:20px;	
+
+}
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="registrierung"] {
+	font-size:17px;
+	
+	
+    }
+}
+
+	 @media only screen and (min-width: 767px) {
+    /* For mobile phones: */
+    [class*="registrierung"] {
+	font-size:13px;
+	
+	
+    }
+}
+
+
+
+.registrierung {
+	float:right;
+	background-color:#DB7093;
+	color:#FFFFFF;
+	font-weight:bold;
+	height:35px;
+	width:45%;
+	border-radius: 2px;
+	cursor:pointer;
+
+	text-align:center;
+	padding-top:7px;
+	line-height:20px;
+}
+
+
+
+.login_logo{
+	
+	background: url("/static/ajax-loader.gif");
+	 background-size: 15px 15px;
+	 background-position:absolute;
+	 	height:35px;
+	width:100%;
+
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	display:none;
+	
+	
+}
+
+
+.registrierung_logo{
+	
+	background: url("/static/ajax-loader.gif");
+	 background-size: 15px 15px;
+	 background-position:absolute;
+	 	height:35px;
+	width:100%;
+
+    background-repeat:   no-repeat;
+    background-position: center center; 
+	display:none;
+	
+	
+}
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="oder"] {
+	font-size:17px;
+	
+	
+    }
+}
+
+	 @media only screen and (min-width: 767px) {
+    /* For mobile phones: */
+    [class*="oder"] {
+	font-size:13px;
+	
+	
+    }
+}
+
+
+.oder{
+
+	font-weight:bold;
+	text-align:center;	
+}
+
+
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-padding-end: 20px;
+    -moz-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -moz-padding-start: 2px;
+    background-color: #ffffff; /* fallback color if gradients are not supported */
+    background-image: url(/static/arrow_new.png); /* For Chrome and Safari */
+    background-image: url(/static/arrow_new.png); /* For old Fx (3.6 to 15) */
+    background-image: url(/static/arrow_new.png); /* For pre-releases of IE 10*/
+    background-image: url(/static/arrow_new.png); /* For old Opera (11.1 to 12.0) */ 
+    background-image: url(/static/arrow_new.png); /* Standard syntax; must be last */
+    background-position: center right;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+   	border: 1px solid #bbb;
+    border-radius: 2px;
+	cursor:pointer;
+    color: #555;
+
+	font-size:16px;
+
+    margin: 0;
+	border:1px solid #e6e6e6 ;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    
+}
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    select{
+	font-size:12px;
+	height:28px;
+	
+	
+    }
+}
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    select{
+	height:40px;
+	
+	
+    }
+}
+
+

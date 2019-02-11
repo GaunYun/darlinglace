@@ -1,0 +1,265 @@
+
+ 
+input{
+	
+	border:1px solid #e6e6e6 ;
+	color:#4E4E4E;
+	padding-left:10px;
+	box-sizing: border-box;
+	height:28px;
+	font-size:12px;
+	
+}
+
+
+
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-bottom:40px;
+	margin-top:40px;
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+    }
+}
+
+	 @media only screen and (min-width: 768px) and (max-width: 1199px){
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-bottom:40px;
+	margin-top:40px;
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+    }
+}
+
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+
+	margin-bottom:40px;
+	margin-top:40px;
+	font-size:16px;
+	float:left;
+	font-family:Helvetica;
+    }
+}
+
+
+ 
+
+ 
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+      width:100%;
+      max-width:1200px;
+	padding:0px 0; 
+	margin:0 auto;
+	font-family:Helvetica; 
+	height:100%
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+      width:100%
+	padding:0px 0; 
+	margin:0 auto;
+	font-family:Helvetica; 
+	height:100%
+    }
+}
+
+.profil_beschriftung
+{
+	font-size:16px;
+}
+
+ 
+html, body {
+		margin: 0px;
+}
+body {
+  position: relative
+}
+ 
+
+
+ 
+.links
+{
+	cursor:pointer;
+	color: #DB7093;
+	float:left;
+	margin-right:5px;
+	
+}
+
+
+
+
+ 
+ 	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    [class*="profil_beschriftung"] {
+	margin-left:10px;
+    }
+}
+
+
+
+ .headline{
+	 
+	 
+
+	 
+	 line-height:25px;
+	 
+ }
+ 
+ 
+ 
+ .headline_text{
+	 
+	 font-weight: bold;
+	 text-transform:uppercase;
+	 
+	 font-size:20px;
+	 font-family:Helvetica;
+	 line-height:35px;
+	 
+ }
+ 
+  	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:300px;
+	 margin-top:50px;
+	 margin-right:300px;
+	 font-family:Helvetica;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:10px;
+	 margin-top:10px;
+	 margin-right:10px;
+	 font-family:Helvetica;
+        
+    }
+}
+
+
+.eingabefeld{
+	float:left;
+		 border-top: 1px solid #e6e6e6 ;
+	 
+	 line-height:35px;
+	 width:100%;
+}
+
+
+
+.eingabefelder_headline{
+	float:left;
+	font-weight:bold;
+}
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline"] {
+    	width:65px;
+
+    	
+    }
+  }
+  
+  
+  	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline"] {
+    	width:65px;
+    	
+    }
+  }
+
+.eingabefelder_no_input{
+	float:left;
+	margin-left:5px;
+}
+
+
+.eingabefelder_input{
+	float:left;
+	width:calc(100% - 65px);
+	border:none;
+	text-align: initial;
+
+}
+
+
+  	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_input_betreff"] {
+	float:left;
+	width:calc(100% - 65px);
+	border:none;
+	text-align: initial;
+	resize: none;
+	height:80px;
+
+    }
+  }
+  
+    	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_input_betreff"] {
+
+	float:left;
+	width:calc(100% - 65px);
+	border:none;
+	text-align: initial;
+	resize: none;
+	height:30px;
+    }
+  }
+
+
+
+.eingabefelder_large_input{
+	
+			width:100%;
+			text-align: initial;
+			height:100px;
+			
+	padding-left:10px;
+	padding-top:10px;
+	margin-bottom:20px;
+	resize: none;
+
+}
+
+
+input:focus {outline: none} 
+ 

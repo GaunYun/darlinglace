@@ -1,0 +1,125 @@
+{% include "header_top_emails.html" %}
+    
+    
+<!-- Main text -->
+<tr>
+<td align="left" width="590"><font face="verdana" size="-1"><br>
+            Hi {{vorname}},
+            <br><br>
+            vielen Dank für Deine Bestellung bei Darling Lace. Du hast eine tolle Auswahl getroffen. Wir hoffen, Du hast viel Freude daran!
+            
+
+<br>
+</td>
+</tr>
+<tr>
+<td align="left">
+<table cellpadding="0" cellspacing="0" border="0" align="center" width="630" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td align="left" width="250" height="50" valign="middle"><font face="verdana" size="&#43;1">Bestellbestätigung</font></td>
+<td align="right" width="380" height="50" valign="middle"><font face="verdana" size="&#43;1">Bestellung
+<strong><font color="#b51d36">#{{bestellnummer}}</font></strong><br>
+</font><font face="verdana" size="-1" color="#787878">Bestelldatum: {{bestelldatum}}
+</font></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" height="10" bgcolor="#ffffff"></td>
+</tr>
+<tr>
+<td align="center" height="1" bgcolor="#ffffff"></td>
+</tr>
+<tr>
+<td align="left">
+<table cellpadding="0" cellspacing="0" border="0" align="center" width="630" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td align="center" width="1" bgcolor="#ffffff"></td>
+<td align="center" width="19" bgcolor="#fcfcfc"></td>
+<td align="left" width="260" bgcolor="#fcfcfc" valign="top"><font face="verdana" size="&#43;0" color="#787878"><br>
+Voraussichtliches Lieferdatum:</font><br>
+<font face="verdana" size="-0"><strong>{{lieferdatum}}</strong></font><br>
+<br>
+<font face="verdana" size="&#43;0" color="#787878">Versand über:</font><br>
+<font face="verdana" size="-0"><strong>DHL</strong></font><br>
+</td>
+<td align="center" width="70" bgcolor="#fcfcfc"></td>
+<td align="left" width="260" bgcolor="#fcfcfc" valign="top"><font face="verdana" size="&#43;0" color="#787878"><br>
+Lieferadresse:</font><br>
+<font face="verdana" size="-0"><strong>{{vorname_nachname}}<br>
+{{strassenname_hausnummer}}<br>
+{{firmenname}}<br>
+{{plz_stadt}}<br></strong></font><br>
+<br>
+</td>
+<td align="center" width="19" bgcolor="#fcfcfc"></td>
+<td align="center" width="1" bgcolor="#ffffff"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" height="1" bgcolor="#ffffff"></td>
+</tr>
+<tr>
+<td align="left" width="590"><font face="verdana" size="&#43;1"><br>
+Bestelldetails:</font><br>
+<br>
+</td>
+</tr>
+
+{{bestelldetails|safe}}
+
+
+
+
+
+    <tr><td align="center" height="2" bgcolor="#e9e9e9"></td></tr>
+<tr>
+<td align="center" height="20" bgcolor="#ffffff"></td>
+</tr>
+<tr>
+<td align="center" height="1" bgcolor="#ffffff"></td>
+</tr>
+<tr>
+<td align="center" height="20" bgcolor="#ffffff"></td>
+</tr>
+<tr>
+<td align="left">
+<table cellpadding="0" cellspacing="0" border="0" align="center" width="630" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td align="right" width="400" valign="top"><font face="verdana" size="-1">{{zahlungsdetails_beschreibung|safe}}
+<br>
+<strong>Gesamt:</strong> </font></td>
+<td align="right" width="100" valign="top"><font face="verdana" size="-1">{{zahlungsdetails_werte|safe}}
+<br>
+<strong>{{gesamt|safe}}</strong> </font></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" height="20" bgcolor="#ffffff"></td>
+</tr>
+<tr>
+<td align="center" height="1" bgcolor="#ffffff"></td>
+</tr>
+<tr>
+<td align="center" height="20" bgcolor="#ffffff"></td>
+</tr>
+<tr>
+<td align="left" width="590"><font face="verdana" size="-1">        	
+
+		Hast du noch Fragen? Dann besuche gerne unsere <a href='https://www.darlinglace.com/message_click/?link={{kontaktiere_uns}}'>Hilfe-Seite</a> und kontaktiere uns!<br><br>xoxo,<br><strong>Darling Lace</strong></font><br>
+<br>
+</td>
+</tr>
+<!-- End of Main text -->	
+{% include "footer_emails.html" %}

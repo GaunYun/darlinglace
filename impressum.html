@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+{% include "header.html" %}
+
+
+<link type="text/css" rel="stylesheet" media="screen" href="/static/impressum.css" />
+
+<link type="text/css" rel="stylesheet" media="screen" href="/static/showroom.css" />
+
+</head>
+  
+<body style="font-family:Helvetica;color: #4E4E4E;" onclick='reset_header()' >
+	<div class="overlay" onclick='reset_sidebar()' ></div>
+	<div class="modal_mobile_sidebar">					  
+		<div id="mySidenav" class="sidenav"></div>
+	</div> 
+	<div class="mask_2">
+	
+
+  {% include "modals.html" %}
+
+
+		<div class="wrapper cf" style="font-family:Helvetica;">
+		<div class="header_top_all">
+			<div class="header_top"></div>
+			<div class="sidebar" style="font-family:Helvetica;">
+			
+				<div id="x-mask" class="mask">
+			
+				<div class="sidebar_content" ></div>
+			</div>
+		</div>
+	</div>
+	<div class="mask">
+		<div class="impressum_input">
+	
+			Angaben gemäß § 5 TMG:<br><br>
+			
+			Diese Webseite www.darlinglace.com wird publiziert von:<br><br>
+			<b>
+			Darling Lace GmbH<br>
+			Chausseestraße 60<br>
+			10115 Berlin<br>
+			Deutschland<br><br>
+			</b>
+			Vertreten durch: Herr Maximilian Fischer und Herr Kai Winselmann<br><br>
+			
+			<b>Kontakt:</b><br>
+			Internet:  www.darlinglace.com<br>
+			E-Mail:  service@darlinglace.com<br>
+			Tel.:  +49 (0) 177 326 5039<br><br>
+			
+			<b>Geschäftsführung:</b><br>
+			Maximilian Fischer, Kai Winselmann<br><br>
+			
+			Eingetragen beim Amtsgericht Berlin-Charlottenburg, Registernummer: HRB 000000<br>
+			Verantwortlicher für eigene Inhalte der Darling Lace GmbH gem. § 55 RStV: Maximilian Fischer<br><br>
+			
+			<b>Umsatzsteuer-ID:</b><br>
+			DE000000000<br><br>
+			
+			Bitte beachten Sie folgende gesetzliche Pflichtinformation: Die EU-Kommission betreibt eine Plattform zur Online-Streitbeilegung. Diese ist unter www.ec.europa.eu/consumers/odr erreichbar.<br>
+			Wir sind zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle weder verpflichtet noch bereit.<br><br><br>
+
+
+	
+	
+		</div>
+	</div>
+	
+
+	
+	</div>
+
+
+
+
+
+<script src="/static/load_header.js"></script>
+<script src="/static/scrolling.js"></script>
+<script src="/static/showroom.js"></script>
+<script src="/static/facebook.js"></script>
+
+
+
+
+
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+
+</body>
+
+<script type="text/javascript"  class="lingerie_data" >{{lingerie_offerings | safe}}</script>
+<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>	
+<script type="text/javascript"  class="colors" >{{colors | safe}}</script>	
+<script type="text/javascript"  class="links" >{{links | safe}}</script>
+<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+
+<script type="text/javascript">load_header("{{login}}");links_laden("{{url}}");</script>
+
+
+</html>

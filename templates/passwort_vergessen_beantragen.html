@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% include "header.html" %}
+
+<link rel="stylesheet" href="/static/detail_page.css" type="text/css" media="all" />
+
+ <link type="text/css" rel="stylesheet" media="screen" href="/static/impressum.css" />
+
+</head>
+  <body onclick='reset_header()' style="font-family: 'Roboto', sans-serif;">
+  
+
+
+
+
+  <div class="overlay" onclick='reset_sidebar()'><div class="loader"></div> </div>
+   <div class="modal_mobile_sidebar">					  
+  	<div id="mySidenav" class="sidenav">
+
+		</div>
+</div> 
+
+<div id="overall_page">
+
+  {% include "modals.html" %}
+
+
+				 {% include "header_main_body.html" %}
+
+	
+
+
+	<div id="x-mask_2" class="mask">
+
+		
+		
+		
+		<div class="header_style">
+			<div class="zusammenfassung">
+				<div class="headline"><div class="headline_text">PASSWORT VERGESSEN</div><div class="bestellnummer"></div></div><br>
+
+
+                    Falls Du dein Passwort vergessen hast, gib im folgenden Feld Deine E-Mail Adresse ein. Wir werden Dir in den nächsten Minuten einen Link zum Update Deines Passwortes zusenden.<br><br>
+					<b><div class="eingabefelder_headline" id="email_headline">E-Mail Adresse</b><br><br>
+					<input type="text" class="eingabefelder_profil" id="email" onkeyup="input_on_change_passwort_vergessen(document.getElementById('email'),document.getElementById('email_headline'))" /></div>
+
+
+				
+				<br><br><br>
+
+				<button class="button_main" onclick="passwort_vergessen_beantragen()" style="pointer-Events:none;opacity:0.4;">Link senden</button>
+				<button class="profil_button_zurueck" onclick="logo_click()">Zurück</button>
+
+				
+				
+					
+
+			</div>
+		
+				
+		</div>
+
+		
+		
+
+
+
+
+		
+
+
+		
+
+		<script src="/static/profil_bearbeiten.js"></script>
+
+
+		
+{% include "header_sub.html" %}
+
+
+</div>
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>	
+<script type="text/javascript"  class="links" >{{links | safe}}</script>
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>	
+		<script type="text/javascript">load_header("{{login}}");links_laden("{{url}}");reset_fields_passwort_vergessen();</script>
+</body>
+
+
+
+
+
+</html>
+
+
+

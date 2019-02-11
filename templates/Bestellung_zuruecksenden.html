@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+{% include "header.html" %}
+
+<link rel="stylesheet" href="/static/bestellung_zuruecksenden.css" type="text/css" media="all" />
+
+
+
+ 
+
+</head>
+<body style="font-family: 'Roboto', sans-serif;">
+  <div class="overlay" onclick='reset_sidebar()'><div class="loader"></div> </div>
+
+  <div class="modal_mobile_sidebar">					  
+  	<div id="mySidenav" class="sidenav">
+
+		</div>
+</div>
+	<div id="overall_page" >
+			 {% include "header_main_body.html" %}
+	
+
+		<div id="x-mask" class="uebersicht">
+
+  {% include "modals.html" %}
+
+
+			<b><div class="profil_beschriftung"><div class="links_profil" onclick="profil_hauptseite()">Mein Profil</div>> Bestellung zurücksenden</b></div>
+
+
+		
+			<div class="hauptseite_adresse_bearbeiten">
+				<div class="profil_beschriftung"><b>Rücksendungen</b><br><br>
+					<button class="button_bestellung_zuruecksenden" onclick="zuruecksenden_hinzufuegen()">Bestellung zurücksenden</button><br>
+				</div>
+
+				<div class="header_style">
+					<div class="zusammenfassung">
+						<div class="block">	
+							<div class="eingabefelder_headline_line_1"><b>Auswahl der Bestellung</b><br><br>
+								<select class="eingabefeld_bestellnummer" type='text' onchange="select_ruecksendung()"></select>
+							</div>
+							
+						<button  id="neue_ruecksendung_button_id" name="submit" class="neue_ruecksendung_button"  onclick="ruecksendung_neu()">
+
+							<i class="fa fa-circle-o-notch fa-spin" id='neue_ruecksendung_button_id_logo' style='display:none'></i>
+						<div id='neue_ruecksendung_button_id_text'>Neue Rücksendung</div>
+						</button>
+						
+						
+
+						</div>	
+					</div>
+					<div class="zusammenfassung"></div>
+				</div>
+				
+				
+				<div id="existierende_rueckmeldungen_anzeigen"></div>
+			</div>
+		
+
+	</div>		</div>	
+	</div>	
+
+		<script src="/static/bestellung_zuruecksenden.js"></script>
+
+	{% include "header_sub.html" %}
+
+</div></div>			
+
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+			<script type="text/javascript"  class="ruecksendungen_daten" >{{ruecksendungen | safe}}</script>
+			<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+			<script type="text/javascript"  class="bestelldetails" >{{bestelldetails | safe}}</script>
+		<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>
+		<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>	
+		<script type="text/javascript"  class="links" >{{links | safe}}</script>
+		<script type="text/javascript"  id="email" >{{email | safe}}</script>
+<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>	
+
+		<script type="text/javascript">load_header("{{login}}");links_laden("None");load_bestellnummern();ruecksendungen_anzeigen();</script>	
+</body>
+
+
+
+
+
+
+</html>

@@ -1,0 +1,281 @@
+
+ 
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+ .modal_2,.modal_login,.modal_medium,.modal_mobile_sidebar{
+    width:100%;
+     
+    
+
+    }
+}
+
+ 	 @media only screen and (min-width: 767px) {
+    /* For mobile phones: */
+ .modal_mobile_sidebar {
+    max-width:900px;
+    width:95%;
+    height:550px;
+
+    }
+}
+
+ 	 @media only screen and (min-width: 767px) {
+    /* For mobile phones: */
+   .modal_medium {
+    width:350px;
+    height:200px;
+
+    }
+}
+
+
+
+ 	 @media only screen and (min-width: 767px) {
+    /* For mobile phones: */
+  .modal_2 {
+    width:750px;
+    height:550px;
+
+    }
+}
+
+
+
+
+.overlay {
+    position: fixed;
+
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    z-index: 10;
+     visibility: hidden;
+         background-color:#000000;
+         opacity:0.2;
+
+     
+
+}
+
+.modal_2{
+         visibility: hidden;
+    
+        
+        position: fixed;
+    overflow:scroll;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        background-color: #ffffff;
+         overflow:scroll;
+    
+    
+        z-index: 11; /* 1px higher than the overlay layer */
+}
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    /* just some content with arbitrary styles for explanation purposes */
+    .modal_2,.modal_medium,.modal_mobile_sidebar {
+         visibility: hidden;
+    
+        
+        position: fixed;
+
+        background-color: #ffffff;
+    
+        
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        z-index: 11; /* 1px higher than the overlay layer */
+    }
+}
+
+.block_1_2{
+    width:400px;
+}
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+   .modal_2{
+     visibility: hidden;
+
+    background-color: #ffffff;
+    width:100%;
+    height:100%;
+    
+    overflow:scroll;
+    z-index: 11; /* 1px higher than the overlay layer */
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+   .modal_medium{
+     visibility: hidden;
+    position: fixed;
+    background-color: #ffffff;
+    width:90%;
+    max-width:650px;
+    height:95%;
+    max-height:200px;
+
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11; /* 1px higher than the overlay layer */
+    }
+}
+
+
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+ .modal_mobile_sidebar{
+     visibility: hidden;
+    position: fixed;
+    background-color: #ffffff;
+    width:90%;
+    left: 45%;
+    margin-left: -40%;
+    top: 30%;
+    margin-top: -37.5%;
+    z-index: 11; /* 1px higher than the overlay layer */
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) and (min-height: 350px) {
+    /* For mobile phones: */
+   .modal_login{
+     visibility: hidden;
+    position: fixed;
+    background-color: #ffffff;
+    width:250px;
+    height:350px;
+    overflow:scroll;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11; /* 1px higher than the overlay layer */
+    }
+}
+
+	 @media only screen and (max-width: 767px) and (max-height: 349px) {
+    /* For mobile phones: */
+   .modal_login{
+     visibility: hidden;
+    position: fixed;
+    background-color: #ffffff;
+    width:250px;
+    height:300px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11; /* 1px higher than the overlay layer */
+    }
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+   .modal_login{
+     visibility: hidden;
+    position: fixed;
+    top: 40%; 
+    left: 35%;
+    margin-top: -200px;
+    margin-left: 100px;
+    background-color: #ffffff;
+    z-index: 11; /* 1px higher than the overlay layer */
+    width:300px;
+    height:400px;
+    }
+}
+
+
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+.modal_inner,.modal_2_inner,.modal_inner_showroom {
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:50px;
+    height:100%;
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+.modal_inner,.modal_2_inner {
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+.modal_inner_showroom {
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    height:100%;
+    }
+}
+
+
+
+
+
+
+
+#overlay_2 div {
+     width:50%;
+	 height:200px;
+     margin: 100px auto;
+	background: url("/static/ajax_loader_2.gif");
+	background-size: 30px 30px;
+
+
+    background-repeat:   no-repeat;
+    background-position: center center; 
+
+
+
+
+	     position:fixed;
+	     z-index: 1000;
+    top:50%;
+    left:40%;
+    margin-top:-150px; /* negative half the size of height */
+    margin-left:-150px; /* negative half the size of width */
+	 
+}
+
+
+#overlay_2 {
+     visibility: hidden;
+     position: absolute;
+     left: 0px;
+     top: 0%;
+     width:100%;
+     height:100%;
+     text-align:center;
+     z-index: 1000;
+	 
+	
+}
+
+

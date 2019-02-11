@@ -1,0 +1,231 @@
+.schliessen_alert
+{
+	position: absolute;
+	
+	margin-left:310px;
+	cursor:pointer;
+}
+
+
+ 
+
+ 
+.eingabefelder{
+	
+	border:1px solid #e6e6e6 ;
+	width:200px;
+	height:30px;
+	font-size:14px;
+
+}
+
+ 
+.links
+{
+	cursor:pointer;
+	color: #ff761a;
+	float:left;
+	margin-right:5px;
+	
+}
+
+.links_2
+{
+	cursor:pointer;
+	color: #ff761a;
+	float:right;
+	font-size:12px;
+	
+	
+	
+}
+
+
+.header_style {
+
+
+	background-color:#ffffff;
+	
+	
+	width:100%;
+	
+	border:1px solid #e6e6e6 ;
+
+	margin-top:50px;
+	font-size:14px;
+	float:right;
+	height:1600px;
+	font-family:Helvetica;
+	 
+ }
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+ .spalte_1{
+	 
+	 margin-left:50px;
+	 margin-top:50px;
+	 margin-right:50px;
+	 font-family:Helvetica;
+	 
+ }
+ 
+ 
+ .headline{
+	 
+	 
+	 border-bottom: 1px solid #cdcdcd ;
+	 
+	 line-height:35px;
+	 
+ }
+ 
+ 
+ 
+ .spalte_headline_1{
+	 font-weight: bold;
+	 float:left;
+	 font-size:16px;
+	 width:200px;
+	 font-family:Helvetica;
+	 line-height:35px;
+ }
+ 
+ 
+  .spalte_headline_2{
+	 font-weight: bold;
+	 float:left;
+	 font-size:16px;
+	 width:250px;
+	 font-family:Helvetica;
+	 line-height:35px;
+ }
+ 
+  .spalte_headline_3{
+	 font-weight: bold;
+	 float:left;
+	 font-size:16px;
+	 width:200px;
+	 font-family:Helvetica;
+	 line-height:35px;
+ }
+ 
+  .spalte_headline_4{
+	 font-weight: bold;
+	 float:left;
+	 font-size:16px;
+	 width:250px;
+	 font-family:Helvetica;
+	 line-height:35px;
+ }
+
+
+
+
+ 
+
+
+ .zurueck_button{
+
+	
+	background-color:#ff761a;
+	color:#FFFFFF;
+	float:right;
+	
+	font-weight:bold;
+	height:35px;
+	width:130px;
+	border-radius: 5px;
+	cursor:pointer;
+	font-size:14px;
+	text-align:center;
+	line-height:35px;
+
+}
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+  .spalte_text_1{
+	 float:left;
+	 font-size:16px;
+	width:200px;
+	 font-family:Helvetica;
+	 line-height:35px;
+ }
+ 
+  .spalte_text_2{
+	 float:left;
+	width:250px;
+	 font-size:16px;
+	 font-family:Helvetica;
+	 line-height:35px;
+ }
+ 
+   .spalte_text_3{
+	 float:left;
+	width:200px;
+	 font-size:16px;
+	 font-family:Helvetica;
+	 line-height:35px;
+ }
+ 
+
+ 
+
+ 
+
+ .spalte_text_4{
+	 float:left;
+	 font-size:16px;
+	 font-family:Helvetica;
+	 line-height:35px;
+	 width:250px;
+	 
+
+} 
+
+ .uebersicht{
+			width:1000px; 
+	padding:0px 0; 
+	margin:0 auto;
+	font-family:Helvetica; 
+
+	height:100%
+	
+}
+ 
+
+ 
+body	{ 
+
+	width:100%; 
+
+	background-color:#F5F7FA;
+	height:100%;
+	color: #4E4E4E;
+
+	}
+
+
+
+
+
+
+
+
+ 

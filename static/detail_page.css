@@ -1,0 +1,1617 @@
+.impressum_input{
+	margin-top:150px;
+	
+	}
+	
+
+
+
+.mask	{ 
+
+	width:100%;
+	max-width:1200px; 
+	margin: 0 auto;
+
+
+	height:100%
+	
+
+	}
+	
+	
+	 @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="mask"] {
+        width:100%;
+        
+    }
+}
+
+
+.mask_fitting_quiz	{ 
+
+	width:100%;
+	max-width:1200px; 
+	margin: 0 auto;
+
+
+	height:100%
+	
+
+	}
+	
+	
+	 @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="mask_fitting_quiz"] {
+        width:100%;
+        
+    }
+}
+
+
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+#x-mask_2_fitting_quiz {
+
+	margin-top:50px;
+
+    }
+}
+
+	 @media only screen and (max-width: 1199px){
+    /* For mobile phones: */
+#x-mask_2_fitting_quiz {
+
+	margin-top:55px;
+
+    }
+}
+
+	 @media only screen and (max-width: 999px){
+    /* For mobile phones: */
+#fortschrittsbalken_gruppe {
+
+	margin-top:15px;
+
+    }
+}
+
+
+
+
+.text_VIP_mitgliedschaft{
+    font-size:16px;   
+}
+
+ 
+ .vorwahl
+ {
+	position:relative;
+	margin-left:10px;
+	width:30px;
+	color:#4E4E4E;
+ }
+ 
+ .img_box{
+    text-align:center
+}
+ 
+ 
+ 	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    [class*="profil_beschriftung"] {
+	margin-left:10px;
+    }
+}
+ 
+  	 @media only screen and (min-width: 767px) {
+    /* For mobile phones: */
+    [class*="vorwahl"] {
+    	margin-top:-27px;
+
+    }
+}
+ 
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="vorwahl"] {
+		font-size:16px;
+		margin-top:-27px;
+    }
+}
+
+
+.profil_beschriftung
+{
+	font-size:16px;
+}
+
+
+
+.benachrichtigungen_text{
+    opacity:0.4;
+    pointer-events:none;
+} 
+
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="benachrichtigungen"] {
+		font-size:16px;
+		margin-bottom:10px;
+
+    }
+}
+
+
+	 @media only screen and (min-width: 868px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_VIP"] {
+        width:23%;
+        float:left;
+
+        margin-right:2%;
+        font-size:14px;
+    }
+}
+
+	 @media only screen and (max-width: 867px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_VIP"] {
+        width:100%;
+        font-size:16px;
+        
+
+    }
+}
+
+
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline"] {
+        width:22%;
+        display: inline-block;
+        margin-right:2%;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline"] {
+        width:100%;
+        display: inline-block;
+        font-size:16px;
+
+        margin-top:20px;
+    }
+}
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline_pw"] {
+        width:30%;
+        display: inline-block;
+        margin-right:3%;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline_pw"] {
+        width:100%;
+        display: inline-block;
+        font-size:16px;
+
+        margin-top:20px;
+    }
+}
+
+
+.eingabefelder_profil{
+	margin-top:-10px;
+	width:100%;
+}
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_profil"] {
+		font-size:16px;
+    }
+}
+
+.eingabefelder_pw{
+	margin-top:-10px;
+	width:100%;
+}
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_pw"] {
+		font-size:16px;
+    }
+}
+
+
+
+ 
+.links_profil
+{
+	cursor:pointer;
+	color: #b51d36;
+	float:left;
+	margin-right:5px;
+	
+}
+
+
+
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    #block_main_image_ueber_uns{
+background:url('/static/landing_page/171222 Banner Our Story 1200x300.jpg');
+width:100%;
+
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;    
+    height:250px;
+    
+     }
+}
+
+
+	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    #block_main_image_ueber_uns{
+background:url('/static/landing_page/171222 Banner Our Story 1200x300.jpg');
+width:100%;
+
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height:150px;
+
+    }
+}
+
+
+
+
+
+
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    #block_main_image_VIP{
+background:url('/static/landing_page/171214 Banner VIP Club_1200_text.jpg');
+width:100%;
+
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;    
+    height:250px;
+    
+     }
+}
+
+
+	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    #block_main_image_VIP{
+background:url('/static/landing_page/171214 Banner VIP Club_1050_text.jpg');
+width:100%;
+
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height:150px;
+
+    }
+}
+
+
+
+
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    #block_main_image_versand{
+background:url('/static/landing_page/171221 Banner Versand Retouren_1200.jpg');
+width:100%;
+
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;    
+    height:250px;
+    
+     }
+}
+
+
+	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    #block_main_image_versand{
+background:url('/static/landing_page/171221 Banner Versand Retouren_1050.jpg');
+width:100%;
+
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height:150px;
+
+    }
+}
+
+
+
+
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    #support_image{
+background:url('/static/landing_page/171221 Banner 5 Models 1 1200x300.jpg');
+width:100%;
+
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;    
+    height:250px;
+    
+     }
+}
+
+
+	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    #support_image{
+background:url('/static/landing_page/171221 Banner 5 Models 1 1200x300.jpg');
+width:100%;
+
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height:150px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+	 @media only screen and (min-width: 800px) {
+    /* For mobile phones: */
+    #detailed_image_ueber_uns_2{
+    	    background: url('/static/landing_page/171018 hand drawn elements breast types_small.jpg');
+	background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width:25%;
+    float:left;
+    height:150px;
+    margin-bottom:20px;
+    }
+}
+
+
+	 @media only screen and (min-width: 599px) and (max-width: 799px) {
+    /* For mobile phones: */
+    #detailed_image_ueber_uns_2{
+    	      	    background: url('/static/landing_page/171018 hand drawn elements breast types_small.jpg');
+	background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width:30%;
+    float:left;
+    height:120px;
+    margin-bottom:20px;
+      }
+}
+
+
+	 @media only screen and  (min-width: 450px) and (max-width: 598px) {
+    /* For mobile phones: */
+    #detailed_image_ueber_uns_2{
+    	      	    background: url('/static/landing_page/171018 hand drawn elements breast types_small.jpg');
+	background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width:30%;
+    float:left;
+    height:120px;
+    margin-bottom:20px;
+
+ }
+}
+
+
+	 @media only screen and  (max-width: 450px) {
+    /* For mobile phones: */
+    #detailed_image_ueber_uns_2{
+    	
+    	    background: url('/static/landing_page/171018 hand drawn elements breast types_small.jpg');
+	background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center; 
+width:100%;
+float:left; 
+    height:120px;
+    margin-bottom:20px;
+   }
+}
+
+
+
+
+
+
+
+	 @media only screen and (min-width: 800px) {
+    /* For mobile phones: */
+    #detailed_image_ueber_uns{
+    	    background: url('/static/landing_page/171231_curvy_skinny.png');
+	background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width:25%;
+    float:left;
+    height:150px;
+    margin-bottom:20px;
+    }
+}
+
+
+	 @media only screen and (min-width: 599px) and (max-width: 799px) {
+    /* For mobile phones: */
+    #detailed_image_ueber_uns{
+    	      	    background: url('/static/landing_page/171231_curvy_skinny.png');
+	background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width:30%;
+    float:left;
+    height:120px;
+    margin-bottom:20px;
+      }
+}
+
+
+	 @media only screen and  (min-width: 450px) and (max-width: 598px) {
+    /* For mobile phones: */
+    #detailed_image_ueber_uns{
+    	      	    background: url('/static/landing_page/171231_curvy_skinny.png');
+	background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width:30%;
+    float:left;
+    height:120px;
+    margin-bottom:20px;
+
+ }
+}
+
+
+	 @media only screen and  (max-width: 450px) {
+    /* For mobile phones: */
+    #detailed_image_ueber_uns{
+    	
+    	    background: url('/static/landing_page/171231_curvy_skinny.png');
+	background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center; 
+width:100%;
+float:left; 
+    height:120px;
+    margin-bottom:20px;
+   }
+}
+
+
+#group_detailed_image_ueber_uns{
+width:100%;
+float:left;	
+margin-bottom:20px;
+}
+
+
+
+
+	 @media only screen and (min-width: 800px) {
+    /* For mobile phones: */
+    #ueber_uns_text_neben_bild,#ueber_uns_text_neben_bild_2{
+width:75%;float:right;
+    }
+}
+
+
+	 @media only screen and (min-width: 450px) and (max-width: 799px) {
+    /* For mobile phones: */
+    #ueber_uns_text_neben_bild{
+width:70%;float:right;
+}}
+
+	 @media only screen and (max-width: 449px) {
+    /* For mobile phones: */
+    #ueber_uns_text_neben_bild{
+width:100%;
+}}
+
+
+	 @media only screen and (max-width: 799px) {
+    /* For mobile phones: */
+    #ueber_uns_text_neben_bild_2{
+width:100%;float:right;
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vertical_line{
+	height:30px;
+	width:1.5px;
+	background-color:#b51d36;
+	margin:0 auto;
+}
+
+.vertical_line_group{
+	width:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+
+
+.grauer_block{
+	margin:0 auto;
+	width:100%;
+	max-width:800px;
+	background-color:#F0F0F0;
+	margin-top:30px;
+	margin-bottom:30px;
+
+}
+
+
+
+   .box_VIP_bra{
+    background: url("/static/bra.png");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	height:50px;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
+ }
+ 
+ 
+ .box_VIP_skip{
+     background: url("/static/fast-forward-button.png");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	height:50px;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
+ }
+ 
+ 
+    .box_VIP_rewards{
+    background: url("/static/diamond.png");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	height:50px;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
+ }
+ 
+ 
+ .box_VIP_cancel{
+     background: url("/static/error.png");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	height:50px;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
+ }
+ 
+ 
+ 
+
+
+.block_gesamt_vesand{
+	width:100%;
+	max-width:800px;
+	margin:0 auto;
+	margin-bottom:30px;
+}
+
+	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    .block_gesamt_vesand{
+    	padding-left:10px;
+    	padding-right:10px;
+	 }
+}
+
+
+
+
+
+
+	 @media only screen and (min-width: 800px) {
+    /* For mobile phones: */
+    .block_versand{
+
+	
+			 text-align: center;
+			 margin-top:10px;	
+			width:20%;
+
+			height:200px;
+			    display: table-cell;	
+		padding-left:10px;
+	padding-right:10px;
+	
+	 }
+}
+
+
+	 @media only screen and (min-width: 699px) and (max-width: 799px) {
+    /* For mobile phones: */
+    .block_versand{
+			 text-align: center;
+			 margin-top:10px;	
+			width:20%;
+
+			height:200px;
+			    display: table-cell;	
+		padding-left:10px;
+	padding-right:10px;
+	
+	 }
+}
+
+	 @media only screen and (min-width: 299px) and (max-width: 498px) {
+    /* For mobile phones: */
+    .block_versand{
+			 text-align: center;
+			 margin-top:10px;	
+			width:100%;
+			
+
+		padding-left:10px;
+	padding-right:10px;
+	
+	 }
+}
+
+
+	 @media only screen and (min-width: 499px) and (max-width: 698px) {
+    /* For mobile phones: */
+    .block_versand{
+			 text-align: center;
+			 margin-top:10px;	
+			width:20%;
+
+			height:200px;
+			    display: table-cell;	
+		padding-left:10px;
+	padding-right:10px;
+	
+	 }
+}
+
+
+ .box_versand_kostenfrei{
+     background: url("/static/delivery_free.png");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	height:50px;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:10px;
+ }
+ 
+ 
+  .box_versand_fast{
+     background: url("/static/delivery_fast.png");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	height:50px;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:10px;
+ }
+ 
+ 
+
+  .box_versand_return{
+     background: url("/static/return_icon.png");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	height:50px;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:10px;
+ }
+
+
+
+
+
+  .box_versand_simple{
+     background: url("/static/correct.png");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	height:50px;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:10px;
+ }
+
+
+
+.block_gesamt_ueber_uns{
+	width:100%;
+	max-width:800px;
+	margin:0 auto;
+	margin-bottom:30px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+
+.block_gesamt{
+	width:100%;
+	max-width:800px;
+	margin:0 auto;
+	margin-bottom:30px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+	 @media only screen and (min-width: 800px) {
+    /* For mobile phones: */
+    .block_gesamt{
+	height:300px;
+	 }
+}
+
+
+
+
+
+	 @media only screen and (min-width: 699px) and (max-width: 799px) {
+    /* For mobile phones: */
+    .block_gesamt{
+
+	height:250px;   
+	
+	 }
+}
+
+	 @media only screen and (min-width: 299px) and (max-width: 498px) {
+    /* For mobile phones: */
+    .block_gesamt{
+
+	height:400px;   
+	
+	 }
+}
+
+
+	 @media only screen and (min-width: 499px) and (max-width: 698px) {
+    /* For mobile phones: */
+    .block_gesamt{
+
+	height:300px;   
+	
+	 }
+}
+
+
+
+
+
+
+	 @media only screen and (min-width: 800px) {
+    /* For mobile phones: */
+    .block_links_VIP{
+	width:47.5%;
+	float:left;
+	background-color:#F0F0F0;
+	text-align:center;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:50px;
+	height:300px;   
+	
+	 }
+}
+
+
+	 @media only screen and (min-width: 699px) and (max-width: 799px) {
+    /* For mobile phones: */
+    .block_links_VIP{
+	width:47.5%;
+	float:left;
+	background-color:#F0F0F0;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	height:250px;   
+	
+	 }
+}
+
+	 @media only screen and (min-width: 299px) and (max-width: 498px) {
+    /* For mobile phones: */
+    .block_links_VIP{
+	width:47.5%;
+	float:left;
+	background-color:#F0F0F0;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	height:400px;   
+	
+	 }
+}
+
+
+	 @media only screen and (min-width: 499px) and (max-width: 698px) {
+    /* For mobile phones: */
+    .block_links_VIP{
+	width:47.5%;
+	float:left;
+	background-color:#F0F0F0;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	height:300px;   
+	
+	 }
+}
+
+
+
+
+
+
+	 @media only screen and (min-width: 800px) {
+    /* For mobile phones: */
+    .block_rechts_VIP{
+	width:47.5%;
+	float:right;
+	background-color:#F0F0F0;
+	text-align:center;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:50px;
+	height:300px;   
+	
+	 }
+}
+
+
+	 @media only screen and (min-width: 699px) and (max-width: 799px) {
+    /* For mobile phones: */
+    .block_rechts_VIP{
+	width:47.5%;
+	float:right;
+	background-color:#F0F0F0;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	height:250px;   
+	
+	 }
+}
+
+	 @media only screen and (min-width: 299px) and (max-width: 498px) {
+    /* For mobile phones: */
+    .block_rechts_VIP{
+	width:47.5%;
+	float:right;
+	background-color:#F0F0F0;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	height:400px;   
+	
+	 }
+}
+
+
+	 @media only screen and (min-width: 499px) and (max-width: 698px) {
+    /* For mobile phones: */
+    .block_rechts_VIP{
+	width:47.5%;
+	float:right;
+	background-color:#F0F0F0;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	height:300px;   
+	
+	 }
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+      width:100%;
+      max-width:1200px;
+	padding:0px 0; 
+	margin:0 auto;
+	font-family: 'Roboto', sans-serif; 
+	height:100%
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+
+    }
+}
+
+
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    [class*="header_profil"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-bottom:30px;
+	margin-top:30px;
+	font-size:14px;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+    }
+}
+
+	 @media only screen and (min-width: 768px) and (max-width: 1199px){
+    /* For mobile phones: */
+    [class*="header_profil"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-bottom:0px;
+	margin-top:30px;
+	font-size:14px;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+    }
+}
+
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="header_profil"] {
+	background-color:#ffffff;
+	width:100%;
+
+	margin-bottom:0px;
+	margin-top:30px;
+	font-size:14px;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+    }
+}
+
+
+
+
+
+ 
+ 
+ .hauptseite_adresse_bearbeiten{
+
+	
+	
+	width:100%;
+	
+	
+
+	margin-top:50px;
+	font-size:22px;
+	font-weight:500;
+	float:right;
+	height:600px;
+	font-family: 'Roboto', sans-serif;
+	  
+	 
+ }
+ 
+ .header_style_2 {
+
+
+	background-color:#ffffff;
+	
+	
+	width:100%;
+	
+	border:1px solid #e6e6e6 ;
+
+	margin-top:50px;
+	font-size:14px;
+
+	height:600px;
+	font-family: 'Roboto', sans-serif;
+	 
+ }
+ 
+ .sms_benachrichtigung{
+	margin-right:10px;
+	height:15px;
+	width:15px;
+	float:left;
+ }
+ 
+ 
+
+
+ .vorhandenes_guthaben{
+
+    margin:0 auto;
+	font-weight:500;
+	height:28px;
+	border-radius: 5px;
+	cursor:pointer;
+	text-align:center;
+	padding-top:10px;
+	margin-bottom:50px;
+	margin-top:20px;
+}
+
+
+
+	 @media only screen and (min-width: 868px) {
+    /* For mobile phones: */
+    [class*="vorhandenes_guthaben"] {
+	width:100%;
+	margin-top:50px;
+    }
+}
+
+	 @media only screen and (max-width: 867px) {
+    /* For mobile phones: */
+    [class*="vorhandenes_guthaben"] {
+	width:47%;
+    }
+}
+
+
+ .get_for_free{
+
+	margin:0 auto;
+	font-weight:500;
+	height:28px;
+	border-radius: 5px;
+	text-align:center;
+	padding-top:10px;
+	margin-bottom:65px;
+	margin-top:20px;
+}
+
+
+
+
+
+	 @media only screen and (min-width: 868px) {
+    /* For mobile phones: */
+    [class*="get_for_free"] {
+	width:100%;
+	margin-top:40px;
+    }
+}
+
+	 @media only screen and (max-width: 867px) {
+    /* For mobile phones: */
+    [class*="get_for_free"] {
+	width:47%;
+	
+    }
+}
+
+
+
+	 @media only screen and (min-width: 868px) {
+    /* For mobile phones: */
+.guthaben_rueckerstattung_text,.guthaben_text,.kauf_aussetzen_text{
+    height:240px; 
+
+}
+}
+
+
+	 @media only screen and (min-width: 868px) {
+    /* For mobile phones: */
+.guthaben_text{
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+ .summary {
+
+
+	background-color:#ffffff;
+	
+	
+	height:450px;
+	width:300px;
+	border:1px solid #e6e6e6 ;
+
+		font-size:14px;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+	
+	 
+ }
+ 
+ 
+ 
+ 	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:50px;
+	 margin-top:50px;
+	 margin-right:50px;
+	 font-family: 'Roboto', sans-serif;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:10px;
+	 margin-top:10px;
+	 margin-right:10px;
+	 font-family: 'Roboto', sans-serif;
+        
+    }
+}
+ 
+ 
+ 
+ .headline{
+	 
+	 
+	 border-bottom: 1px solid #e6e6e6 ;
+	 
+	 line-height:35px;
+	 
+ }
+ 
+ 
+ 
+ .headline_text{
+	 
+	 font-weight:500;
+	 text-transform:uppercase;
+	 
+	 font-size:16px;
+	 font-family: 'Roboto', sans-serif;
+	 line-height:35px;
+
+	 
+ }
+ 
+ 
+ .spalte_VIP_main{
+ 	
+ 	float:left;
+ 	margin-right:10px;	
+ }
+ 
+ 
+ 
+ #vorteile_als_VIP{
+ text-align:center;padding-bottom:20px;
+ 
+ 	
+ }
+ 
+   	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    #vorteile_als_VIP {
+margin-left:10px;
+margin-right:10px;
+    }
+}
+ 
+  	 @media only screen and (max-width: 499px) {
+    /* For mobile phones: */
+    [class*="spalte_VIP_main"] {
+    	width:21.5%;
+    }
+}
+
+
+  	 @media only screen and (min-width: 500px) and (max-width: 700px) {
+    /* For mobile phones: */
+    [class*="spalte_VIP_main"] {
+    	width:23%;
+    }
+}
+
+  	 @media only screen and (min-width: 701px)  {
+    /* For mobile phones: */
+    [class*="spalte_VIP_main"] {
+    	width:23%;
+    }
+}
+
+
+  	 @media only screen and (min-width: 700px)  {
+    /* For mobile phones: */
+    .box_VIP_bild_1 {
+     background: url("/static/bra_unfilled.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	margin:0 auto;
+	height:60px;
+	background-size: 60px;
+    }
+}
+  	 @media only screen and (max-width: 699px)  {
+    /* For mobile phones: */
+    .box_VIP_bild_1 {
+     background: url("/static/bra_unfilled.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	margin:0 auto;
+	height:40px;
+	background-size: 40px;
+    }
+}
+
+
+
+  	 @media only screen and (min-width: 700px)  {
+    /* For mobile phones: */
+    .box_VIP_bild_2 {
+     background: url("/static/shopping_bag.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	margin:0 auto;
+	height:60px;
+	background-size: 60px;
+    }
+}
+  	 @media only screen and (max-width: 699px)  {
+    /* For mobile phones: */
+    .box_VIP_bild_2 {
+     background: url("/static/shopping_bag.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	margin:0 auto;
+	height:40px;
+	background-size: 40px;
+    }
+}
+
+
+  	 @media only screen and (min-width: 700px)  {
+    /* For mobile phones: */
+    .box_VIP_bild_3{
+     background: url("/static/discount_icon.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	margin:0 auto;
+	height:60px;
+	background-size: 60px;
+    }
+}
+  	 @media only screen and (max-width: 699px)  {
+    /* For mobile phones: */
+    .box_VIP_bild_3 {
+     background: url("/static/discount_icon.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	margin:0 auto;
+	height:40px;
+	background-size: 40px;
+    }
+}
+
+
+  	 @media only screen and (min-width: 700px)  {
+    /* For mobile phones: */
+    .box_VIP_bild_4 {
+     background: url("/static/gift.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	margin:0 auto;
+	height:60px;
+	background-size: 60px;
+    }
+}
+  	 @media only screen and (max-width: 699px)  {
+    /* For mobile phones: */
+    .box_VIP_bild_4 {
+     background: url("/static/gift.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	margin:0 auto;
+	height:40px;
+	background-size: 40px;
+    }
+}
+
+
+  	 @media only screen and (min-width: 1200px)  {
+    /* For mobile phones: */
+    .box_VIP_text {
+   	text-align:center;
+   	font-size:14px;
+    }
+}
+
+
+  	 @media only screen and (max-width: 1199px)  {
+    /* For mobile phones: */
+    .box_VIP_text {
+   	text-align:center;
+   	font-size:14px;
+   	margin-left:10px;
+    }
+}
+
+ 
+
+ 
+ .spalte_VIP_beschreibung{
+ 	
+ 	width:100%;
+ 	float:left;
+ 	margin-bottom:30px;
+ }
+ 
+  .spalte_VIP_beschreibung_FAQ{
+ 	
+ 	width:100%;
+ 	margin-bottom:30px;
+ 	max-width:800px;
+ 	margin:0 auto;
+ 	background-color:#F0F0F0;
+ 	padding-left:10px;
+ 	padding-right:10px;
+  	padding-top:10px;
+ 	padding-bottom:10px;
+ 	
+ }
+ 
+ 
+  	 @media only screen and (max-width: 1199px)  {
+    /* For mobile phones: */
+    .spalte_VIP_beschreibung_FAQ {
+   	padding-left:10px;
+   	padding-right:10px;
+    }
+}
+ 
+ .spalte_VIP_beschreibung_bilder{
+  	width:50%;
+ 	float:left;	
+ }
+ 
+  .spalte_VIP_beschreibung_texte{
+ 	
+ 	width:50%;
+ 	float:right;
+ 	font-size:14px;
+ }
+ 
+ 
+ .bild_trenner_VIP_beschreibung_texte_1{
+     background: url("/static/zahl_1.png");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	height:60px;
+	margin:0 auto;	
+ }
+ 
+ 
+  .bild_trenner_VIP_beschreibung_texte_2{
+     background: url("/static/zahl_2.png");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	height:60px;
+	margin:0 auto;	
+ }
+ 
+  .bild_trenner_VIP_beschreibung_texte_3{
+     background: url("/static/zahl_3.png");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	height:60px;
+	margin:0 auto;	
+ }
+ 
+ 
+   .bild_trenner_VIP_beschreibung_texte_4{
+     background: url("/static/zahl_4.png");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	height:60px;
+	margin:0 auto;	
+ }
+ 
+ 
+   .bild_trenner_VIP_beschreibung_texte_5{
+     background: url("/static/zahl_5.png");
+	background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+	width:100%;
+	height:60px;
+	margin:0 auto;	
+ }
+
+
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+#x-mask_2 {
+
+	margin-top:50px;
+
+    }
+}
+
+	 @media only screen and (max-width: 1199px){
+    /* For mobile phones: */
+#x-mask_2 {
+
+	margin-top:0px;
+
+    }
+}
+ 
+ 
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-bottom:30px;
+	font-size:14px;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+    }
+}
+
+	 @media only screen and (min-width: 768px) and (max-width: 1199px){
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-bottom:0px;
+	font-size:14px;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+    }
+}
+
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+
+	margin-bottom:0px;
+	font-size:14px;
+	font-family: 'Roboto', sans-serif;
+    }
+}
+ 
+
+
+
+
+
+
+ 

@@ -1,0 +1,223 @@
+
+ 
+input{
+	
+	border:1px solid #e6e6e6 ;
+	color:#4E4E4E;
+	padding-left:10px;
+	box-sizing: border-box;
+	height:28px;
+	font-size:12px;
+	
+}
+
+
+
+ 
+html, body {
+		margin: 0px;
+}
+body {
+  position: relative
+}
+ 
+
+
+ 
+.links_profil
+{
+	cursor:pointer;
+	color: #b51d36;
+	float:left;
+	margin-right:5px;
+	
+}
+
+
+
+
+
+
+
+ .headline{
+	 
+	 
+
+	 
+	 line-height:25px;
+	 
+ }
+ 
+ 
+ 
+ .headline_text{
+	 
+	 font-weight:500;
+	 text-transform:uppercase;
+	 
+	 font-size:20px;
+	 font-family: 'Roboto', sans-serif;
+	 line-height:35px;
+	 
+ }
+ 
+  	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:300px;
+	 margin-top:50px;
+	 margin-right:300px;
+	 font-family: 'Roboto', sans-serif;
+        
+    }
+}
+
+
+  	 @media only screen and (min-width: 1000px) and (max-width: 1199px){
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:200px;
+	 margin-top:50px;
+	 margin-right:200px;
+	 font-family: 'Roboto', sans-serif;
+        
+    }
+}
+
+  	 @media only screen and (min-width: 768px) and (max-width: 999px){
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:100px;
+	 margin-top:50px;
+	 margin-right:100px;
+	 font-family: 'Roboto', sans-serif;
+        
+    }
+}
+
+
+
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:10px;
+	 margin-top:10px;
+	 margin-right:10px;
+	 font-family: 'Roboto', sans-serif;
+        
+    }
+}
+
+
+.eingabefeld{
+	float:left;
+		 border-top: 1px solid #e6e6e6 ;
+	 
+	 line-height:35px;
+	 width:100%;
+}
+
+
+
+.eingabefelder_headline{
+	float:left;
+	font-weight:500;
+}
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline"] {
+    	width:65px;
+
+    	
+    }
+  }
+  
+  
+  	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline"] {
+    	width:65px;
+    	
+    }
+  }
+
+.eingabefelder_no_input{
+	float:left;
+	margin-left:5px;
+}
+
+
+.eingabefelder_input{
+	float:left;
+	width:calc(100% - 65px);
+	border:none;
+	text-align: initial;
+
+}
+
+
+  	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_input_betreff"] {
+	float:left;
+	width:calc(100% - 65px);
+	border:none;
+	text-align: initial;
+	resize: none;
+	height:80px;
+
+    }
+  }
+  
+    	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_input_betreff"] {
+
+	float:left;
+	width:calc(100% - 65px);
+	border:none;
+	text-align: initial;
+	resize: none;
+	height:30px;
+    }
+  }
+
+
+
+.eingabefelder_large_input{
+	
+			width:100%;
+			text-align: initial;
+			
+	padding-left:10px;
+	padding-top:10px;
+	margin-bottom:20px;
+	resize: none;
+
+}
+
+
+    	 @media only screen and (min-width: 450px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_large_input"] {
+			height:100px;
+
+    }
+  }
+  
+  
+      	 @media only screen and (max-width: 449px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_large_input"] {
+			height:130px;
+
+    }
+  }
+
+
+
+input:focus {outline: none} 
+ 

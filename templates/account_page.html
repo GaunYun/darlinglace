@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+{% include "header.html" %}
+
+
+
+<link rel="stylesheet" href="/static/account_page.css" type="text/css" media="all" />
+
+ 
+
+</head>
+<body  style="font-family: 'Roboto', sans-serif;">
+<div class="overlay" onclick='reset_sidebar()'><div class="loader"></div> </div>
+
+<div class="modal_mobile_sidebar">					  
+	<div id="mySidenav" class="sidenav"></div>
+</div>
+
+
+
+			 {% include "header_main_body.html" %}
+
+
+
+
+  
+
+
+
+
+	<div id="x-mask" class="uebersicht">
+
+
+
+
+  {% include "modals.html" %}
+
+		<div class="profil_beschriftung">Mein Profil: {{name}}</div></b>
+
+		
+		
+		<div class="header_style">
+			<div class="zusammenfassung">
+				<div class="gruppe_links_gruppen">
+					<div class="gruppen">Meine Daten</div>
+					<div class="links_gruppen" onclick="profil_bearbeiten()">Profil bearbeiten</div>
+					<div class="links_gruppen" onclick="passwort_bearbeiten()">Passwort bearbeiten</div>
+					<div class="links_gruppen" onclick="VIP_bearbeiten()">VIP Mitgliedschaft</div>
+<!-- 					<div class="links_gruppen" onclick="adressbuch_bearbeiten()">Adressbuch bearbeiten</div>
+					<div class="links_gruppen" onclick="zahlungsmethoden_bearbeiten()">Zahlungsmethoden bearbeiten</div> -->
+<!-- 					<div class="links_gruppen" onclick="showroom_bearbeiten()">Meinen Showroom bearbeiten</div> -->
+				</div>
+				
+				<div class="gruppe_mitte">
+					<div class="gruppen">Meine Bestellungen</div>
+				<div class="links_gruppen" onclick="bestellungen_bearbeiten()" id="vergangene_bestellungen">Meine Bestellungen</div>
+					<div class="links_gruppen" onclick="bestellung_zuruecksenden()" id="bestellung_zuruecksenden">Bestellung zurücksenden</div>
+
+				</div>
+				
+				
+				<div class="gruppe_rechts">
+					<div class="gruppen">Freunde werben Freunde</div>
+					<div class="links_gruppen" onclick="verschicke_gutscheine()" >Lade Freunde ein</div>
+
+				</div>
+			</div>
+		</div>
+			
+			
+
+
+
+
+
+
+		<script src="/static/account_page_js.js">//</script>
+
+		  <script src="/static/verschicke_gutscheine.js"></script>
+</div>
+	{% include "header_sub.html" %}
+
+</div>
+
+
+	<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+	<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>
+	
+	
+	<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+	
+	
+	<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>	
+	<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+	<script type="text/javascript"  class="links" >{{links | safe}}</script>
+
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+</div>
+
+<script type="text/javascript">load_header("{{login}}");;links_laden("{{url}}");check_VIP("{{VIP}}");password_check("{{password}}");link_check();</script>
+		
+</body>
+
+
+
+
+
+</html>

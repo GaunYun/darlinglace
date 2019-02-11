@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+{% include "header.html" %}
+
+
+<link rel="stylesheet" href="/static/style_checkout_4.css" type="text/css" media="all" />
+
+
+ 
+
+</head>
+ 	
+  <body style="font-family: 'Roboto', sans-serif;">
+ <div class="modal_mobile_sidebar">					  
+	<div id="mySidenav" class="sidenav"></div>
+</div> 
+    <div class="overlay" onclick='reset_sidebar()'><div class="loader"></div> </div>
+<div id="overall_page">
+			 {% include "header_main_body.html" %}
+
+	
+	<div  class="uebersicht">
+	
+	  {% include "modals.html" %}
+	<div id='block_cart_back'>
+		<button  id="button_cart_back_id" name="submit" class="button_cart_back"  onclick="zurueck_button()">
+		
+			<i class="fa fa-circle-o-notch fa-spin" id='button_cart_back_id_logo' style='display:none'></i>
+		<div id='button_cart_back_id_text'>Weiter einkaufen</div>
+		</button>
+	</div>
+
+  
+  
+
+
+
+
+
+		<div class="header_style">
+
+			<div class="zusammenfassung">
+			
+
+
+
+				<div class="VIP"></div>
+						<div style="width:100%">
+							<div class="order_form_2">
+									<button  id="add_to_cart" name="submit" class="button_cart_large" value="Bestellen" onclick="zur_kasse()">
+
+										  <i class="fa fa-circle-o-notch fa-spin" id='add_to_cart_logo' style='display:none'></i>
+										  <div id='add_to_cart_text'>Zur Kasse</div>
+									</button>
+							</div>
+						</div>				
+				<div class="headline">ZUSAMMENFASSUNG</div>
+				<div class="lingerie"></div>
+
+
+				
+
+				
+				
+
+
+
+				</div>
+	</div>
+			
+
+		
+
+		<div class="wrapper cf" style="font-family: 'Roboto', sans-serif;;" >
+			<div class="sidebar_checkout" style="font-family: 'Roboto', sans-serif;;">
+				<div class="summary" >
+					<div class="zusammenfassung">
+					<div id='VIP_block'>
+						<div class="headline">WIE WILLST DU SHOPPEN?</div>
+						
+
+						<div class="VIP" id="sidebar"></div><br>
+						<div class="headline" id="headline_VIP_AGB" ></div><br>
+						<div id="VIP_terms_conditions_checkbox_text"  style='float:left;' onclick='show_VIP_terms_conditions()' >Mehr erfahren</div><div style='float:left;'>
+						</div> </div>
+						<div class="headline" >BESTELLÜBERSICHT</div><br>
+						
+						<div class="bestellung"></div>
+
+
+
+
+
+						<input placeholder="Gutscheincode" id= "gutschein_input" class="gutscheincode_input" type="text" style="width:60%"></input>
+						
+						<button  id="gutschein_button_id" name="submit" class="gutschein_button"  onclick="gutschein_einloesen()">
+
+							<i class="fa fa-circle-o-notch fa-spin" id='gutschein_button_id_logo' style='display:none'></i>
+						<div id='gutschein_button_id_text'>Überprüfen</div>
+						</button>
+
+						<br><br><br>
+						
+
+
+
+						<div style="width:100%">
+							<div class="order_form">
+									<button  id="add_to_cart" name="submit" class="button_cart_large" value="Bestellen" onclick="zur_kasse()">
+
+										  <i class="fa fa-circle-o-notch fa-spin" id='add_to_cart_logo' style='display:none'></i>
+										  <div id='add_to_cart_text'>Zur Kasse</div>
+									</button>
+							</div>
+						</div>
+                        </div>
+
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+
+
+
+
+
+
+		
+		<script src="/static/checkout_23.js"></script>
+		
+	
+
+	{% include "header_sub.html" %}
+
+
+
+
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div></div></div>
+		
+</body>
+
+<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>		
+<script type="text/javascript"  id="messageshownwarenkorbleer" >{{messageshownwarenkorbleer | safe}}</script>		
+
+
+		<script type="text/javascript"  class="lingerie_selection" >{{lingerie_selection | safe}}</script>		
+<script type="text/javascript"  class="links" >{{links | safe}}</script>
+		<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>
+		<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>	
+		<script type="text/javascript"  class="rebates_daten" >{{rebates | safe}}</script>	
+		<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+		<script type="text/javascript"  class="cart_page" >ja</script>
+		<script type="text/javascript"  class="selected_zahlungsoption" >{{selected_zahlungsoption | safe}}</script>
+<script type="text/javascript"  id="letzteshoppingsicht" >{{letzteshoppingsicht | safe}}</script>	
+<script type="text/javascript"  id="letztefilter" >{{letztefilter | safe}}</script>	
+<script type="text/javascript"  id="content_id_list" >{{content_id_list | safe}}</script>	
+<script type="text/javascript"  id="contents_list" >{{contents_list | safe}}</script>	
+<script type="text/javascript"  id="login_window" >{{login_window | safe}}</script>	
+
+		<script type="text/javascript"  class="rabattname" >{{rabattname | safe}}</script>
+		<script type="text/javascript">load_header("{{ login }}");links_laden("{{url}}");check_login_window();others_laden("{{ gutscheincode }}"); VIP_selection_laden("{{VIP}}","{{shopping_type}}","ja");page_load(1);check_empty_cart();initiate_cart_fb();</script>
+		<script type="text/javascript"  class="selected_zahlungsoption" ></script>
+</html>

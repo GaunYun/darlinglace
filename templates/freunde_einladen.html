@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<link rel="stylesheet" href="/static/start_page_css.css" type="text/css" media="all" />
+
+
+
+ 
+
+</head>
+<body style="font-family: 'Roboto', sans-serif;">
+
+<div class='transparent_background'>
+</div>
+	<div id="x-mask" class="uebersicht">
+
+
+		<div class="header_style">
+			<div class="zusammenfassung">
+				<div class="headline">{{slogan}}</div><br>
+				<div class="subtitle">WIR BRINGEN DIR DEIN ABENDESSEN</div><br><br>
+					<div style="text-align:center;font-style:italic;">ODER</div><br><br>
+					
+					<div style="float:left;width:220px;font-size:12px;">
+						<div style="font-size:14px;font-weight:bold;text-align:center;">LOGGE DICH EIN</div><br><br>
+						
+						
+						<input id="username" placeholder="E-Mail Adresse eingeben" type="email" onkeypress='eingabe_fehler_herausnehmen()'></input><br><br><br>
+				
+						<input id="passwort" placeholder="Passwort eingeben" type="password" onkeypress='eingabe_fehler_herausnehmen()'></input><br><br>
+						<div id="eingabe_fehler" style="font-size:10px;color:#C80000;position:absolute;"></div>
+						<br><br>
+						<div class="login" onclick="login()"><div class="login_text">Login</div><div class="login_logo"></div></div>
+						<div class="registrierung" onclick="register()"><div class="registrierung_text">Registrieren</div><div class="registrierung_logo"></div></div><br><br>
+						
+						<br><br>
+						<div style='font-size:14px;font-weight:bold;text-align:center;'>ODER</div>
+						<div class="horizontaler_strich"></div><br><br>
+						<div class="facebook_login" onclick="fb_login()">Login mit Facebook</div><br><br>
+					
+
+
+						
+					</div>
+						
+						
+						<div class="trennlinie_main"></div>
+						
+					<div style="float:right;width:220px;font-size:12px;">
+						<div style="font-size:14px;font-weight:bold;text-align:center;">ÜBERPRÜFE DEINE PLZ</div><br><br>
+						
+						<input id="postleitzahl" placeholder="Postleitzahl eingeben" maxlength="5" onkeypress='validate(event)' onkeyup='press_enter(event)'></input><br><br>
+						<div id="plz_fehler" style="font-size:10px;color:#C80000;position:absolute;"></div>
+						
+						<br><br><br><br><br>
+		
+						<div class="plz_ueberpruefen" onclick="check_plz()"><div class="plz_ueberpruefen_text">PLZ Überprüfen</div><div class="plz_ueberpruefen_logo"></div></div>
+
+					</div>
+						
+
+					</div>
+					
+
+			</div>
+			<div class="bearbeitunsblock_hinzufuegen"></div>
+
+				
+		</div>
+		
+
+		
+		
+
+
+		
+		
+
+
+
+		
+
+
+		
+
+		<script src="/static/start_page_js_3.js"></script>
+
+		
+
+	{% include "header_sub.html" %}
+
+<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>	
+
+
+		<script type="text/javascript">gutscheincode_laden("{{gutscheincode}}");gutscheincode_laden_fb("{{gutscheincode}}");</script>
+</body>
+
+		<div id="overlay" >
+
+		</div>
+
+
+
+</html>

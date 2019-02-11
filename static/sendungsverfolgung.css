@@ -1,0 +1,496 @@
+ .schliessen_alert
+{
+	margin-right:10px;
+	margin-top:-10px;
+	float:right;
+	cursor:pointer;
+}
+
+.profil_beschriftung
+{
+	font-size:16px;
+}
+
+
+.profil_beschriftung
+{
+	font-size:16px;
+}
+
+
+
+
+.dialogIsOpen #page-wrap {
+
+  /* Blur and de-color */
+  -webkit-filter: blur(5px) grayscale(50%);
+
+  /* Recede */
+  -webkit-transform: scale(0.9);
+
+}
+
+.links_profil
+{
+	cursor:pointer;
+	color: #b51d36;
+	float:left;
+	margin-right:5px;
+	
+}
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-top:30px;
+	font-size:12px;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom:40px;
+    }
+}
+
+	 @media only screen and (min-width: 768px) and (max-width: 1199px){
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-top:30px;
+	font-size:12px;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+
+	margin-top:30px;
+	font-size:12px;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+    }
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+ .summary {
+
+
+	background-color:#ffffff;
+	
+	
+	height:450px;
+	width:300px;
+	border:1px solid #e6e6e6 ;
+
+		font-size:14px;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+	 
+ }
+ 
+ .bestellung
+ {
+ 		width:100%;
+
+ }
+ 
+ 
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:50px;
+	 margin-top:50px;
+	 margin-right:50px;
+	 font-family: 'Roboto', sans-serif;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:10px;
+	 margin-top:10px;
+	 margin-right:10px;
+	 font-family: 'Roboto', sans-serif;
+        
+    }
+}
+ 
+ 
+ .headline{
+	 
+	 
+	 border-bottom: 1px solid #e6e6e6 ;
+	 
+	 line-height:35px;
+	 
+ }
+ 
+ 
+
+ 
+
+ 
+ .zahlung{
+ 	font-size:14px;
+ 	line-height:35px;
+ 	
+ 
+ }
+ 
+
+ 
+ h1 {
+  position: relative;
+  text-align: center;
+  z-index:0;
+}
+
+
+h1 span {
+  background: #ffffff;
+
+  position: relative;
+  top:10px;
+  font-size:14px;
+
+  
+  
+  
+  
+
+}
+
+ 	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    [class*="profil_beschriftung"] {
+	margin-left:10px;
+    }
+}
+
+
+.horizontaler_strich{
+	text-align:center;
+	border-bottom: 3px solid #b51d36 ;
+margin: 0 auto;
+	width:60px;
+	
+}
+
+
+
+
+
+
+.ueberschrift_gruppen{
+	
+	height:25px;
+	font-weight:bold;
+	font-size:16px;
+	margin:0 auto;
+
+
+}
+
+h1:before {
+  background: #e6e6e6;
+  content: "";
+
+  height: 2px;
+
+  position: absolute;
+	top: 50%;
+
+
+	
+	
+}
+h1:before {
+  left: 0;
+  right:0px;
+  z-index:-1;
+}
+
+
+
+
+
+input{
+	
+	border:1px solid #e6e6e6 ;
+	color:#4E4E4E;
+	padding-left:10px;
+	box-sizing: border-box;
+	height:28px;
+	font-size:12px;
+}
+
+textarea{
+	padding: 10px;
+	border:1px solid #e6e6e6 ;
+	color:#4E4E4E;
+	box-sizing: border-box;
+
+	font-size:14px;
+}
+ 
+ 
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="trennlinie_main"] {
+	float:left;
+	margin-left:20px;
+	margin-right:20px;
+	width:2px;
+	margin-top:65px;
+	border-right: 1px solid #e6e6e6 ;
+	background-color:#ffffff;
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="trennlinie_main"] {
+		display:none;
+    }
+}
+ 
+ 
+
+ 
+ 
+ .bestellnummer{
+	 
+	 
+	 text-align:center;
+	 font-weight: bold;
+
+	 
+	 font-size:20px;
+	 font-family: 'Roboto', sans-serif;
+	 line-height:35px;
+	 
+ }
+ 
+ .headline_text{
+	 
+	 text-align:center;
+	 
+ }
+ 
+ 
+  .lingerie_i{
+	 
+	width:100%;
+
+	font-size:14px;
+	 float:left;	
+	 font-family: 'Roboto', sans-serif;
+	 
+	 
+ }
+ 
+
+ 
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+     max-width:1200px; 
+	padding:0px 0; 
+	margin:0 auto;
+	font-family: 'Roboto', sans-serif; 
+	height:100%
+
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+      width:100%
+	padding:0px 0; 
+	margin:0 auto;
+	font-family: 'Roboto', sans-serif; 
+	height:100%
+    }
+}
+ 
+
+ 
+	html, body {
+
+
+
+
+margin: 0px;
+	
+
+
+}
+body {
+  position: relative
+}
+ 
+
+
+
+	
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="adressbox"] {
+	width:30%;
+	font-size:12px;
+	float:left;
+	line-height:20px;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="adressbox"] {
+	width:100%;
+	font-size:12px;
+	float:left;
+	text-align:center;
+    }
+}
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="trackingbox"] {
+	width:70%;
+	font-size:14px;
+	float:right;
+	line-height:20px;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="trackingbox"] {
+	width:100%;
+	font-size:14px;
+	float:right;
+	line-height:20px;
+	text-align:center;
+
+    }
+}
+
+.trackingbox_headline{
+	font-weight:bold;
+	font-size:14px;
+	float:left;
+
+		text-align:center;
+	
+}
+
+
+
+
+.adressbox_headline{
+	font-weight:bold;
+	font-size:14px;
+	float:left;
+	width:100%;
+	
+}
+
+
+.trackingbox_headline_number{
+	float:left;
+	margin-left:5px;
+	cursor:pointer;
+	text-decoration: underline;
+}
+
+.tracking_bar{
+	font-size:12px;	
+}
+
+
+.trackingbox_content{
+	font-size:12px;	
+}
+
+
+.trackingbox_content
+{
+	margin-top:50px;
+	width:100%;
+	line-height:30px;
+}
+
+
+.date{
+	width:35%;
+	float:left;
+}
+
+.content{
+	width:45%;
+	float:left;
+	font-weight:bold;
+}
+
+.ort{
+	width:20%;
+	float:left;
+	font-style:italic;
+}
+
+.uhrzeit{
+	width:10%;
+	float:left;
+	font-style:italic;
+}
+
+
+.untere_linie{
+	height:10px;
+	width:100%;
+	float:left;
+	margin-top:10px;
+}
+
+.linie_2
+{
+	border-top:0.5px solid #e6e6e6 ;
+
+}
+ 
+
+
+
+
+
+ 

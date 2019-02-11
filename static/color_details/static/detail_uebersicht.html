@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Javascript Parameter Übergabe Demo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+
+<link rel="stylesheet" href="file:///D:/Users/maximilian_fischer/Documents/Munchery/Website/style_gerichte.css" type="text/css" media="all" />
+<link rel="stylesheet" href="file:///D:/Users/maximilian_fischer/Documents/Munchery/Website/header.css" type="text/css" media="all" />
+</head>
+<body bgcolor="#F5F7FA" style="font-family:Century Gothic;">
+  <div class="header_top"></div>
+
+
+	<div class="header_style">
+		<div class="image-box"><img class="bild-laden"></img><h2 id="cart_image"></h2></div>
+		
+		<div class="title_style">
+			<div id="header_beschreibung"></div>
+			<div id="preis" class="preis_style" ></div><br>
+			<div class="rating_bar" >
+				<div id="star" style="width:0%" style="background-color: #e6e6e6"></div>
+				<div id="star_bewertungen" class="star_bewertungen_style" ></div><br><br>
+			</div>
+			<div id="ingredients" class="ingredients_style" ></div><br>
+			<input type="button" id="add_to_cart" class="button_cart" value="+ Warenkorb" onclick="add_cart()"></input>
+			<input type="button" id="erase_from_cart" class="button_cart_2" value="-" onclick="erase_cart()" ></input>
+			
+			
+		</div>
+		
+		<div class="detail-box">
+			<input type="button" class="button_detail" id="Details" onclick="details_abrufen()" value="Details"/>
+			<input type="button" class="button_detail" id="Prep" onclick="prep_abrufen()" value="Zubereitung"/>
+			<input type="button" class="button_detail" id="Ingredients" onclick="ingredients_abrufen()" value="Zutaten"/>
+			<input type="button" class="button_detail" id="Nutrition" onclick="nutrition_abrufen()" value="Nährwerte"/>
+			<div class="detail_gerichte" id="gerichte_info_box"></div>
+			
+		</div>
+	</div>
+	
+
+
+	
+
+	<script src="gerichte_detail.js"></script>
+	<script src="load_header.js"></script>
+
+</div>
+<br><br>
+<div class="header-bottom"></div>
+</body>
+
+
+</html>

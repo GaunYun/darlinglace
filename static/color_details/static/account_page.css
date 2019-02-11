@@ -1,0 +1,518 @@
+  	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="freunde_einladen"] {
+	 margin-left:350px;
+	 margin-top:50px;
+	 margin-right:350px;
+	 font-family:Helvetica;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="freunde_einladen"] {
+	 margin-left:10px;
+	 margin-top:10px;
+	 margin-right:10px;
+	 font-family:Helvetica;
+        
+    }
+}
+
+
+.haupttext_werbung
+{
+	text-align:center;
+	font-weight: bold;
+	font-size:18px;
+	line-height:40px;
+	
+	  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top:10px;
+}
+
+
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="haupttext_werbung"] {
+		width:42%;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="haupttext_werbung"] {
+		width:90%;
+
+		
+        
+    }
+}
+ 
+
+
+
+
+
+	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    [class*="profil_beschriftung"] {
+	margin-left:10px;
+    }
+}
+
+
+
+
+.profil_beschriftung
+{
+	font-size:18px;
+}
+
+
+
+.links_gruppen
+{
+	cursor:pointer;
+	color: #DB7093;
+	line-height:25px;
+	font-size:14px;
+}
+
+
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="links_gruppen"] {
+		font-size:16px;
+
+		
+        
+    }
+}
+
+
+
+
+.gruppen
+{
+	text-align:left;
+	font-weight: bold;
+	font-size:18px;
+	line-height:40px;
+	
+}
+
+
+
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    [class*="gruppe_links"] {
+	float:left;
+	text-align:left;
+	width:250px;
+	margin-bottom:50px;
+    }
+}
+
+
+
+
+
+
+	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    [class*="gruppe_links"] {
+	width:100%;
+	margin-bottom:50px;
+
+    }
+}
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    [class*="gruppe_mitte"] {
+	float:left;
+	width:250px;
+	margin-left:150px;
+	margin-bottom:50px;
+    }
+}
+
+
+
+
+
+	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    [class*="gruppe_mitte"] {
+	width:100%;
+	margin-bottom:50px;
+    }
+}
+
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    [class*="gruppe_rechts"] {
+	float:right;
+
+	width:250px;
+	margin-left:50px;
+	margin-bottom:50px;
+    }
+}
+
+
+
+
+
+	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    [class*="gruppe_rechts"] {
+	width:100%;
+	margin-bottom:50px;
+    }
+}
+
+
+ 
+ 
+ .gutscheincode
+ {
+	 font-size:14px;		
+	display: inline-block;
+
+ }
+ 
+  	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="gutscheincode"] {
+		width:42%;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="gutscheincode"] {
+		width:90%;
+        
+    }
+}
+ 
+ 
+
+ 
+input{
+	
+	border:1px solid #e6e6e6 ;
+	color:#4E4E4E;
+	padding-left:10px;
+	box-sizing: border-box;
+	height:28px;
+	font-size:12px;
+	
+}
+
+
+ 
+ 
+ 
+.subtitle_werbung
+{
+	text-align:center;
+	font-size:14px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	
+}
+
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="subtitle_werbung"] {
+		width:42%;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+		width:90%;
+        
+    }
+}
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+.dialogIsOpen #page-wrap {
+
+  /* Blur and de-color */
+  -webkit-filter: blur(5px) grayscale(50%);
+
+  /* Recede */
+  -webkit-transform: scale(0.9);
+
+}
+
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-top:30px;
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+	margin-bottom:40px;
+
+	
+    }
+}
+
+	 @media only screen and (min-width: 768px) and (max-width: 1199px){
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-top:90px;
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+    }
+}
+
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+
+	margin-top:20px;
+	font-size:16px;
+	float:left;
+	font-family:Helvetica;
+    }
+}
+
+
+ 
+
+
+ .summary {
+
+
+	background-color:#ffffff;
+	
+	
+	height:450px;
+	width:300px;
+	border:1px solid #e6e6e6 ;
+
+		font-size:14px;
+	float:left;
+	font-family:Helvetica;
+	 
+ }
+ 
+ 
+ 
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:50px;
+	 margin-top:50px;
+	 margin-right:50px;
+	 font-family:Helvetica;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:10px;
+	 margin-top:10px;
+	 margin-right:10px;
+	 font-family:Helvetica;
+        
+    }
+}
+ 
+ 
+ 
+
+
+ 
+ .freunde_invitation{
+ 	
+ 	background: url("/static/gutschein_werbung.jpg");
+
+
+ }
+ 
+
+
+.summary_invitation{
+	
+	background: url("/static/gutschein_werbung.jpg");
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-top:30px;
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+	margin-bottom:40px;
+
+
+}
+ 
+
+
+
+ .headline{
+	 
+	 
+
+	 
+	 line-height:25px;
+	 
+ }
+ 
+ 
+ 
+ .headline_text{
+	 
+	 font-weight: bold;
+	 text-transform:uppercase;
+	 
+	 font-size:20px;
+	 font-family:Helvetica;
+	 line-height:35px;
+	 
+ }
+ 
+ 
+ 
+.eingabefeld{
+	float:left;
+		 border-top: 1px solid #e6e6e6 ;
+	 
+	 line-height:35px;
+	 width:100%;
+}
+
+
+
+.eingabefelder_headline{
+	float:left;
+	font-weight:bold;
+	width:10%;
+}
+
+.eingabefelder_no_input{
+	float:left;
+	margin-left:5px;
+}
+
+
+.eingabefelder_input{
+	float:left;
+	width:90%;
+	border:none;
+	text-align: initial;
+}
+
+
+.eingabefelder_large_input{
+	
+			width:100%;
+			text-align: initial;
+			height:50px;
+			
+	padding-left:10px;
+	padding-top:10px;
+	margin-bottom:20px;
+	resize: none;
+
+}
+
+
+input:focus {outline: none} 
+
+
+
+ 
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+      width:1200px; 
+	padding:0px 0; 
+	margin:0 auto;
+	font-family:Helvetica; 
+	height:100%
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+      width:100%
+	padding:0px 0; 
+	margin:0 auto;
+	font-family:Helvetica; 
+	height:100%
+    }
+}
+ 
+
+ 
+
+	html, body {
+
+
+
+
+margin: 0px;
+	
+
+
+}
+body {
+  position: relative
+}
+ 
+
+
+
+
+
+ 

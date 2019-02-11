@@ -1,0 +1,273 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head profile="http://gmpg.org/xfn/11">
+
+        <script type="text/javascript" src="/static/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="/static/main.js"></script>
+		
+		
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{{title}}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+
+
+
+<link type="text/css" rel="stylesheet" media="screen" href="/static/impressum.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/static/header.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/static/overlay.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/static/showroom.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="/static/buttons.css" />
+
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+
+  <script src="/static/bootstrap.min.js"></script>
+
+
+
+
+</head>
+  
+<body style="font-family:Helvetica;color: #4E4E4E;" onclick='reset_header()' >
+	<div class="overlay" onclick='reset_sidebar()' ></div>
+	<div class="modal_mobile_sidebar">					  
+		<div id="mySidenav" class="sidenav"></div>
+	</div> 
+	<div class="mask_2">
+	
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog" style='z-index:104000'>
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center'>Bestimmung der BH-Größe</h4>
+        </div>
+        <div class="modal-body">
+
+
+
+			
+			
+			<div style='width:100%;'>
+			  	<div class="block_1_1" >
+			  		<img src='/static/band_retina.jpg' style='width:100%'></img>
+			  	</div>
+			  	<div class="sizing_block_1_2" >
+				  	<div class="block_1_text" >
+				  		<div class="headline">Umfang Unterbrust (cm)</div><br>
+				  		<div class="text">Wearing a non-padded bra run a tape measure under your arms, across your back and directly under your bust at band level. Keep the tape measure parallel with the floor and snug to your body.</div>
+				  	</div><br>
+				  	<div class="slider_text_anfang_links">64</div><div id='slider' class='design_slider'></div><div class="slider_text_anfang_rechts" >111</div>
+			  	</div>
+			</div>
+
+			<div style='width:100%;float:left;'>
+			  	<div class="block_1_1">
+			  		<img src='/static/bust_retina.jpg' style='width:100%'></img>
+			  	</div>
+			  	<div class="sizing_block_1_2">
+			  		<div class="block_1_text">
+			  			<div class="headline">Umfang Brust (cm)</div><br>
+			  			<div class="text">Wearing a non-padded bra run a tape measure under your arms, across your back and directly under your bust at band level. Keep the tape measure parallel with the floor and snug to your body.</div>
+			  		</div><br>
+			  		<div class="slider_text_anfang_links">64</div>
+			  		<div id='slider2' class='design_slider'></div>
+			  		<div class="slider_text_anfang_rechts">111</div>
+			  	</div>
+			  	
+		 	</div>
+		<br><br>
+		 <div class="headline_overlay" >Deine BH-Größe ist 80B</div>
+<span class="stretch"></span>	
+        </div>
+        <div class="modal-footer">
+          <div type="button" class="button_main_sizing_calc" data-dismiss="modal" onclick='groesse_übernehmen()'>Übernehmen</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+
+  <!-- Modal -->
+  <div class="modal fade" id="showroom" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='showroom_headline'></h4>
+        </div>
+        <div class="modal-body" id='showroom_body'>
+
+
+  	     </div>
+        <div class="modal-footer" id='showroom_footer'>
+
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+
+  <!-- Modal -->
+  <div class="modal fade" id="login" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center'>LOGGE DICH EIN</h4>
+        </div>
+        <div class="modal-body">
+
+
+				<input id='username' placeholder='E-Mail Adresse eingeben' type='email' onkeypress='eingabe_fehler_herausnehmen()' style='width:100%;'></input><br><br>
+				<input id='passwort' placeholder='Passwort eingeben' type='password' onkeypress='eingabe_fehler_herausnehmen()' style='width:100%'></input><br>
+				<div id='eingabe_fehler' style='font-size:12px;color:#C80000;width:100%;height:30px;'></div>
+				<br>
+				<div class='login' onclick='login_user()'><div class='login_text'>Login</div><div class='login_logo'></div></div>
+				<div class='registrierung' onclick='register()'><div class='registrierung_text'>Registrieren</div><div class='registrierung_logo'></div></div><br><br>
+				<br>
+				<div style='font-size:14px;font-weight:bold;text-align:center;'>ODER</div><br>
+				<div class='facebook_login' onclick='fb_login()'>Login mit Facebook</div><br><br>
+
+  	     </div>
+
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+      <!-- Modal -->
+  <div class="modal fade" id="alert_box" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_headline'></h4>
+        </div>
+        <div class="modal-body" id='alert_box_body'>
+
+  	     </div>
+        <div class="modal-footer">
+          <div type="button" class="button_alert" data-dismiss="modal">Okay</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+        <!-- Modal -->
+  <div class="modal fade" id="alert_box_reload" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_reload_headline'></h4>
+        </div>
+        <div class="modal-body" id='alert_box_reload_body'>
+
+  	     </div>
+        <div class="modal-footer">
+          <div type="button" class="button_alert" data-dismiss="modal">Okay</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+      <!-- Modal -->
+  <div class="modal fade" id="alert_box" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_headline'></h4>
+        </div>
+        <div class="modal-body" id='alert_box_body'>
+
+  	     </div>
+        <div class="modal-footer">
+          <div type="button" class="button_alert" data-dismiss="modal">Okay</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+		<div class="wrapper cf" style="font-family:Helvetica;">
+		<div class="header_top_all">
+			<div class="header_top"></div>
+			<div class="sidebar" style="font-family:Helvetica;">
+			
+				<div id="x-mask" class="mask">
+			
+				<div class="sidebar_content" ></div>
+			</div>
+		</div>
+	</div>
+	<div class="mask">
+		<div class="impressum_input">
+	
+			TO BE FILLED!
+	
+	
+		</div>
+	</div>
+	
+
+	
+	</div>
+
+
+
+
+
+<script src="/static/load_header.js"></script>
+<script src="/static/scrolling.js"></script>
+<script src="/static/showroom.js"></script>
+<script src="/static/facebook.js"></script>
+
+
+
+
+
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+
+</body>
+
+<script type="text/javascript"  class="lingerie_data" >{{lingerie_offerings | safe}}</script>
+<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>	
+<script type="text/javascript"  class="colors" >{{colors | safe}}</script>	
+<script type="text/javascript"  class="links" >{{links | safe}}</script>
+<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+
+<script type="text/javascript">load_header("{{login}}");links_laden("{{url}}");</script>
+
+
+</html>

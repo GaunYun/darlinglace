@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% include "header.html" %}
+<link rel="stylesheet" href="/static/bewertungen_ansehen_css.css" type="text/css" media="all" />
+
+<link rel="stylesheet" href="/static/rating.css" />
+<link rel="stylesheet" href="/static/rating.min.css" />
+
+
+
+
+
+ 
+
+</head>
+<body style="font-family: 'Roboto', sans-serif;">
+  <div class="overlay" onclick='reset_sidebar()'><div class="loader"></div> </div>
+
+  <div class="modal_mobile_sidebar">					  
+  	<div id="mySidenav" class="sidenav">
+
+		</div>
+</div>
+	<div id="overall_page" >
+
+			 {% include "header_main_body.html" %}
+
+
+
+
+	<div id="x-mask" class="uebersicht">
+
+  {% include "modals.html" %}
+
+
+	<b><div class="profil_beschriftung"><div class="links_profil" onclick="profil_hauptseite()">Mein Profil</div><div style="float:left;margin-right:5px;"> > </div><div class="links_profil" onclick="bestellungen_bearbeiten()">Meine Bestellungen</div><div style="float:left;margin-right:5px;"> > </div>Meine Bewertungen</b><br></div>
+
+
+			
+
+
+
+
+			
+			
+		<div class="header_style">
+			<div class="zusammenfassung">
+				<div class="linke_haelfte">
+					<img class="order_picture" />
+					<div class="block_1">
+						<b><div class="block_1_style"></div></b><br>
+						<div class="block_1_style_beschreibung"></div><br>
+						<div class="block_1_bh_groesse"></div><br>
+						<div class="block_1_slip_groesse"></div><br>
+					</div>
+				</div>
+				
+				
+				<div class="rechte_haelfte">
+					<div class='bewertung_headline'><b>Deine Bewertung</b></div><div class='shop'></div><br>
+					<div class="fitting">
+						<div class='passform_headline'><b>Deine Passform</b></div>
+						<div class="passform_inhalt"></div><br><br>
+					</div>
+					<div class="bewertungsdetails"></div>
+				</div>
+				
+
+
+				
+
+				<div class="untere_linie">
+					<div class="linie_2" ></div>
+				</div>
+
+				
+
+			</div>
+			
+				<div style='width:100%;float:left;'>
+					<button  class='button_bewertungen' onclick='save_bewertungen(this.id)' >Übernehmen</button>	
+					<button name='submit' id='order_summary_button_zurueck'  onclick='bestellungen_bearbeiten()' >
+					<i class='fa fa-circle-o-notch fa-spin' id='button_zurueck_id_logo' style='display:none'></i>
+					<div id='button_zurueck_id_text'>Meine Bestellungen</div>
+					</button>
+				</div>
+			
+			
+		</div>
+		
+
+
+
+
+		
+
+
+		
+
+		<script src="/static/bewertungen_ansehen_2.js"></script>
+
+	{% include "header_sub.html" %}
+
+</div></div>
+<br><br><br><div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>
+
+<script type="text/javascript"  class="bestellungen_daten" >{{bestellungen | safe}}</script>
+<script type="text/javascript"  class="bestelldetails_daten" >{{bestelldetails | safe}}</script>
+		<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>
+		<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>	
+		<script type="text/javascript"  class="links" >{{links | safe}}</script>
+		<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+<script type="text/javascript">test();load_header("{{login}}");bewertungen_aufrufen();links_laden("None");</script>
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>

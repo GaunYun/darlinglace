@@ -1,0 +1,54 @@
+        <div style='width:100%;border-top:1px solid #e6e6e6 ;float:left;margin-top:20px;position: relative;'>
+			<div class="bestellnummer_email" style='margin-bottom:10px;font-size:18px;'><b>Zahlungsdetails</b></div>
+        	<div style='margin: 0 auto;width:300px;'>
+				<div style='display:show'>
+        			<div style='float:left;'>Bestellung:</div>
+					<div style='float:right;width:50%;text-align:right;'>{{bestellung}}</div>
+					<br>
+				</div>
+				
+				<div style='display:{{lieferung_show|safe}}'>
+        			<div style='float:left;'>Lieferung:</div>
+					<div style='float:right;width:50%;text-align:right;'>{{lieferkosten}}</div>
+					<br>
+				</div>
+				
+
+				<div style='display:{{VIP_sets_show|safe}}'>
+            		<div style='float:left;'>Sets umsonst (VIP):</div>
+					<div style='float:right;width:50%;text-align:right;'>-{{VIP_sets_value}}</div>
+					<br>
+				</div>
+				
+
+            	<div style='float:left;display:{{VIP_guthaben_value_show|safe}};'>
+					VIP Guthaben:
+					<div style='float:right;width:50%;text-align:right;'>-{{VIP_guthaben_value}}</div>
+					<br>
+				</div>
+				
+
+
+
+            	<div style='float:left;display:{{rabatt_show|safe}}'>Rabatt:
+					<div style='float:right;'>-{{rabatt}}</div>
+					<br>
+				</div>
+
+
+            	<div style='float:left;display:{{freundschaftswerbung_show|safe}}'>Freundschaftswerbung:
+					<div style='float:right;'>-{{freundschaftswerbung}}</div>
+					<br>
+				</div>
+                <br>
+                
+
+        
+
+        		<div style='float:left;font-weight: bold;'>Gesamt:</div><div style='float:right;font-weight: bold;'>{{gesamt}}</div>
+				<br><br>
+
+
+			</div>
+
+        </div>

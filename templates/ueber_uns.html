@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+{% include "header.html" %}
+
+
+<link rel="stylesheet" href="/static/detail_page.css" type="text/css" media="all" />
+
+
+</head>
+  
+
+  <body style="font-family: 'Roboto', sans-serif;color: #4E4E4E;" onclick='reset_header()'>
+  
+
+
+
+
+  <div class="overlay" onclick='reset_sidebar()'><div class="loader"></div> </div>
+   <div class="modal_mobile_sidebar">					  
+  	<div id="mySidenav" class="sidenav">
+
+		</div>
+</div> 
+
+<div id="overall_page">
+
+  {% include "modals.html" %}
+
+
+
+			 {% include "header_main_body.html" %}
+
+	
+
+	
+	
+
+<div id="x-mask_2" class="mask">
+	<div id='ueber_uns_hauptteil'>
+		<div id='picture_ueber_uns_1_huelle'>
+			<img id='picture_ueber_uns_1' src='/static/ueber_uns/About_us_top.jpg'></img>
+		</div>
+		<div id='ueber_uns_hauptteil_text'>
+			<div id='ueber_uns_hauptteil_text_headline'>
+				Designer Lingerie, die Dir wunderschön steht
+			</div>
+			<div id='ueber_uns_hauptteil_text_main'>
+			Bei Darling Lace möchten wir jeder Frau etwas Einzigartiges bieten. Wir verstehen, dass jede Frau einen eigenen Stil und Körper hat. Daher haben wir viele Styles entwickelt, um die perfekte Passform für jeden Körper zu bieten.
+			</div>
+		</div> 
+	</div>
+	
+	
+	
+	<img id='picture_ueber_uns_2a' src='/static/ueber_uns/180125_about_desktop_1240x2000.jpg'></img>
+	<img id='picture_ueber_uns_2b' src='/static/ueber_uns/180125_about_mobile_275x1160.jpg'></img>
+
+
+		<div id='ueber_uns_unterteil_text'>
+			<div id='ueber_uns_unterteil_spalte'>
+				<div id='detailed_image_ueber_uns_unterteil_styles' >&nbsp;</div>
+				
+				<div id='ueber_uns_unterteil_spalte_text_headline'>
+						Styles für jeden
+
+
+
+				</div>
+				<div id='ueber_uns_unterteil_spalte_text'>
+						Wir designen Lingerie in einer hohen Qualität und großen Bandbreite an Styles und Farben, um Deinem eigenen Style und Deiner Größe gerecht zu werden. Von minimalistischen Bralettes bis hin zu Full Cup BHs haben wir alles.
+				</div>
+			</div>
+
+
+
+
+			<div id='ueber_uns_unterteil_spalte'>
+				<div id='detailed_image_ueber_uns_unterteil_fabric' >&nbsp;</div>
+				
+				<div id='ueber_uns_unterteil_spalte_text_headline'>
+				Einzigartige Stoffe
+
+
+
+
+
+				</div>
+				<div id='ueber_uns_unterteil_spalte_text'>
+						Wir verwenden erstklassige Stoffe und Spitze, um den besten BH herzustellen. Unsere lingerie ist wie eine zweite Haut, denn das erste, was Du jeden Morgen anziehst, sollte auch das Letzte sein über das Du nachdenken musst.
+				</div>
+			</div>
+			
+
+
+
+			<div id='ueber_uns_unterteil_spalte'>
+				<div id='detailed_image_ueber_uns_unterteil_made_to_fit' >&nbsp;</div>
+				
+				<div id='ueber_uns_unterteil_spalte_text_headline'>
+						Entworfen, damit es schön an Dir aussieht
+
+
+
+
+
+				</div>
+				<div id='ueber_uns_unterteil_spalte_text'>
+						Wir haben BHs und Lingerie entwickelt, damit sie Dich wundervoll aussehen lässt und zugleich Deine Kurven unterstützt. Daher haben wir eine große Größenauswahl - von kleinen bis hin zu großen Cups.
+
+
+
+				</div>
+			</div>			
+		</div> 
+	
+
+	
+	</div>
+
+
+
+
+
+
+{% include "header_sub.html" %}
+
+
+
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+
+</body>
+<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>
+
+<script type="text/javascript"  class="shippo_data" >{{shippo_data | safe}}</script>
+<script type="text/javascript"  class="lingerie_data" >{{lingerie_offerings | safe}}</script>
+<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>	
+<script type="text/javascript"  class="colors" >{{colors | safe}}</script>	
+<script type="text/javascript"  class="links" >{{links | safe}}</script>
+<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+
+<script type="text/javascript">load_header("{{login}}");links_laden("{{url}}");</script>
+
+
+</html>

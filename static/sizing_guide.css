@@ -1,0 +1,124 @@
+.link_gruppe_sizing_guide{
+	cursor:pointer;
+	font-size:14px;
+	height:25px;
+  	display:inline-block;	
+}
+
+.link_gruppe_sizing_guide:hover{
+	font-weight:bold;
+	color:#CC3366;
+	border-bottom:3px solid #CC3366 ;	
+}
+
+
+.block_sizing_guide {   
+    margin-left: auto; 
+    margin-right: auto;
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    width:50%;
+}
+
+.sizing_guide_header_line{
+    border-bottom:1px solid #e6e6e6 ;	
+}
+
+
+.block_panty_sizing_guide_details{
+    margin-left: auto; 
+    margin-right: auto;
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+
+}
+
+.sizes_panty_group{
+ float:left;
+ width:20%;	
+ font-weight:bold;
+}
+
+.block_panty_sizing_guide{
+	background-color:#F4F7FA;
+	line-height:35px;
+}
+
+
+.sizes_panty{
+	cursor:pointer;
+	font-size:14px;
+	height:25px;
+	width:10%;
+  	display:inline-block;	
+  	text-align:center;	
+	line-height:20px;
+}
+
+
+.block_shaping_padding_guide {   
+	float:left;
+	margin-bottom:20px;
+}
+
+.detail_shaping_padding_guide{
+
+	font-size:14px;
+
+	width:20%;
+	float:left;
+	margin-right:20px;
+
+}
+
+.picture_detail_shaping_padding_guide{
+	width:100%;
+
+		float:left;	
+		
+		
+}
+	
+.headline_detail_shaping_padding_guide{
+	font-weight:bold;
+}
+	
+	
+.headline_shaping_padding_guide{
+	text-align:center;
+	width:100%;
+	font-size:16px;
+	font-weight:bold;
+
+}
+
+.uebersicht_auswahl_bh_sizing_guide
+{
+
+  	float:left;
+	background-color:#ffffff;
+	font-size:16px;
+	text-align:center;
+
+	height:30px;
+	width:50%;
+	border-bottom:2.5px solid #CC3366 ;	
+
+	cursor:pointer;	
+}
+
+.uebersicht_auswahl_bh_sizing_guide:hover{
+
+	background-color:#ffffff;
+}
+
+
+.block_uebersicht_auswahl_bh_sizing_guide{
+	float:left;
+	width:100%;
+
+}
+
+

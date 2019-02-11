@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<span class="preheader">Vielen Dank für Deine Bestellung bei Darling Lace. Du hast eine tolle Auswahl getroffen. Wir hoffen, Du hast viel Freude daran!</span>
+
+{% include "header_top_emails.html" %}
+
+<style>
+span.preheader { display: none !important; }
+	 @media only screen and (max-width: 510px) {
+    /* For mobile phones: */
+    [class*="main_text"] {
+
+    line-height:20px;
+
+        
+    }
+}
+
+</style>
+
+
+</head>
+  
+
+  <body style="font-family: 'Roboto', sans-serif;color: #4E4E4E;">
+
+
+
+	
+        <div class='main_text'>
+
+            Hi {{vorname}},
+            <br><br>
+            vielen Dank für Deine Bestellung bei Darling Lace. Du hast eine tolle Auswahl getroffen. Wir hoffen, Du hast viel Freude daran!
+            <br><br><br>
+
+
+
+
+
+        <div style='width:100%;float:left'>
+			<div class="headline" style='float:left;width:100%'>
+				<div class="bestellnummer_email" style="float:left;width:50%;text-align:left;font-size:18px"><b>Bestellbestätigung</b></div><br>
+				
+				<br>
+        		<div class="headline_text" >
+					Bestellnummer: <font color="#CC3366" ><b># {{bestellnummer}}</font></b><br><font  color="#404040">Bestelldatum: {{bestelldatum}}</font><br><font  color="#404040">Lieferdatum: {{lieferdatum}}</font>
+				</div><br>
+			</div>
+		</div>
+
+
+
+        <div style='width:100%;border-top:1px solid #e6e6e6 ;float:left;margin-top:20px;'><div class="bestellnummer_email" style='font-size:18px;padding-top:5px;'><b>Lieferdetails</b></div><br>
+        <div style='width:40%;font-size:16px;text-align:left;line-height:15px;float:left;'>
+        Lieferdatum: <br><b>{{lieferdatum}}</b><br><br>
+        Versand durch: <br><b>DHL</b><br><br>
+        </div>
+        
+        <div style='width:60%;font-size:16px;text-align:right;line-height:15px;float:right;padding-top:5px;'>Lieferadresse:<br><b>
+        {{vorname_nachname}}<br>
+        {{firmennname}}<br>
+        {{strassenname_hausnummer}}<br>
+        {{plz_stadt}}<br>
+
+        </b></div></div><br>    
+
+
+		<div style='width:100%;border-top:1px solid #e6e6e6 ;float:left;margin-top:20px;'><div class="bestellnummer_email" style='margin-bottom:10px;font-size:18px;padding-top:5px;'><b>Bestelldetails</b></div><br>
+			{{bestelldetails|safe}}
+		</div>
+		
+		
+		
+				{% include "zahlungsdetails_email.html" %}
+				
+        <div style='width:100%;border-top:1px solid #e6e6e6 ;float:left;'>
+        	<div style='width:100%;font-size:16px;text-align:left;line-height:15px;float:left;margin-top:20px;'>
+        	Hast du noch Fragen? Dann besuche gerne unsere <a href='https://www.darlinglace.com/support/'>Hilfe-Seite</a> und kontaktiere uns!<br><br>xoxo,<br>Darling Lace
+
+        </div>
+	</div><br> 						
+		
+        </div>
+	
+
+
+
+<div style='width:100%;border-top:1px solid #e6e6e6 ;float:left;margin-top:20px;font-size:10px;margin:0 auto;margin-top:10px;'><div class="bestellnummer_email" style='font-size:10px;'><br></div>
+
+ Bitte beachte: Diese E-Mail dient lediglich der Bestätigung des Einganges Deiner Bestellung und stellt noch keine Annahme Deines Angebotes auf Abschluss eines Kaufvertrages dar. Der Kaufvertrag für einen Artikel kommt zu Stande, wenn wir Deine Bestellung annehmen, indem wir Dir eine E-Mail mit der Benachrichtigung zusenden, dass der Artikel an Dich versandt wurde. <br><br>
+ 
+ 
+        <div style='width:100%;text-align:center;line-height:15px;'>
+
+
+
+        MAFI Investments GmbH | Lindwurmstraße 99 | 80337 München | Geschäftsführung: Maximilian Fischer<br>
+        Eingetragen beim Amtsgericht München, Registernummer: HRB 218380<br>
+        <a href='https://www.darlinglace.com/datenschutz/'>Datenschutz</a><br>
+            
+
+      
+              </div>  
+
+
+
+</body>
+
+
+
+</html>

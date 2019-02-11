@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+{% include "header_top_emails.html" %}
+
+<style>
+
+	 @media only screen and (max-width: 510px) {
+    /* For mobile phones: */
+    [class*="main_text"] {
+
+    line-height:20px;
+	
+
+        
+    }
+}
+
+</style>
+</head>
+  
+
+  <body style="font-family: 'Roboto', sans-serif;color: #4E4E4E;">
+        <div class='main_text'>
+        Hi {{vorname}},
+<br><br>
+        für Dein Kundenkonto bei Darling Lace wurde ein neues Passwort angefordert. Bitte klicke auf folgenden Link um ein neues Passwort zu vergeben: <a href='https://www.darlinglace.com/passwort_vergessen_bestaetigen/{{code}}' style='text-decoration:none !important;'>Passwort zurücksetzen</a>.
+<br><br>
+        Du hast keine Anfrage zum zurücksetzen Deines Passworts bei Darling Lace getätigt? Dann kannst Du diese Email einfach ignorieren.
+<br><br>
+        </div>
+
+
+
+
+<div style='width:100%;border-top:1px solid #e6e6e6 ;float:left;margin-top:20px;font-size:10px;margin:0 auto;margin-top:10px;'><div class="bestellnummer_email" style='font-size:10px;'><br></div>
+        <div style='width:100%;text-align:center;line-height:15px;'>
+
+
+
+        MAFI Investments GmbH | Lindwurmstraße 99 | 80337 München | Geschäftsführung: Maximilian Fischer<br>
+        Eingetragen beim Amtsgericht München, Registernummer: HRB 218380<br>
+        <a href='https://www.darlinglace.com/datenschutz/'>Datenschutz</a><br>
+            
+
+      
+              </div>  
+
+
+
+</body>
+
+
+
+</html>

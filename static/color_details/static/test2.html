@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Javascript Parameter Übergabe Demo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="header.css" type="text/css" media="all" />
+</head>
+
+  <body bgcolor="#F5F7FA" style="font-family:Century Gothic;">
+  <div class="header_top"></div>
+  <div id="x-mask">
+
+
+
+
+<div class="wrapper cf" style="font-family:Century Gothic;">
+	<div class="sidebar" style="font-family:Century Gothic;">
+
+			<div class="sidebar_content">
+				<div class="header-box_plz" style="font-family:Century Gothic;">
+					<button onclick="myFunction_()" class="dropbtn_plz" style="font-family:Century Gothic;"><img src="pin.png" width="15" height="15" />10000</button><img class="arrow_plz" src='arrow_up.png' width="15" height="15"/></img>
+				</div>
+				<div class="header-box_datum">
+					<button onclick="myFunction()" class="dropbtn_datum" 	style="font-family:Century Gothic;"><div id="aktuelles_Datum"></div></button><img class="arrow_plz" src='arrow_up.png' width="15" height="15"/></img>
+				</div>
+
+				<div class="header-box_filter">
+					<button onclick="filter_function()" class="filter_auswahl" 	style="font-family:Century Gothic;">Filter</button><img class="arrow_filter" src='arrow_up.png' width="15" height="15"/></img>
+				</div>	
+				<div class="header-box_warenkorb">
+					<button onclick="" class="warenkorb_auswahl" 	style="font-family:Century Gothic;"><div class="cart"><div class="cart_text"></div></div></button>
+				</div>	
+			
+				
+
+				
+				
+				
+				<div class="datums-box">
+				
+					<div id="myDropdown" class="dropdown-content" >Datumsauswahl<br><br>
+						<div class="datums-box_2">
+							<div class="datum_auswahl"></div>
+							<div class="datum_auswahl"></div>
+							<div class="datum_auswahl"></div>
+							<div class="datum_auswahl"></div>
+							<div class="datum_auswahl"></div>
+							<div class="datum_auswahl"></div>
+							<div class="datum_auswahl"></div>							
+						</div>
+					</div>
+				</div>
+					
+
+					
+					
+					
+					
+					
+					
+					<div class="datums-box">
+					
+						<div id="myDropdown_" class="dropdown-content_plz">ADRESSE<br><br>
+							
+								<input id="eingabe1" type="text" style="width:80px;height:20px;font-size:10px;color:#808080;"  value="PLZ" onclick="input_plz_text()" onblur="input_plz_text_blur()" onkeypress='validate(event)' maxlength="5"/>
+								<button style="width:80px;font-size:10px" class="zip_button" onclick="overlay()">Ändere PLZ</button>
+								<br><br><div id="plz_fehler" style="font-size:10px;color:#C80000  " ></div>
+						</div>
+					</div>
+					
+					
+					
+					<div class="filter-box">
+					
+						<div id="filter_dropdown" class="dropdown-content_filter">
+							
+							<div class="filter" onclick="filter_(0)" ><img src='file:///D:/Users/maximilian_fischer/Documents/Munchery/Website/vegan.png'  width='35' height='35'/>Vegan</div>
+							<div class="filter" onclick="filter_(1)" ><img src='file:///D:/Users/maximilian_fischer/Documents/Munchery/Website/vegetarian.png'  width='35' height='35'/>Vegetarisch</div>
+							<div class="filter" onclick="filter_(2)" ><img src='file:///D:/Users/maximilian_fischer/Documents/Munchery/Website/gluten-free.png'  width='35' height='35'/>Gluten-frei</div>
+							<div class="filter" onclick="filter_(3)" ><img src='file:///D:/Users/maximilian_fischer/Documents/Munchery/Website/dairy-free.png'  width='35' height='35'/>Laktose-frei</div>
+							<div class="filter" onclick="filter_(4)" ><img src='file:///D:/Users/maximilian_fischer/Documents/Munchery/Website/nut-free.png'  width='35' height='35'/>Nuss-frei</div>
+							<div class="filter" onclick="filter_(5)" ><img src='file:///D:/Users/maximilian_fischer/Documents/Munchery/Website/egg-free.png'  width='35' height='35'/>Ei-frei</div>
+						</div>
+					</div>
+			</div>
+	</div>
+	
+	
+	
+	
+
+	<br><br><br><br><br><br><br><br><div class="font_festlegen"><h1><span>HAUPTGERICHTE</span></h1></div><div align="center">Frisch und gesund von unserer Küche</div></div>
+
+
+	<div class="container_gerichte"></div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<br><br><br>
+<script type="text/javascript"></script>
+
+
+<script src="gerichte_uebersicht_laden.js"></script>
+<script src="load_header.js"></script>
+
+<script type="text/javascript">datum_auswahl()</script>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="header-bottom"></div>
+</body>
+
+		<div id="overlay" >
+			 <div>
+				  <img class="schliessen_warteliste" src='x.png' width="15" onclick="warteliste_click_schliessen()" height="15"/></img><br><b>COMING SOON</b><br><br><p>Dieser PLZ-Bereich ist leider noch nicht verfügbar.</p><br><button onclick="warteliste_click()" class="button_warteliste">Auf die Warteliste</button>
+			 </div>
+		</div>
+
+</html>

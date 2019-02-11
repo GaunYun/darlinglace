@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% include "header.html" %}
+
+<link rel="stylesheet" href="/static/style_checkout_4.css" type="text/css" media="all" />
+
+
+</head>
+
+
+  <body style="font-family: 'Roboto', sans-serif;">
+ <div class="modal_mobile_sidebar">					  
+	<div id="mySidenav" class="sidenav"></div>
+</div> 
+
+    <div class="overlay" onclick='reset_sidebar()'> <div class="loader"></div> </div>
+<div id="overall_page">
+
+			 {% include "header_main_body.html" %}
+
+		
+		
+	<div  class="uebersicht">
+		
+	<div id='block_cart_back'>
+		<button  id="button_cart_back_id" name="submit" class="button_cart_back"  onclick="logo_click()">
+		
+			<i class="fa fa-circle-o-notch fa-spin" id='button_cart_back_id_logo' style='display:none'></i>
+		<div id='button_cart_back_id_text'>Weiter einkaufen</div>
+		</button>
+	</div>
+
+  
+  
+
+  {% include "modals.html" %}
+
+
+
+		<div class="header_style">
+
+			<div class="zusammenfassung">
+			
+
+
+
+				<div class="VIP"></div>
+				
+				<div class="headline">ZUSAMMENFASSUNG</div>
+				<div class="lingerie" ></div>
+
+
+				
+
+				
+				
+				<br>
+				<div id="adressangaben" class="headline">ADRESSANGABEN</div><br>
+				<div id="total_address" ></div>
+				
+				
+
+				
+				
+				<button  id="check_address" name="submit" class="button_check"  onclick="check_addresses()">
+
+					<i class="fa fa-circle-o-notch fa-spin" id='check_address_logo' style='display:none'></i>
+				<div id='check_address_text'>Überprüfen</div>
+				</button>
+
+				
+				
+				<br>
+				<div id='buttons_address_text' style='float:right;color:red;font-weight:bold;'></div>
+				<br><br>
+	
+				
+					<div id="adressangaben" class="headline">DETAILS ZAHLUNG</div><br>
+				
+
+				   
+				 <div class='zahlungs_container'>  	
+					<div class="zahlungs_cover"><div class="zahlung" id="0"	onclick="zahlung_click(0)">Kreditkarte<br><img src='/static/visa_card.png' height='11' /><img src='/static/mastercard.svg'  height='18' style='margin-left:5px'/></div></div>
+					
+
+					
+					<div class="zahlungs_cover"><div class="zahlung" id="1" onclick="zahlung_click(1)"><br><img src='/static/paypal.svg'  height='19' /></div></div>
+					
+					<div class="zahlungs_cover"><div class="zahlung" id="2" onclick="zahlung_click(2)"><br><img src='/static/sofortueberweisung.svg'  height='22' /></div></div>
+					
+					<div class="zahlungs_cover" style='pointerEvents:none;opacity:0.3;cursor:initial;display:none;'><div class="zahlung" id="3" onclick="zahlung_click(3)">Lastschrift<br><img src='/static/lastschrift.png'  height='25' /></div></div>
+<!-- style='pointerEvents:none;opacity:0.3;cursor:initial;display:none;' -->
+
+					<div class="zahlungs_cover" ><div class="zahlung" id="4" onclick="zahlung_click(4)">Rechnung<br><img src='http://cdn.klarna.com/1.0/shared/image/generic/badge/de_de/pay_later/standard/pink.svg'  height='30' /></div></div>	
+					
+
+				</div>
+				<input class='paypal-checksum' type='hidden' value='0001' />
+				
+				
+					<br><br>
+					
+					<div id="kreditkarten">
+					
+					</div>
+				</div>
+	</div>
+			
+
+		
+
+		<div class="wrapper cf" style="font-family: 'Roboto', sans-serif;;" >
+			<div class="sidebar_checkout" style="font-family: 'Roboto', sans-serif;;">
+				<div class="summary" >
+					<div class="zusammenfassung">
+
+					<div id='VIP_block'>
+						<div class="headline">WIE WILLST DU SHOPPEN?</div>
+						
+
+						<div class="VIP" id="sidebar"></div><br>
+					</div>
+						<div class="headline" >BESTELLÜBERSICHT</div><br>
+						
+						<div class="bestellung"></div>
+						
+						<input placeholder="Gutscheincode" id= "gutschein_input" class="gutscheincode_input" type="text" style="width:60%"></input>
+
+
+
+						<button  id="gutschein_button_id" name="submit" class="gutschein_button"  onclick="gutschein_einloesen()">
+
+							<i class="fa fa-circle-o-notch fa-spin" id='gutschein_button_id_logo' style='display:none'></i>
+						<div id='gutschein_button_id_text'>Überprüfen</div>
+						</button>
+
+						<br>
+						
+							<div id='agb_klarna' style='display:none;margin-top:20px;'>
+							    <input type="checkbox" style='cursor:pointer;float:left;'   id="agb_klarna_checkbox"></input>
+							    <div style='cursor:pointer;float:left;width:80%;margin-left:10px;margin-top:-5px' id='agb_klarna_text'> </div>
+							    
+							</div>
+	
+					
+
+
+						<div style="width:100%">
+							<div class="order_form">
+
+
+								<button  id="add_to_cart" name="submit" class="button_cart_large"  onclick="bestellen()">
+		
+									<i class="fa fa-circle-o-notch fa-spin" id='add_to_cart_logo' style='display:none'></i>
+								<div id='add_to_cart_text'>Jetzt kaufen</div>
+								</button>
+
+							</div>
+						</div>
+						<div id="bestellen_ueberpruefen" style="color:red;display:none;float:right" ><b>Bitte Adress- und Zahlungsdaten angeben und dann den Button überprüfen drücken.</b></div></div>
+
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+
+
+<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>		
+
+
+		<script src="/static/googlemaps_5.js"></script>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6g7upLc5V-d3TtDG-7yhMcE0hzZoPV00&libraries=places"></script>
+
+		
+		<script src="/static/checkout_23.js"></script>
+		<script src="https://cdn.klarna.com/public/kitt/core/v1.0/js/klarna.min.js"></script>
+		<script src="https://cdn.klarna.com/public/kitt/toc/v1.1/js/klarna.terms.min.js"></script>
+		
+
+ 		<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+ 		<script src="https://bridge.paymill.com/" {% comment %}async{% endcomment %}></script>
+ 		
+
+<script type="text/javascript">
+    var PAYMILL_PUBLIC_KEY='e600eaf9505826a5eb016d4cf0455984';
+</script>
+<script>
+
+$(document).ready(function() {
+  $("#payment-form").submit(function(event) {
+    // Deactivate submit button to avoid further clicks
+
+
+    paymill.createToken({
+      number: $('.card-number').val(),  // required, ohne Leerzeichen und Bindestriche
+      exp_month: $('.card-expiry-month').val(),   // required
+      exp_year: $('.card-expiry-year').val(),     // required, vierstellig z.B. "2016"
+      cvc: $('.card-cvc').val(),                  // required
+      amount_int: $('.card-amount-int').val(),    // required, integer, z.B. "15" fÃ¼r 0,15 Euro
+      currency: $('.card-currency').val(),    // required, ISO 4217 z.B. "EUR" od. "GBP"
+      cardholder: $('.card-holdername').val() // optional
+    }, PaymillResponseHandler);                   // Info dazu weiter unten
+
+    return false;
+  });
+});
+
+
+
+
+</script>
+
+<script {% comment %}async{% endcomment %} src="https://cdn.klarna.com/1.0/code/client/all.js"></script>
+</div>
+ 			{% include "header_sub.html" %}
+
+
+
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+		
+</body>
+
+		<script type="text/javascript"  id="messageshownwarenkorbleer" >{{messageshownwarenkorbleer | safe}}</script>	
+
+		<script type="text/javascript"  class="adressbuch_daten" >{{adressbuch | safe}}</script>
+		<script type="text/javascript"  class="zahlungsmethoden_daten" >{{zahlungsmethoden | safe}}</script>
+		<script type="text/javascript"  class="lingerie_selection" >{{lingerie_selection | safe}}</script>		
+		<script type="text/javascript"  class="cart_page" >nein</script>
+<script type="text/javascript"  class="links" >{{links | safe}}</script>
+		<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>
+		<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>	
+		<script type="text/javascript"  class="rebates_daten" >{{rebates | safe}}</script>	
+		<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+		<script type="text/javascript"  class="content_id_list" >{{content_id_list | safe}}</script>	
+		<script type="text/javascript"  class="contents_list" >{{contents_list | safe}}</script>	
+		<script type="text/javascript"  class="value_" >{{value_ | safe}}</script>		
+		<script type="text/javascript"  class="num_items" >{{num_items | safe}}</script>	
+		<script type="text/javascript"  class="selected_zahlungsoption" >{{selected_zahlungsoption | safe}}</script>	
+		<script type="text/javascript"  id="email" >{{email | safe}}</script>	
+<script type="text/javascript"  id="letzteshoppingsicht" >{{letzteshoppingsicht | safe}}</script>	
+<script type="text/javascript"  id="letztefilter" >{{letztefilter | safe}}</script>	
+<script type="text/javascript"  id="contents_list" >{{contents_list | safe}}</script>	
+
+		<script type="text/javascript"  class="allowed_countries" >{{allowed_countries | safe}}</script>
+		<script type="text/javascript"  class="rabattname" >{{rabattname}}</script>
+
+		<script type="text/javascript">load_header("{{ login }}");load_error_message_google_variable();links_laden("{{url}}");others_laden("{{ gutscheincode }}"); VIP_selection_laden("{{VIP}}","{{shopping_type}}","nein");adressbuch_laden();select_zahlungsoption();page_load(1);email_check("{{email_check}}");send_data_gtag();reset_input_fields_mobile();</script>
+
+
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% include "header.html" %}
+
+</head>
+
+  <body onclick='reset_header()' style="font-family: 'Roboto', sans-serif;">
+  
+
+
+
+
+  <div class="overlay" onclick='reset_sidebar()'><div class="loader"></div> </div>
+   <div class="modal_mobile_sidebar">					  
+  	<div id="mySidenav" class="sidenav">
+
+		</div>
+</div> 
+
+<div id="overall_page">
+
+  {% include "modals.html" %}
+
+
+			 {% include "header_main_body.html" %}
+
+		
+	
+	<div id="x-mask" class="uebersicht" >
+
+		
+	
+		<div class="header_style" >
+
+
+    
+    </div>
+  </div></div>  
+	
+	
+	<script type='text/javascript' src='/static/jquery.zoom.js'></script>  
+	<script src="/static/anmelden_seite.js"></script>
+
+	<script src="/static/swiper.min.js"></script>
+	<script src="/static/slider_1.js"></script>
+	<script src="/static/slider_2.js"></script>
+
+
+
+	
+		{% include "header_sub.html" %}
+
+
+
+
+<div class="header_bottom_all" style='margin-top:500px;'><div class="header_detail"><div class="header-bottom"></div></div></div>
+	<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>	
+<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>
+<script type="text/javascript"  class="VIP" >{{VIP | safe}}</script>
+<script type="text/javascript"  class="links" >{{links | safe}}</script>		
+<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+<script type="text/javascript"  class="link_redirect" >{{link_redirect | safe}}</script>
+	<script type="text/javascript">load_header("{{login}}");links_laden("None");load_registration_login(); </script>
+	
+	</div>
+
+
+	
+	
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% include "header.html" %}
+
+
+<link rel="stylesheet" href="/static/bestellungen_ansehen_css.css" type="text/css" media="all" />
+
+
+
+
+ 
+
+</head>
+<body>
+    <div class="overlay" onclick='reset_sidebar()'></div>
+          <div class="modal_login"></div>
+  <div class="modal_2"></div>
+  <div class="modal_medium"></div>
+  <div class="modal_mobile_sidebar">					  
+  	<div id="mySidenav" class="sidenav">
+
+		</div>
+</div>
+<div class="header_top"></div>
+
+	<div id="x-mask" class="uebersicht">
+
+  {% include "modals.html" %}
+
+
+		<br><b><div class="links" onclick="profil_hauptseite()">Dein Profil</div>> Zahlungsmethoden bearbeiten</b><br>
+
+
+
+
+			
+			
+		<div class="header_style">
+			<div class="spalte_1">
+				<div class="spalte_headline_1">Bestellnummer</div><div class="spalte_headline_2">Datum</div><div class="spalte_headline_3">Gesamt</div><br><br><div class="headline"></div><br>
+				<div class="spalte_text_1"></div><div class="spalte_text_2"></div><div class="spalte_text_3"></div>			
+			</div>
+
+			
+			
+		</div>
+		
+
+
+
+
+		
+
+
+		
+
+		<script src="/static/bestellungen_ansehen_js.js"></script>
+
+
+	{% include "header_sub.html" %}
+
+</div>
+<br><br><br><div class="header-bottom"></div>
+		<script type="text/javascript">bestellungen_aufrufen("{{bestellungen}}");load_header();</script>
+</body>
+
+		<div id="overlay" >
+
+		</div>
+
+
+
+</html>

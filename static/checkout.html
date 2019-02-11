@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{{title}}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="/static/jquery-1.9.1.min.js"></script>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+
+<link rel="stylesheet" href="/static/style_checkout_2.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/static/header.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/static/overlay.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/static/buttons.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  
+  
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+ 
+
+</head>
+<div class="header_top_all"><div class="header_top"></div></div>
+  <body style="font-family:Helvetica;color: #4E4E4E;">
+    <div class="overlay" onclick='reset_sidebar()'></div>
+
+
+	<div id="x-mask" class="uebersicht">
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="login" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center'>LOGGE DICH EIN</h4>
+        </div>
+        <div class="modal-body">
+
+
+				<input id='username' placeholder='E-Mail Adresse eingeben' type='email' onkeypress='eingabe_fehler_herausnehmen()' style='width:100%;'></input><br><br>
+				<input id='passwort' placeholder='Passwort eingeben' type='password' onkeypress='eingabe_fehler_herausnehmen()' style='width:100%'></input><br>
+				<div id='eingabe_fehler' style='font-size:12px;color:#C80000;width:100%;height:30px;'></div>
+				<br>
+				<div class='login' onclick='login_user()'><div class='login_text'>Login</div><div class='login_logo'></div></div>
+				<div class='registrierung' onclick='register()'><div class='registrierung_text'>Registrieren</div><div class='registrierung_logo'></div></div><br><br>
+				<br>
+				<div class='oder'>ODER</div><br>
+				
+				<div class='facebook_login' onclick='fb_login()'>Login mit Facebook</div><br><br>
+
+  	     </div>
+
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+      <!-- Modal -->
+  <div class="modal fade" id="alert_box" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_headline'></h4>
+        </div>
+        <div class="modal-body" id='alert_box_body'>
+
+  	     </div>
+        <div class="modal-footer">
+          <div type="button" class="button_alert" data-dismiss="modal">Okay</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+        <!-- Modal -->
+  <div class="modal fade" id="alert_box_reload" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_reload_headline'></h4>
+        </div>
+        <div class="modal-body" id='alert_box_reload_body'>
+
+  	     </div>
+        <div class="modal-footer">
+          <div type="button" class="button_alert" data-dismiss="modal">Okay</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+
+
+
+
+
+		<div class="header_style">
+			<div class="zusammenfassung">
+			
+				<div class="headline">WIE WILLST DU SHOPPEN?</div>
+				
+				<div class="VIP"></div><br>
+				
+				<div class="headline">ZUSAMMENFASSUNG</div>
+				<div class="lingerie"></div>
+
+
+				
+
+				
+				
+				<br><br>
+				<div id="adressangaben" class="headline">ADRESSANGABEN</div><br>
+				<div id="total_address" ></div>
+				<div class="button_check" onclick="check_address_2()"><div class="button_check_text">Überprüfen</div><div class="button_check_logo"></div></div>
+
+				
+				
+				<br><br>
+				<div id='buttons_address_text' style='float:right;color:red;font-weight:bold;'></div><br><br>
+				
+	
+				
+					<div id="adressangaben" class="headline">DETAILS ZAHLUNG</div><br>
+				
+
+				   
+				 <div class='zahlungs_container'>  	
+					<div class="zahlung" id="0"	onclick="zahlung_click(0)">Kreditkarte<br><img src='/static/visa_card.png' width='35' height='20'/><img src='/static/mastercard_card.png'  width='35' height='20'/></div>
+					<div class="zahlung" id="1" onclick="zahlung_click(1)">Paypal<br><img src='/static/paypal.png'  width='35' height='20'/></div>
+					<div class="zahlung" id="2" onclick="zahlung_click(2)">Überweisung<br><img src='/static/sofortueberweisung.png'  width='50' height='20'/></div>
+					<span class='stretch'></span>
+				</div>
+				
+				
+
+					
+					<div id="kreditkarten">
+					
+					</div>
+				</div>
+	</div>
+			
+
+		
+
+		<div class="wrapper cf" style="font-family:Helvetica;" >
+			<div class="sidebar_checkout" style="font-family:Helvetica;">
+				<div class="summary" >
+					<div class="zusammenfassung">
+						<div class="headline">WIE WILLST DU SHOPPEN?</div>
+						
+						<div class="row">
+  <form class="payment-form col-lg-5 collapse" id="payment-form" action="/hello/credit_card_test/" method="POST">
+    <input type="hidden" name="amount" value="4200">
+    <input type="hidden" name="currency" value="EUR">
+    <input type="hidden" name="description" value="Easy Payments Guide!!!">
+
+    <div id="credit-card-fields">
+      <!-- Embedded credit card frame will load here -->
+    </div>
+
+    <button class='form-control btn btn-success submit-button' type='submit'>Get your "Easy Payments Guide" now for 42â‚¬</button>
+  </form>
+</div>
+						<div class="VIP" id="sidebar"></div><br>
+						<div class="headline" >BESTELLÜBERSICHT</div><br>
+						
+						<div class="bestellung"></div>
+						
+						<input placeholder="Gutscheincode" id= "gutschein_input" class="gutscheincode_input" type="text" style="width:60%"></input>
+						<div class="gutschein_button" id="gutschein_button_id"  onclick="gutschein_einloesen()"><div class="gutschein_button_text">Überprüfen</div><div class="gutschein_button_logo"></div></div>
+
+						<br><br><br>
+						
+
+
+
+						<div style="width:100%">
+							<div class="order_form">
+									<div  id="add_to_cart" name="submit" class="button_cart_large" value="Bestellen" onclick="bestellen()">
+										<div class="button_text">Bestellen</div>
+										<div class="button_logo"></div>
+									</div>
+							</div>
+						</div>
+						<div id="bestellen_ueberpruefen" style="color:red;display:none;" ><b>Bitte Adress- und Zahlungsdaten angeben.</b></div></div>
+
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+
+
+
+
+		<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+		<script src="/static/googlemaps_5.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false&libraries=places"></script>
+		
+		<script src="/static/checkout_19.js"></script>
+		
+		
+		<script src="/static/load_header.js"></script>
+		<script src="/static/scrolling.js"></script>
+		<script src="/static/facebook.js"></script>
+ 		<script src="/static/bootstrap.min.js"></script>
+ 		<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+ 		<script src="https://bridge.paymill.com/"></script>
+<script>
+      var PAYMILL_PUBLIC_KEY = '<YOUR_PUBLIC_KEY>';
+    </script>
+    <!-- here the bridge has to be loadded -->
+    <script type="text/javascript" src = "https://bridge.paymill.com/"></script>
+    <!-- here the parameters are defined which can be supplied when calling the new payframe-->
+    <script type = "text/javascript">
+    // first the options. For more options and languages visit: https://developers.paymill.com/guides/reference/bridge-payframe
+      var options = {
+        lang: 'en'
+        };
+        // here the callback is defined, can be customized
+      var callback = function(error){
+        if(error){
+          console.log(error.apierror,error.message);
+          }
+          else {
+          }
+       };
+       // here the payframe is called with the above defined parameters
+       var initPayframe = function() {
+         paymill.embedFrame('credit-card-fields', options, callback);
+       };
+        //The submit button will call this function
+       var submitForm = function() {
+         paymill.createTokenViaFrame({
+            amount_int: 4200, //required
+            currency: 'EUR', //required
+            email: 'test@customer.com' //required
+            },
+         function(error, result) {
+              // Handle error or process result.
+            if (error) {
+              // Token could not be created, check error object for reason.
+              console.log(error.apierror, error.message);
+            }
+              // Token was created successfully and can be sent to backend.
+            else {
+              console.log(result.token);
+              var form = document.getElementById("payment-form");
+              var tokenField = document.getElementById("paymillToken");
+			  alert(tokenField)
+              tokenField.value = result.token;
+              form.get(0).submit();
+              }
+            }
+          );
+        }
+</script>
+
+
+</div>
+<br><br><br><div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+		
+</body>
+
+		
+
+		<script type="text/javascript"  class="adressbuch_daten" >{{adressbuch | safe}}</script>
+		<script type="text/javascript"  class="zahlungsmethoden_daten" >{{zahlungsmethoden | safe}}</script>
+		<script type="text/javascript"  class="lingerie_selection" >{{lingerie_selection | safe}}</script>		
+		<script type="text/javascript"  class="fahrerkapazitaet_daten" >{{fahrerkapazitaet | safe}}</script>	
+		<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>
+		<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>	
+		<script type="text/javascript"  class="rebates_daten" >{{rebates | safe}}</script>	
+		<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+		
+		
+		<script type="text/javascript">load_header("{{ login }}");warenkorb_ermitteln("{{ credit }}","{{ cart_gesamt }}","{{ storecredit }}");lingerie_ermitteln();adressbuch_laden();lingerie_anzeigen();others_laden("{{ gutscheinwert }}","{{ gutscheincode }}","{{ bra_for_free }}"); VIP_selection_laden("{{VIP}}","{{shopping_type}}");email_check("{{email}}");</script>
+
+
+</html>

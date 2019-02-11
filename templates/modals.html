@@ -1,0 +1,555 @@
+
+
+
+  
+  
+  
+  
+
+  <!-- Modal -->
+  <div class="modal fade" id="showroom" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='showroom_headline'></h4>
+        </div>
+        <div class="modal-body" id='showroom_body'>
+
+
+  	     </div>
+        <div class="modal-footer" id='showroom_footer'>
+
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="als_gast_oder_anmelden" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" id="close_register" >&times;</button>
+          <h4 class="modal-title" style='text-align:center'>ANMELDEN ODER ALS GAST FORTFAHREN</h4>
+        </div>
+        <div class="modal-body"><br>
+
+
+
+
+
+				<button   name="submit" class="als_gast"  onclick="als_gast_pop_up()">
+
+					<i class="fa fa-circle-o-notch fa-spin"  style='display:none'></i>
+				<div >Als Gast shoppen</div>
+				</button><br><br><br>
+				<div class='oder'>ODER</div><br>
+				<button   name="submit" class="als_gast"  onclick="amelde_pop_up()">
+
+					<i class="fa fa-circle-o-notch fa-spin" style='display:none'></i>
+				<div >Anmelden</div>
+				</button><br><br>
+				<br>
+
+
+
+
+  	     </div>
+
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="als_gast_anmelden" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" id="close_als_gast" >&times;</button>
+          <h4 class="modal-title" style='text-align:center'>ALS GAST FORTFAHREN</h4>
+        </div>
+        <div class="modal-body">
+
+
+				<input id='username_gast' placeholder='E-Mail Adresse eingeben' type='email'  style='width:100%;'></input><br><br>
+
+				<div id='eingabe_fehler_gast' style='font-size:12px;color:#C80000;width:100%;height:25px;'></div>
+
+
+
+				<button  id="login_button_gast" name="submit" class="als_gast"  onclick="gast_anmeldung()">
+
+					<i class="fa fa-circle-o-notch fa-spin" id='login_button_gast_logo' style='display:none'></i>
+				<div id='login_button_gast_text'>Als Gast fortfahren</div>
+				</button><br>
+
+                <br><br><div style='font-size:12px;border-Top: 1px solid #e6e6e6;'></div>
+				<br>
+				<div style='font-size:12px;'>Mit der Eingabe der E-Mail Adresse stimme ich den <a style='text-decoration:underline' href='https://www.darlinglace.com/agb/' target="_blank">AGB</a>, der <a style='text-decoration:underline'  href='https://www.darlinglace.com/widerrufsbelehrung/' target="_blank">Wider­rufs­be­lehrung</a> und der <a style='text-decoration:underline' href='https://www.darlinglace.com/datenschutz/' target="_blank">Daten­schutzerklärung</a> von {{brand_name}} zu. </div>
+
+  	     </div>
+
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+    
+
+  <!-- Modal -->
+  <div class="modal fade" id="login" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" id="close_als_anmeldung" >&times;</button>
+          <h4 class="modal-title" style='text-align:center'>ANMELDEN</h4>
+        </div>
+        <div class="modal-body">
+
+
+				<input id='username' placeholder='E-Mail Adresse eingeben' type='email' onkeypress='eingabe_fehler_herausnehmen()' style='width:100%;'></input><br><br>
+				<input id='passwort' placeholder='Passwort eingeben' type='password' onkeypress='eingabe_fehler_herausnehmen()' style='width:100%'></input><br>
+				<div id='eingabe_fehler' style='font-size:12px;color:#C80000;width:100%;height:25px;'></div><br>
+
+
+
+				<button  id="login_button" name="submit" class="login"  onclick="login_user()">
+
+					<i class="fa fa-circle-o-notch fa-spin" id='login_button_logo' style='display:none'></i>
+				<div id='login_button_text'>Login</div>
+				</button>
+
+				<button  id="registrierung_button" name="submit" class="registrierung"  onclick="register()">
+
+					<i class="fa fa-circle-o-notch fa-spin" id='registrierung_button_logo' style='display:none'></i>
+				<div id='registrierung_button_text'>Registrieren</div>
+				</button><br><br>
+				<br>
+				<div class='oder'>ODER</div><br>
+
+
+				<button  id="facebook_login_button" name="submit" class="facebook_login"  onclick="fb_login()">
+				
+					<i class="fa fa-circle-o-notch fa-spin" id='facebook_login_button_logo' style='display:none'></i>
+				<div id='facebook_login_button_text'>Anmelden mit Facebook</div>
+				</button><br>
+				<br><a style='text-decoration:underline;font-size:14px;' href='/passwort_vergessen/'>Passwort vergessen?</a><br><br><div style='font-size:12px;border-Top: 1px solid #e6e6e6;'></div>
+				<br>
+				<div style='font-size:12px;'>Mit meiner Anmeldung stimme ich den <a style='text-decoration:underline' href='https://www.darlinglace.com/agb/' target="_blank">AGB</a>, der <a style='text-decoration:underline'  href='https://www.darlinglace.com/widerrufsbelehrung/' target="_blank">Wider­rufs­be­lehrung</a> und der <a style='text-decoration:underline' href='https://www.darlinglace.com/datenschutz/' target="_blank">Daten­schutzerklärung</a> von {{brand_name}} zu. </div>
+
+  	     </div>
+
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+      <!-- Modal -->
+  <div class="modal fade" id="alert_box" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_headline'></h4>
+        </div>
+        <div class="modal-body" id='alert_box_body'>
+
+  	     </div>
+        <div class="modal-footer">
+          <div type="button" class="button_alert" data-dismiss="modal">Okay</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+        <!-- Modal -->
+  <div class="modal fade" id="alert_box_reload" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_reload_headline'></h4>
+        </div>
+        <div class="modal-body" id='alert_box_reload_body'>
+
+  	     </div>
+        <div class="modal-footer">
+          <div type="button" class="button_alert" data-dismiss="modal">Okay</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+        <!-- Modal -->
+  <div class="modal fade" id="alert_box_showroom_registration" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_showroom_registration_headline'></h4>
+        </div>
+        <div class="modal-body" id='alert_box_showroom_registration_body'>
+
+  	     </div>
+        <div class="modal-footer">
+          <div type="button" class="button_alert" data-dismiss="modal">Okay</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+            <!-- Modal -->
+  <div class="modal fade" id="alert_box_empty_cart" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_empty_cart_headline'></h4>
+        </div>
+        <div class="modal-body" id='alert_box_empty_cart_body'>
+
+  	     </div>
+        <div class="modal-footer">
+          <div type="button" class="button_alert" data-dismiss="modal">Okay</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+          <!-- Modal -->
+  <div class="modal fade" id="alert_box_message_referral" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_message_referral_headline'></h4>
+        </div>
+        <div class="modal-body" id='alert_box_message_referral_body'>
+
+  	     </div>
+        <div class="modal-footer">
+          <div type="button" class="button_alert" data-dismiss="modal">Okay</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+      <!-- Modal -->
+  <div class="modal fade" id="alert_box" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_headline'></h4>
+        </div>
+        <div class="modal-body" id='alert_box_body'>
+
+  	     </div>
+        <div class="modal-footer">
+          <div type="button" class="button_alert" data-dismiss="modal">Okay</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+          <!-- Modal -->
+  <div class="modal fade" id="alert_box_rechnungsbetrag" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_rechnungsbetrag_headline'></h4>
+        </div>
+        <div class="modal-body" id='alert_box_rechnungsbetrag_body'>
+
+  	     </div>
+        <div class="modal-footer" id='alert_box_rechnungsbetrag_footer'>
+          <div type="button" class="button_alert" data-dismiss="modal">Okay</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+
+  
+  
+  <!-- Modal -->
+  <div class="modal fade" id="zuruecksenden_bestaetigen" role="dialog" >
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center'>RÜCKSENDUNG BESTÄTIGEN</h4>
+        </div>
+        <div class="modal-body">
+
+
+				<div class="ruecksendung_bestaetigen_text"></div><br>
+		        <button class='button_alert_passwort' style='width:40%;float:left;background-color:#808080;'  onclick='ruecksendung_abbrechen()' >Abbrechen</button>
+		        
+		        
+			<button  id="ruecksendung_bestaetigt_id" name="submit" class="button_alert_passwort"  onclick="ruecksendung_bestaetigt()" style='width:40%;float:right;background-color:#b51d36;'>
+
+			<i class="fa fa-circle-o-notch fa-spin" id='ruecksendung_bestaetigt_id_logo' style='display:none'></i>
+		<div id='ruecksendung_bestaetigt_id_text'>Bestätigen</div>
+		</button>
+
+		        <br><br><br>
+
+  	     </div>
+
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  <!-- Modal -->
+  <div class="modal fade" id="password_check" role="dialog" >
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center'>PASSWORT FESTLEGEN</h4>
+        </div>
+        <div class="modal-body">
+
+
+				<p style='margin-left:10px;margin-right:10px;font-size:14px;'>Bevor das Profil angepasst werden kann, muss zunächst ein Passwort für das Profil festgelegt werden.</p><br>
+		        <div class='button_alert_passwort'  onclick='passwort_bearbeiten()' >Passwort bearbeiten</div>
+
+  	     </div>
+
+      </div>
+      
+    </div>
+  </div>
+  
+  
+      <!-- Modal -->
+  <div class="modal fade" id="alert_box_email" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_email_headline'>E-Mail Kontakt</h4>
+        </div>
+        <div class="modal-body" id='alert_box_email_body'>
+			<div style='float:left;width:100%;'>
+			    <div class="headline_eingabefelder_help">Von: </div>
+			    <input value="{{vorname_nachname}}" class="input_eingabefelder_help"></input>
+			</div><br><br>
+			<div style='float:left;width:100%;'>
+			    <div class="headline_eingabefelder_help">E-Mail: </div>
+			    <input class="input_eingabefelder_help" value="{{email_from}}"></input>
+			</div><br><br>
+			<div style='float:left;width:100%;'>
+			    <div class="headline_eingabefelder_help">Betreff: </div>
+			    <input class="input_eingabefelder_help" placeholder='Betreff eingeben' ></input>
+			</div><br><br>
+			<div class="eingabefelder_headline" style='width:100%'></div><br><textarea class="eingabefelder_textarea" placeholder='Hier bitte die Fragen bzw. Problembeschreibung formulieren.'></textarea>
+  	     </div>
+        <div class="modal-footer">
+		<button  id="helpdesk_open" name="submit" class="button_helpdesk_open"  onclick="send_email_support()">
+		
+			<i class="fa fa-circle-o-notch fa-spin" id='helpdesk_open_logo' style='display:none'></i>
+		<div id='helpdesk_open_text'>E-Mail senden</div>
+		</button>
+				
+	      </div>			
+				
+				
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+      <!-- Modal -->
+  <div class="modal fade" id="alert_box_load_account" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_load_account_headline'></h4>
+        </div>
+        <div class="modal-body" id='alert_box_load_account_body'>
+
+  	     </div>
+        <div class="modal-footer">
+          <div type="button" class="button_alert" data-dismiss="modal">Okay</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+   
+       <!-- Modal -->
+  <div class="modal fade" id="alert_box_password_changed" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center' id='alert_box_password_changed_headline'></h4>
+        </div>
+        <div class="modal-body" id='alert_box_password_changed_body'>
+
+  	     </div>
+        <div class="modal-footer">
+          <div type="button" class="button_alert" data-dismiss="modal">Okay</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  <!-- Modal -->
+  <div class="modal fade" id="alert_box_onleave_webpage" role="dialog" >
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style='text-align:center'>PASSWORT FESTLEGEN</h4>
+        </div>
+        <div class="modal-body">
+
+
+				<p style='margin-left:10px;margin-right:10px;font-size:14px;'>Bevor das Profil angepasst werden kann, muss zunächst ein Passwort für das Profil festgelegt werden.</p><br>
+		        <div class='button_alert_passwort'  onclick='passwort_bearbeiten()' >Passwort bearbeiten</div>
+
+  	     </div>
+
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="alert_box_VIP_FAQ" role="dialog" >
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title" style='text-align:center' id='alert_box_headline_VIP'></h3>
+        </div>
+        <div class="modal-body" id='alert_box_body_VIP'>
+
+
+
+  	     </div>
+
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="alert_userdata_redirect_account_page" role="dialog" >
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title" style='text-align:center' id='alert_userdata_redirect_account_page_headline'></h3>
+        </div>
+        <div class="modal-body" id='alert_userdata_redirect_account_page_body'>
+
+
+
+  	     </div>
+
+      </div>
+      
+    </div>
+  </div>
+

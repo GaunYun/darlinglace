@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% include "header.html" %}
+
+
+<link rel="stylesheet" href="/static/bestellungen_ansehen_css.css" type="text/css" media="all" />
+
+
+</head>
+
+<body style="font-family: 'Roboto', sans-serif;">
+<div class="overlay" onclick='reset_sidebar()'><div class="loader"></div> </div>
+<div class="modal_mobile_sidebar">					  
+	<div id="mySidenav" class="sidenav"></div>
+</div>
+
+
+	<div id="overall_page">
+
+			 {% include "header_main_body.html" %}
+
+
+
+	<div id="x-mask" class="uebersicht">
+
+
+
+
+		<b><div class="profil_beschriftung"><div class="links_profil" onclick="profil_hauptseite()">Mein Profil</div>> Meine Bestellungen</b><br></div>
+
+
+
+  {% include "modals.html" %}
+			
+
+		
+	
+	
+		<div class="header_style">
+			<div class="zusammenfassung">
+				<img class="order_picture" />
+				<div class="block_1">
+					<div class="block_1_bestellnummer"><b><div style="float:left">Bestellnummer:</div><div style="float:right" class="bestellnummer"></div></b></div><br>
+					<div class="block_1_lieferstatus"><b><div style="float:left">Lieferstatus:</div><div style="float:right" class="lieferstatus" ></div></b></div><br>
+					<div class="block_1_gesamtpreis"><div style="float:left">Gesamtpreis:</div><div style="float:right" class="gesamtpreis"></div></div><br>
+					
+					<div class="block_1_bestelldatum"><div style="float:left">Bestelldatum:</div><div style="float:right" class="bestelldatum"></div></div><br>
+					<div class="block_1_lieferdatum"><div style="float:left">Lieferdatum:</div><div style="float:right" class="lieferdatum"></div></div>
+					
+				</div>
+				<div class="mittellinie">
+					<div class="linie_trenn"></div>
+				</div>
+				<div class="button_block_large">
+
+
+				</div>
+				
+				<div class="untere_linie">
+					<div class="linie_2" ></div>
+				</div>
+				
+				
+				
+
+			</div>
+			
+		</div>	
+
+		
+		
+
+
+		
+		
+
+
+
+		
+
+
+		
+
+		<script src="/static/bestellungen_ansehen_js.js"></script>
+
+	{% include "header_sub.html" %}
+
+</div>
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+</div>
+</body>
+
+<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>
+
+
+<script type="text/javascript"  class="bestellungen_daten" >{{bestellungen | safe}}</script>
+<script type="text/javascript"  class="bestelldetails_daten" >{{bestelldetails | safe}}</script>
+		<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>
+		<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>	
+		<script type="text/javascript"  class="links" >{{links | safe}}</script>
+		<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+		
+		<script type="text/javascript">load_header("{{login}}");links_laden("{{url}}");bestellungen_aufrufen();password_check("{{password}}");</script>
+		<div id="overlay" >
+
+		</div>
+
+
+
+</html>

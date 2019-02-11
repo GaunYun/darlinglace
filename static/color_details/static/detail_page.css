@@ -1,0 +1,496 @@
+
+
+ 
+ .vorwahl
+ {
+	position:relative;
+	margin-left:10px;
+	width:30px;
+	color:#4E4E4E;
+ }
+ 
+ .img_box{
+    text-align:center
+}
+ 
+ 
+ 	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    [class*="profil_beschriftung"] {
+	margin-left:10px;
+    }
+}
+ 
+  	 @media only screen and (min-width: 767px) {
+    /* For mobile phones: */
+    [class*="vorwahl"] {
+    	margin-top:-22px;
+
+    }
+}
+ 
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="vorwahl"] {
+		font-size:16px;
+		margin-top:-32px;
+    }
+}
+
+
+.profil_beschriftung
+{
+	font-size:16px;
+}
+
+
+
+.benachrichtigungen_text{
+    opacity:0.4;
+    pointer-events:none;
+} 
+
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="benachrichtigungen"] {
+		font-size:16px;
+		margin-bottom:10px;
+
+    }
+}
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_VIP"] {
+        width:23%;
+        float:left;
+
+        margin-right:2%;
+        font-size:14px;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_VIP"] {
+        width:100%;
+        display: inline-block;
+        font-size:16px;
+
+    }
+}
+
+
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline"] {
+        width:22%;
+        display: inline-block;
+        margin-right:2%;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline"] {
+        width:100%;
+        display: inline-block;
+        font-size:16px;
+
+        margin-top:20px;
+    }
+}
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline_pw"] {
+        width:30%;
+        display: inline-block;
+        margin-right:3%;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline_pw"] {
+        width:100%;
+        display: inline-block;
+        font-size:16px;
+
+        margin-top:20px;
+    }
+}
+
+
+.eingabefelder_profil{
+	margin-top:-10px;
+	width:100%;
+}
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_profil"] {
+		font-size:16px;
+    }
+}
+
+.eingabefelder_pw{
+	margin-top:-10px;
+	width:100%;
+}
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_pw"] {
+		font-size:16px;
+    }
+}
+
+
+
+ 
+.links
+{
+	cursor:pointer;
+	color: #DB7093;
+	float:left;
+	margin-right:5px;
+	
+}
+
+
+input{
+	
+	border:1px solid #e6e6e6 ;
+	color:#4E4E4E;
+	padding-left:10px;
+	box-sizing: border-box;
+	height:28px;
+	font-size:12px;
+	
+}
+
+
+
+
+
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-bottom:40px;
+	margin-top:40px;
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+    }
+}
+
+	 @media only screen and (min-width: 768px) and (max-width: 1199px){
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-bottom:40px;
+	margin-top:40px;
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+    }
+}
+
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+
+	margin-bottom:40px;
+	margin-top:40px;
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+    }
+}
+
+
+ 
+
+ 
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+      width:100%;
+      max-width:1200px;
+	padding:0px 0; 
+	margin:0 auto;
+	font-family:Helvetica; 
+	height:100%
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+      width:100%
+	padding:0px 0; 
+	margin:0 auto;
+	font-family:Helvetica; 
+	height:100%
+    }
+}
+
+ 
+	html, body {
+
+
+
+
+margin: 0px;
+	
+
+
+}
+body {
+  position: relative
+}
+ 
+
+ 
+ 
+ .hauptseite_adresse_bearbeiten{
+
+	
+	
+	width:100%;
+	
+	
+
+	margin-top:50px;
+	font-size:22px;
+	font-weight:bold;
+	float:right;
+	height:600px;
+	font-family:Helvetica;
+	  
+	 
+ }
+ 
+ .header_style_2 {
+
+
+	background-color:#ffffff;
+	
+	
+	width:100%;
+	
+	border:1px solid #e6e6e6 ;
+
+	margin-top:50px;
+	font-size:14px;
+
+	height:600px;
+	font-family:Helvetica;
+	 
+ }
+ 
+ .sms_benachrichtigung{
+	margin-right:10px;
+	height:15px;
+	width:15px;
+	float:left;
+ }
+ 
+ 
+
+
+ .vorhandenes_guthaben{
+
+    margin:0 auto;
+	font-weight:bold;
+	height:28px;
+	border-radius: 5px;
+	cursor:pointer;
+	font-size:14px;
+	text-align:center;
+	padding-top:10px;
+	margin-bottom:50px;
+	margin-top:20px;
+}
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="vorhandenes_guthaben"] {
+	width:100%;
+	margin-top:50px;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="vorhandenes_guthaben"] {
+	width:47%;
+    }
+}
+
+
+ .get_for_free{
+
+	margin:0 auto;
+	font-weight:bold;
+	height:28px;
+	border-radius: 5px;
+	font-size:14px;
+	text-align:center;
+	padding-top:10px;
+	margin-bottom:65px;
+	margin-top:20px;
+}
+
+
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="get_for_free"] {
+	width:100%;
+	margin-top:40px;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="get_for_free"] {
+	width:47%;
+	
+    }
+}
+
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+.guthaben_rueckerstattung_text,.guthaben_text,.kauf_aussetzen_text{
+    height:100px; 
+
+}
+}
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+.guthaben_text{
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+ .summary {
+
+
+	background-color:#ffffff;
+	
+	
+	height:450px;
+	width:300px;
+	border:1px solid #e6e6e6 ;
+
+		font-size:14px;
+	float:left;
+	font-family:Helvetica;
+	
+	 
+ }
+ 
+ 
+ 
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:50px;
+	 margin-top:50px;
+	 margin-right:50px;
+	 font-family:Helvetica;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:10px;
+	 margin-top:10px;
+	 margin-right:10px;
+	 font-family:Helvetica;
+        
+    }
+}
+ 
+ 
+ 
+ .headline{
+	 
+	 
+	 border-bottom: 1px solid #e6e6e6 ;
+	 
+	 line-height:35px;
+	 
+ }
+ 
+ 
+ 
+ .headline_text{
+	 
+	 font-weight: bold;
+	 text-transform:uppercase;
+	 
+	 font-size:18px;
+	 font-family:Helvetica;
+	 line-height:35px;
+	 
+ }
+ 
+ 
+
+ 
+ 
+
+ 
+
+
+
+
+
+
+ 

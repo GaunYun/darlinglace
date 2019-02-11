@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head profile="http://gmpg.org/xfn/11">
+
+        <script type="text/javascript" src="/static/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript" src="/static/main.js"></script>
+		
+		
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Admin Übersicht</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+
+<link type="text/css" rel="stylesheet" media="screen" href="/static/admin.css" />
+
+
+</head>
+  
+
+  <body style="font-family:Helvetica;color: #4E4E4E;">
+  
+<div class="admin_area">
+	<div class="admin_headline">Bestellungen</div><br><br>
+
+	<div id="bestellungen"></div>
+
+</div>
+
+
+
+
+<script src="/static/admin.js" ></script>
+
+
+
+
+
+
+</body>
+
+<script type="text/javascript"  class="bestellungen_data" >{{bestellungen | safe}}</script>
+
+<script type="text/javascript">bestellungen_anzeigen();</script>
+
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Javascript Parameter Übergabe Demo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+
+<link rel="stylesheet" href="file:///D:/Users/maximilian_fischer/Documents/Munchery/Website/style_checkout.css" type="text/css" media="all" />
+<link rel="stylesheet" href="file:///D:/Users/maximilian_fischer/Documents/Munchery/Website/header.css" type="text/css" media="all" />
+
+
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+ 
+
+</head>
+<body bgcolor="#F5F7FA" style="font-family:Century Gothic;">
+<div class="header_top"></div>
+	<div id="x-mask" class="uebersicht">
+
+
+
+
+
+
+
+
+		<div class="header_style">
+			<div class="zusammenfassung">
+				<div class="headline">ZUSAMMENFASSUNG</div>
+				<div class="datum" id="inhalt_datum"></div>
+				
+				<div class="zeitbox" id="0"	onclick="datum_click(0)" >16-17 Uhr</div>
+
+				<div class="zeitbox" id="1" onclick="datum_click(1)">17-18 Uhr</div>
+
+				<div class="zeitbox" id="2" onclick="datum_click(2)">18-19 Uhr</div>
+
+				<div class="zeitbox" id="3" onclick="datum_click(3)">19-20 Uhr</div>
+
+				<div class="zeitbox" id="4" onclick="datum_click(4)">20-21 Uhr</div>
+				
+				<br><br><br><br><br>
+				
+				<div class="gerichte_uebersicht"></div>
+				
+				
+				
+				<div id="adressangaben" class="headline">ADRESSANGABEN</div>
+				<br>
+				<div id="total_address">
+
+				</div><br><br><br><br><br>
+				<input type="button" class="button_check" value="Überprüfen" onclick="check_address()"></input><br><br><br>
+				<div id='buttons_address_text' style='float:right;color:red;font-weight:bold;'></div>
+				
+				<br><br><br><br><br>
+				
+							<div id="adressangaben" class="headline">DETAILS ZAHLUNG</div><br>
+				
+
+				   
+				 <div>  	
+				<div class="zahlung" id="0"	onclick="zahlung_click(0)">Kreditkarte</div>
+				<div class="zahlung" id="1" onclick="zahlung_click(1)">Pay Pal</div>
+				<div class="zahlung" id="2" onclick="zahlung_click(2)">Sofortüberweisung</div>
+				
+				<br><br><br><br>
+
+					
+					<div id="kreditkarten">
+					
+					</div><br><br><br><br>
+				</div>
+	</div>
+			
+		</div>
+		
+		
+		<div class="wrapper cf" style="font-family:Century Gothic;">
+			<div class="sidebar" style="font-family:Century Gothic;">
+				<div class="summary" >
+					<div class="zusammenfassung">
+						<div class="headline">BESTELLÜBERSICHT</div><br>
+						<div class="bestellung"></div>
+						<input placeholder="Gutscheincode" id= "gutschein_input" class="gutscheincode_input"></input>
+						<input type="button" class="gutschein_button" id="gutschein_button_id" value="Überprüfen" onclick="gutschein_einloesen()"></input>
+						<br><br><br><br>
+						<input type="button" id="add_to_cart" class="button_cart" value="Bestellen" onclick="bestellen()"></input>
+						<div id="bestellen_ueberpruefen" style="color:red;display:none;"><b>Bitte Adress- und Zahlungsdaten angeben.</b></div>
+						
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+
+
+		
+		
+
+
+
+		
+
+
+		
+
+		<script src="checkout.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false&libraries=places"></script>
+		<script src="googlemaps.js"></script>
+		<script src="load_header.js"></script>
+
+
+</div>
+<br><br><br><div class="header-bottom"></div>
+</body>
+
+		<div id="overlay" >
+			 <div id="alert_address">
+				  <img class="schliessen_alert" src='x.png' width="15" onclick="alert_click_schliessen()" height="15"/></img><br>
+			 </div>
+		</div>
+
+
+</html>

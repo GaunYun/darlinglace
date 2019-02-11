@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{{title}}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript" src="/static/jquery-1.9.1.min.js"></script>
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+
+<link rel="stylesheet" href="/static/header.css" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="/static/overlay.css">
+
+<link rel="stylesheet" type="text/css" href="/static/buttons.css">
+
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+
+  <script src="/static/bootstrap.min.js"></script>
+</head>
+
+<body style="font-family:Helvetica;color: #4E4E4E;" onclick='reset_header()'>
+  <div class="overlay" onclick='reset_sidebar()'></div>
+
+   <div class="modal_mobile_sidebar">					  
+  		<div id="mySidenav" class="sidenav"></div>
+	</div> 
+  
+	<div class="wrapper cf" style="font-family: 'Roboto', sans-serif;;">
+		<div class="header_top_all" >
+			<div class="header_top"></div>
+			 <div class="header_top_line"></div> 			
+			<div class="sidebar" >
+		
+				<div id="x-mask" class="mask">
+					<div class="sidebar_content" ></div>
+				</div>
+					
+			</div>
+	 		<div class="header_top_line"></div> 	
+		</div>
+		<div class="header_top_line"></div> 	
+	
+	<div id="x-mask" class="uebersicht" >
+
+		
+	
+		<div class="header_style" >
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="login" role="dialog">
+    <div class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" id='close_register'>&times;</button>
+          <h4 class="modal-title" style='text-align:center'>ANMELDEN/ REGISTRIEREN</h4>
+        </div>
+        <div class="modal-body">
+
+
+				<input id='username' placeholder='E-Mail Adresse eingeben' type='email' onkeypress='eingabe_fehler_herausnehmen()' style='width:100%;'></input><br><br>
+				<input id='passwort' placeholder='Passwort eingeben' type='password' onkeypress='eingabe_fehler_herausnehmen()' style='width:100%'></input><br>
+				<div id='eingabe_fehler' style='font-size:12px;color:#C80000;width:100%;height:30px;'></div>
+
+				<div class='login' onclick='login_user()'><div class='login_text'>Anmelden</div><div class='login_logo'></div></div>
+				<div class='registrierung' onclick='register()'><div class='registrierung_text'>Registrieren</div><div class='registrierung_logo'></div></div><br><br>
+				<br>
+				<div class='oder'>ODER</div><br>
+				
+				<div class='facebook_login' onclick='fb_login()'>Anmelden mit Facebook</div><br><div style='font-size:12px;border-Top: 1px solid #e6e6e6;'></div><br>
+				<div style='font-size:12px;'>Mit meiner Anmeldung stimme ich den <a href='/hello/agb/'>AGB</a>, der <a href='/hello/wider­rufs­be­lehrung/'>Wider­rufs­be­lehrung</a> und der <a href='/hello/datenschutz/'>Daten­schutzerklärung</a> von {{brand_name}} zu. </div>
+
+  	     </div>
+
+      </div>
+      
+    </div>
+  </div>
+  
+    </div>
+  </div></div>  
+	
+	
+	<script type='text/javascript' src='/static/jquery.zoom.js'></script>  
+<script src="/static/facebook.js"></script>
+	<script src="/static/anmelden_seite.js"></script>
+	<script src="/static/load_header.js"></script>
+	<script src="/static/scrolling.js"></script>
+	<script src="/static/swiper.min.js"></script>
+	<script src="/static/slider_1.js"></script>
+	<script src="/static/slider_2.js"></script>
+	<script src="/static/showroom.js"></script>
+
+
+	
+	
+
+
+
+
+<br><br>
+<div class="header_bottom_all" style='margin-top:500px;'><div class="header_detail"><div class="header-bottom"></div></div></div>
+
+<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>
+<script type="text/javascript"  class="VIP" >{{VIP | safe}}</script>
+<script type="text/javascript"  class="links" >{{links | safe}}</script>		
+<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+<script type="text/javascript"  class="link_redirect" >{{link_redirect | safe}}</script>
+	<script type="text/javascript">load_header("{{login}}");links_laden(-1);load_registration_login(); </script>
+	
+	</div>
+
+
+	
+	
+</body>
+
+
+
+
+</html>

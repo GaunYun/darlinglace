@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+        <script type="text/javascript" src="/static/main.js"></script>
+		
+		
+
+
+
+<link type="text/css" rel="stylesheet" media="screen" href="/static/admin.css" />
+
+
+</head>
+  
+
+  <body style="font-family:Helvetica;color: #4E4E4E;">
+  
+<div class="admin_area">
+<h1>Show me the money!</h1>
+<!-- writes out the form tag automatically -->
+
+	<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	{{ form.render }}
+		<div  id="add_to_cart" name="submit" class="button_cart_large" value="Bestellen" onclick="bestellen()"></div>
+	</form>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<script type="text/javascript"  class="links_data" >{{links | safe}}</script>
+
+<script type="text/javascript">admin_uebersicht();</script>
+
+
+</html>

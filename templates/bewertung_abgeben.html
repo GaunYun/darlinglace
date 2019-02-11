@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% include "header.html" %}
+
+
+<link rel="stylesheet" href="/static/bewertung_schreiben_css.css" type="text/css" media="all" />
+
+
+
+
+
+
+
+ 
+
+</head>
+<div class="header_top_all"><div class="header_top"></div></div>
+<body bgcolor="#F5F7FA">
+
+
+
+<main class="o-content">
+  <div class="o-container">
+    <div class="o-section">
+      
+    </div>
+
+  </div>
+</main>
+
+
+  
+
+	<div id="x-mask" class="uebersicht">
+
+
+  {% include "modals.html" %}
+
+	<br><b><div class="links" onclick="profil_hauptseite()">Dein Profil</div><div style="float:left;margin-right:5px;"> > </div><div class="links" onclick="bewertungen_bearbeiten_hauptseite()">Bewertungen anzeigen und bearbeiten</div><div style="float:left;margin-right:5px;"> > </div>{{gerichtname}}</b><br>
+
+
+
+			
+			
+		<div class="header_style">
+			<div class="spalte_1">
+				<div class="spalte_headline_1">Eine Bewertung schreiben</div><br><br><div class="headline"></div><br>
+				<div class="spalte_text_1"></div><div class="spalte_text_2"></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<b>Details Deiner Bewertung (optional)</b><br><div style='font-style:italic'>Was hat Dir gefallen? Was kann besser gemacht werden?</div>
+				
+				<textarea id='bewertungsdetails_textarea' name='html_elemente' cols='50' rows='15' maxlength='300' style='width:900px;height:70px;resize: none;font-family:Helvetica;font-size:12px;'  onkeypress='change()'></textarea>
+			<br><br><br>
+			<div class="bewertung_speichern_button" onclick="bewertung_speichern()"><div class="bewertung_speichern_button_text">Speichern</div><div class="bewertung_speichern_button_logo"></div></div>
+			<div class='button_abbrechen' onclick='bewertungen_bearbeiten_hauptseite()'>Abbrechen</div>
+			</div>
+			
+			
+
+			
+			
+		</div>
+		
+		
+
+
+		
+		
+
+
+
+		
+
+
+		
+
+		<script src="/static/bewertung_schreiben_js.js"></script>
+
+
+
+	{% include "header_sub.html" %}
+
+</div>
+<br><br><br><div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+<script type="text/javascript"  class="bestellungen_daten" >{{bestellungen | safe}}</script>
+<script type="text/javascript"  class="bestelldetails_daten" >{{bestelldetails | safe}}</script>
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+<script type="text/javascript">test();load_header("{{login}}");bewertungen_aufrufen();warenkorb_abrufen("{{cart_gesamt}}");</script>
+
+
+
+
+
+</body>
+
+		<div id="overlay" >
+
+		</div>
+
+
+
+</html>

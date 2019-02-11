@@ -1,0 +1,774 @@
+
+
+.profil_beschriftung
+{
+	font-size:16px;
+}
+
+ 
+input{
+	
+	border:1px solid #e6e6e6 ;
+	color:#4E4E4E;
+	padding-left:10px;
+	box-sizing: border-box;
+	height:28px;
+	font-size:12px;
+	
+}
+
+
+textarea{
+	
+	border:1px solid #e6e6e6 ;
+	height:28px;
+	font-size:12px;
+	color: #4E4E4E;
+	padding-left:10px;
+	box-sizing: border-box;
+
+}
+
+
+.vorname{
+	width:300px;
+	margin-right:30px;
+
+}
+
+
+
+
+
+
+.nachname{
+	width:300px;
+	margin-right:30px;
+	
+}
+
+.telefonnummer{
+	width:200px;
+
+	
+}
+
+
+.adresse{
+	width:300px;
+	margin-right:30px;
+	
+}
+
+
+.apt{
+	width:77px;
+	float:right;
+	
+	
+	
+}
+
+
+.stadt{
+	width:300px;
+	margin-right:30px;
+	
+}
+
+
+.plz{
+	width:77px;
+	margin-right:30px;
+	
+	
+	
+}
+
+.lieferhinweise{
+	
+	margin-top:-10px;
+	width:100%;
+	height:70px;
+	resize: none;
+	font-family:Helvetica;
+	
+}
+
+
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+.button_main{
+	margin-right:10px;
+}}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+.lieferhinweise{
+	font-size:16px
+}}
+
+
+
+.unternehmensdetails{
+	width:880px;
+	
+	
+}
+
+
+
+.links
+{
+	cursor:pointer;
+	color: #DB7093;
+	float:left;
+	margin-right:5px;
+	
+}
+
+
+
+
+
+.c-rating__item.is-active,.c-rating__item:hover{background-position:-24px 0}
+
+
+.c-rating {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c-rating__item {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 24px;
+      -ms-flex: 0 0 24px;
+          flex: 0 0 24px;
+  height: 24px;
+  background: url("/static/stars.svg");
+  background-position: 0 0;
+  cursor:pointer;
+
+}
+
+
+.c-rating__item.is-active {
+  background-position: -24px 0;
+}
+
+
+ .c-rating{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	list-style:none;
+	margin:15px;
+	padding:0
+}
+
+.c-rating__item{
+	-webkit-box-flex:0;
+	-webkit-flex:0 0 24px;
+	-ms-flex:0 0 24px;
+	flex:0 0 24px;
+	height:24px;
+	background:url(/static/stars.svg);
+	cursor:pointer;
+
+}
+
+
+
+
+ 
+
+
+
+ 
+ 
+ .hauptseite_adresse_bearbeiten{
+
+	
+	
+	width:100%;
+	
+	
+
+	margin-top:50px;
+	font-size:22px;
+
+	float:right;
+
+	font-family:Helvetica;
+	  
+	 
+ }
+ 
+  .adressdetails{
+ 	height:100px;
+
+ 	
+ 	float:left;
+ 	vertical-align:middle;
+ 	
+ 	display:table-cell;
+ 	line-height:25px;
+ 	
+ }
+ 
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="adressdetails"] {
+		margin-left:50px;
+		width:35%;
+		font-size:12px;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="adressdetails"] {
+		margin-left:10px;
+		width:50%;
+		font-size:16px;
+    }
+}
+
+.standard_feld
+{
+	float:left;
+	
+	height:100px;
+}
+
+
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="standard_feld"] {
+		width:30%;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="standard_feld"] {
+		width:15%;
+    }
+}
+
+
+.standard_beschriftung
+{
+	margin-top:-35px;
+	margin-left:45px;
+	margin-right:10px;
+}
+
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="standard_beschriftung"] {
+		display:block;
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="standard_beschriftung"] {
+		display:none;
+    }
+}
+
+ 
+
+ 
+ 
+
+	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-top:40px;
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+	display:none;
+	margin-bottom:40px;
+    }
+}
+
+	 @media only screen and (min-width: 768px) and (max-width: 1199px){
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	margin-top:40px;
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+	display:none;
+	margin-bottom:40px;
+    }
+}
+
+
+
+
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+	margin-bottom:40px;
+	margin-top:40px;
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+	display:none;
+    }
+}
+
+
+ 
+
+  	 @media only screen and (min-width: 1200px) {
+    /* For mobile phones: */
+    [class*="header_style_3"] {
+	height:100%;
+	float:left;
+
+	display:block;
+	margin-top:0px;
+
+	
+    }
+}
+
+	 @media only screen and (min-width: 768px) and (max-width: 1199px){
+    /* For mobile phones: */
+    [class*="header_style_3"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	
+	font-size:12px;
+
+	float:left;
+	font-family:Helvetica;
+	display:block;
+    }
+}
+
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="header_style_3"] {
+	background-color:#ffffff;
+	width:99%;
+
+	margin-bottom:10px;
+	border:1px solid #e6e6e6 ;
+
+	font-size:12px;
+	float:left;
+	font-family:Helvetica;
+	display:block;
+    }
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+.dialogIsOpen #page-wrap {
+
+  /* Blur and de-color */
+  -webkit-filter: blur(5px) grayscale(50%);
+
+  /* Recede */
+  -webkit-transform: scale(0.9);
+
+}
+ 
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+ .summary {
+
+
+	background-color:#ffffff;
+	
+	
+	height:450px;
+	width:300px;
+	border:1px solid #e6e6e6 ;
+
+		font-size:14px;
+	float:left;
+	font-family:Helvetica;
+	 
+ }
+ 
+ 
+  
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:50px;
+	 margin-top:50px;
+	 margin-right:50px;
+	 font-family:Helvetica;
+	 
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:10px;
+	 margin-top:10px;
+	 margin-right:10px;
+	 font-family:Helvetica;
+	 font-size:16px;
+        
+    }
+}
+
+
+.block,.thumbs {   
+    width: 100%
+
+    margin-left: auto; 
+    margin-right: auto;
+
+     text-align: justify;
+
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+  
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline_line_1"] {
+        width:30%;
+
+        text-transform: uppercase;
+         display: inline-block;
+        
+ 
+
+  
+
+        
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline_line_1"] {
+        width:100%;
+        display: inline-block;
+        font-size:16px;
+
+        margin-top:20px;
+
+        text-transform: uppercase;
+    }
+}
+
+
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline_line_2"] {
+        width:100%;
+        display: inline-block;
+
+        text-transform: uppercase;
+        
+        
+    }
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="eingabefelder_headline_line_2"] {
+        width:100%;
+        display: inline-block;
+        font-size:16px;
+
+        margin-top:20px;
+        text-transform: uppercase;
+    }
+}
+
+	 @media only screen and (min-width: 768px) {
+	
+	.eingabefelder_vorname,.eingabefelder_nachname,.eingabefelder_telefonnummer,.eingabefelder_adresse,.eingabefelder_stadt,.eingabefelder_plz,.eingabefelder_unternehmensdetails{
+		margin-top:10px;
+		width:100%;
+	
+	
+	}
+}
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+.eingabefelder_vorname,.eingabefelder_nachname,.eingabefelder_telefonnummer,.eingabefelder_adresse,.eingabefelder_stadt,.eingabefelder_plz,.eingabefelder_unternehmensdetails{
+	font-size:16px;
+	width:100%;
+
+
+}}
+
+ 
+ 
+ .vorwahl
+ {
+	position:relative;
+	margin-left:10px;
+	width:30px;
+ }
+ 
+   	 @media only screen and (min-width: 767px) {
+    /* For mobile phones: */
+    [class*="vorwahl"] {
+    	margin-top:-23px;
+
+    }
+}
+ 
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="vorwahl"] {
+		font-size:16px;
+		margin-top:-32px;
+    }
+}
+
+
+ 
+
+
+
+.profil_beschriftung{
+	margin-bottom:40px;
+}
+ 
+  	 @media only screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    [class*="profil_beschriftung"] {
+	margin-left:10px;
+	margin-right:10px;
+    }
+}
+ 
+  .zusammenfassung_2{
+	 
+	 margin-left:50px;
+	 margin-top:30px;
+	 margin-right:50px;
+	 font-family:Helvetica;
+	 color:#b5b1b1;
+	 
+ }
+ 
+  .adresse_name{
+ 
+
+ font-weight:normal;
+ color:#b5b1b1;
+ }
+ 
+ 
+
+
+ 
+   .shop_2{
+
+
+	vertical-align:middle;
+	display:table-cell;
+	height:100px;
+	 
+
+
+	 
+ }
+ 
+ 
+ .shop{
+ height:40%;
+
+
+ 
+ }
+ 
+ 
+ 
+  .bearbeiten_feld{
+	color: #DB7093;
+	vertical-align:middle;
+	height:100px;
+	display:table-cell;
+	cursor:pointer;
+ }
+ 
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="bearbeiten_feld"] {
+		font-size:12px;
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="bearbeiten_feld"] {
+		font-size:16px;
+    }
+}
+ 
+ 
+ 
+ 
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+      max-width:1200px; 
+	padding:0px 0; 
+	margin:0 auto;
+	font-family: 'Roboto', sans-serif;
+	height:100%
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="uebersicht"] {
+      width:100%
+	padding:0px 0; 
+	margin:0 auto;
+	font-family: 'Roboto', sans-serif;
+	height:100%
+    }
+}
+
+ 
+	html, body {
+
+
+
+
+margin: 0px;
+	
+
+
+}
+body {
+  position: relative
+}
+
+
+ 
+ 
+
+ 
+ 
+    .zusammenfassung_4{
+	 display:none;
+	 border-top: 1px solid #e6e6e6 ;
+	 margin-left:50px;
+	 margin-top:100px;
+	 margin-right:50px;
+	 font-family:Helvetica;
+	 font-size:14px;
+	 
+	 
+ }
+ 
+ .uebersicht_adresse_bearbeiten{
+	 float:right;
+	margin-top:45px;
+	margin-right:50px;
+	cursor:pointer;
+	color: #DB7093;
+
+	 
+ }
+ 
+ 
+
+
+ 
+ 
+ 
+ .headline{
+	 
+	 
+	 border-bottom: 1px solid #e6e6e6 ;
+	 
+	 line-height:35px;
+	 
+ }
+ 
+ 
+ 
+ .headline_text{
+	 
+	 font-weight: bold;
+	 text-transform:uppercase;
+	 
+	 font-size:20px;
+	 font-family:Helvetica;
+	 line-height:35px;
+	 
+ }
+ 
+
+ 
+
+
+
+
+
+
+ 

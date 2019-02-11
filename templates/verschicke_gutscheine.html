@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+
+{% include "header.html" %}
+
+<link rel="stylesheet" href="/static/verschicke_gutscheine.css" type="text/css" media="all" />
+
+</head>
+
+<body style="font-family: 'Roboto', sans-serif;">
+
+  <div class="overlay" onclick='reset_sidebar()'><div class="loader"></div> </div>
+
+  <div class="modal_mobile_sidebar">					  
+  	<div id="mySidenav" class="sidenav">
+
+		</div>
+</div>
+	<div id="overall_page" >
+
+		 {% include "header_main_body.html" %}
+
+
+
+  {% include "modals.html" %}
+	<div id="x-mask" class="uebersicht">
+
+		<b><div class="profil_beschriftung"><div class="links_profil" onclick="profil_hauptseite()">Mein Profil</div>> Freunde einladen</b></div>
+
+
+
+		
+		
+		<div class="header_style">
+			<div class="zusammenfassung">
+				<div class="headline"><div class="headline_text">Lade Freunde ein und erhalte 15€</div><br><div class="headline_subtext">Lade Freunde zu Darling Lace ein und erhalte einen 15€ Gutschein pro Freund, der ein Set gekauft und nicht retourniert hat. Deine Freunde erhalten auch 15€ Rabatt auf ihr erstes Set. <br><br></div></div>
+
+
+						<div class="eingabefeld"><div class="eingabefelder_headline">Von: </div><div class="eingabefelder_no_input">{{email_from}}</div></div><br><br>
+						<div class="eingabefeld"><div class="eingabefelder_headline">An: </div><textarea type='email' class="eingabefelder_input_betreff" style="border:none;" placeholder='Mehrere E-Mail Adressen mit Semikolon trennen' onkeydown='input_on_change()' ></textarea></div><br><br>
+						<div class="eingabefeld"><div class="eingabefelder_headline">Betreff: </div><textarea class="eingabefelder_input_betreff" placeholder='Erhalte bei Darling Lace 15€ Rabatt auf Dein erstes BH Set' ></textarea></div><br><br>
+						<div class="eingabefeld"><div class="eingabefelder_headline" style='width:100%'></div><br><textarea class="eingabefelder_large_input" placeholder='Nachricht, welche Deine Freunde erhalten sollen. Der Gutscheincode wird automatisch von uns hinzugefügt.' value='Erhalte 15€ Rabatt für dein nächstes BH Set'></textarea></div>
+
+
+									<button  id="send_email" name="submit" class="button_main" value="Bestellen" onclick="send_email()" style='width:100%'>
+
+										  <i class="fa fa-circle-o-notch fa-spin" id='send_email_logo' style='display:none'></i>
+										  <div id='send_email_text'>E-Mail senden</div>
+									</button>
+
+						<div class="eingabefeld"></div><br><br><br>
+						<button class="button_share_facebook" onclick="share_facebook_message()"  style='float:left' >Auf Facebook teilen</button>
+						<button class="button_share_facebook" onclick="send_facebook_message()" style='float:right' >Facebook Nachricht senden</button>
+					</div>
+
+
+
+				
+				
+					
+
+			</div>
+		
+				
+		</div>
+		
+		
+
+
+
+
+		
+
+
+		
+
+		<script src="/static/verschicke_gutscheine.js"></script>
+
+
+		
+
+{% include "header_sub.html" %}
+
+</div>
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+<script type="text/javascript"  class="brand_name" >{{brand_name | safe}}</script>
+<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>	
+<script type="text/javascript"  class="links" >{{links | safe}}</script>
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>	
+<script type="text/javascript"  class="gutscheincode" >{{gutscheincode | safe}}</script>	
+		<script type="text/javascript">load_header("{{login}}");links_laden("None");reset_fields();</script>
+</body>
+
+
+
+
+
+</html>

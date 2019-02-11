@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Javascript Parameter Übergabe Demo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="/static/jquery-1.9.1.min.js"></script>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+
+<link rel="stylesheet" href="/static/start_page_css.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/static/overlay.css" type="text/css" media="all" />
+
+
+
+
+ 
+
+</head>
+<body bgcolor="#F5F7FA" style="font-family:Helvetica;color: #4E4E4E;" >
+
+<div class='transparent_background'>
+</div>
+	<div id="x-mask" class="uebersicht">
+
+
+		<div class="header_style">
+			<div class="zusammenfassung">
+				<div class="headline">VON UNSERER KÜCHE DIREKT ZU DIR</div><br>
+				<div class="subtitle">WIR BRINGEN DIR DEIN ABENDESSEN</div><br><br>
+					<div class="trenner_login">ODER</div><br><br>
+					
+					<div class="columns">
+						<div style="font-size:14px;font-weight:bold;text-align:center;">LOGGE DICH EIN</div><br><br>
+						
+						
+						<input id="username" placeholder="E-Mail Adresse eingeben" type="email" onkeypress='eingabe_fehler_herausnehmen()'></input><br><br><br>
+				
+						<input id="passwort" placeholder="Passwort eingeben" type="password" onkeypress='eingabe_fehler_herausnehmen()'></input><br><br>
+						<div id="eingabe_fehler" style="font-size:10px;color:#C80000;position:absolute;"></div>
+						<br><br>
+						<div class="login" onclick="login()"><div class="login_text">Login</div><div class="login_logo"></div></div>
+						<div class="registrierung" onclick="register()"><div class="registrierung_text">Registrieren</div><div class="registrierung_logo"></div></div><br><br>
+						
+						<br><br>
+						<div style='font-size:14px;font-weight:bold;text-align:center;'>ODER</div>
+						<div class="horizontaler_strich"></div><br><br>
+						<div class="facebook_login" onclick="fb_login()">Login mit Facebook</div><br><br>
+					
+
+
+						
+					</div>
+						
+						
+						<div class="trennlinie_main"></div>
+						
+					<div class="column_plz" >
+						<div style="font-size:14px;font-weight:bold;text-align:center;">ÜBERPRÜFE DEINE PLZ</div><br><br>
+						
+						<input id="postleitzahl" placeholder="Postleitzahl eingeben" maxlength="5" onkeypress='validate(event)' onkeyup='press_enter(event)'></input><br><br>
+						<div id="plz_fehler" style="font-size:10px;color:#C80000;position:absolute;"></div>
+						
+						<br><br><br><br><br>
+		
+						<div class="plz_ueberpruefen" onclick="check_plz()"><div class="plz_ueberpruefen_text">PLZ Überprüfen</div><div class="plz_ueberpruefen_logo"></div></div>
+
+					</div>
+						
+
+					</div>
+					
+
+			</div>
+			<div class="bearbeitunsblock_hinzufuegen"></div>
+
+				
+		</div>
+		
+
+		
+		
+
+
+		
+		
+
+
+
+		
+
+
+		<script src="/static/scrolling.js"></script>
+
+		<script src="/static/start_page_js_3.js"></script>
+		<script src="/static/facebook.js"></script>
+		<script src="/static/mobilecheck.js"></script>
+		
+		
+		
+		
+
+
+
+
+
+
+		<script type="text/javascript">gutscheincode_laden("");gutscheincode_laden_fb("");</script>
+</body>
+
+		<div id="overlay" >
+					 <div id="alert_address">
+
+			 </div>
+
+		</div>
+
+
+
+</html>

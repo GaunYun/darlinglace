@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% include "header.html" %}
+
+<link rel="stylesheet" href="/static/detail_page.css" type="text/css" media="all" />
+
+ 
+
+</head>
+  <body style="font-family: 'Roboto', sans-serif;;color: #4E4E4E;" onclick='reset_header()' >
+  <div class="overlay" onclick='reset_sidebar()'><div class="loader"></div> </div>
+
+
+   <div class="modal_mobile_sidebar">					  
+  	<div id="mySidenav" class="sidenav">
+
+		</div>
+</div> 
+<div id="overall_page">
+
+
+  {% include "modals.html" %}
+
+  
+
+
+
+			 {% include "header_main_body.html" %}
+
+	<div id="x-mask_2" class="mask">
+		
+		<div class="header_style">
+			<div class="zusammenfassung">
+				<div class="headline"><div class="headline_text">NEWSLETTER ABBESTELLEN</div><div class="bestellnummer"></div></div><br>
+
+
+					Bitte klicke auf folgenden Link, um Dich vom Newsletter abzumelden
+				
+				<br><br><br>
+
+				<button style='width:200px' class="button_main" onclick="newsletter_abmelden('{{security_key}}')" >Newsletter abmelden</buttom>
+
+				
+				
+					
+
+			</div>
+		
+				
+		</div>
+		
+		</div>
+
+
+
+
+		
+
+
+		
+
+		<script src="/static/profil_bearbeiten.js"></script>
+
+	{% include "header_sub.html" %}
+		
+
+
+
+</div>
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>	
+<script type="text/javascript"  class="links" >{{links | safe}}</script>
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+		<script type="text/javascript">load_header("{{login}}");warenkorb_abrufen("{{cart_gesamt}}");password_check_2("{{password}}");links_laden("None");</script>
+</body>
+
+
+
+
+</html>

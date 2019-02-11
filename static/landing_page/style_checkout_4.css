@@ -1,0 +1,1087 @@
+#kreditkarten{
+	margin-top:-20px;	
+}
+
+.haelfte_rechnungsadresse{
+	width:45%;
+	float:left;	
+}
+
+.haelfte_lieferadresse{
+	width:45%;
+	float:right;	
+}
+
+
+
+
+
+#agb_klarna_text{
+	margin-bottom:20px;
+}
+
+
+
+
+#myform {
+    text-align: center;
+
+
+}
+.qty {
+    width: 15px;
+    height: 20px;
+
+
+    border:none;
+}
+input.qtyplus { 
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	border: 1px solid #e6e6e6 ;
+	
+}
+
+
+.rabattname{
+	color:#b51d36;	
+	float:left;
+	font-weight:bold;
+}
+
+
+input.qtyminus { 
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	float:left;
+	font-size:25px;
+
+
+	background-color:#ffffff;
+	border: 1px solid #e6e6e6 ;
+
+}
+
+.side3 {
+	padding: 0.1px;
+
+	height:60px;
+	
+	margin-top:20px;
+
+
+	
+	
+	background-color: #f2f2f2;
+	border: 1px solid #e6e6e6 ;
+	color: #00000;
+
+	cursor:pointer;
+	font-family: 'Roboto', sans-serif;
+  
+}
+
+
+
+	 @media only screen and  (min-width: 401px) and (max-width: 600px)  {
+    /* For mobile phones: */
+    [class*="side3"] {
+		width:55%;
+		float:right;
+			font-size:14px;
+    }
+}
+
+	 @media only screen and (max-width: 400px) {
+    /* For mobile phones: */
+    [class*="side3"] {
+		width:50%;
+		float:right;
+			font-size:14px;
+    }
+}
+
+	 @media only screen and (min-width: 560px) and (max-width: 770px)  {
+    /* For mobile phones: */
+    [class*="side3"] {
+		width:50%;
+		float:left;;
+		margin-left:30px;
+		margin-bottom:10px;
+			font-size:14px;
+    }
+}
+
+	 @media only screen and (min-width: 771px)  {
+    /* For mobile phones: */
+    [class*="side3"] {
+		width:50%;
+		float:right;
+			font-size:14px;
+    }
+}
+
+ .side3:hover{
+	 background-Color:#f2f2f2;
+ }
+ 
+ 
+ 
+
+
+
+	 @media only screen and (max-width: 566px) {
+    /* For mobile phones: */
+    [class*="zahlungsmethoden_anzeigen"] {
+        width:100%;
+        height:120px;
+        float:right;
+
+        margin-bottom:20px;
+        cursor:pointer;
+        z-index:10;
+    }
+}
+
+	 @media only screen and (min-width: 567px)  and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="zahlungsmethoden_anzeigen"] {
+        width:100%;
+        height:120px;
+        float:right;
+
+        margin-bottom:20px;
+        cursor:pointer;
+        z-index:10;
+    }
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="zahlungsmethoden_anzeigen"] {
+        width:100%;
+        height:120px;
+        float:right;
+        
+        margin-bottom:20px;
+        cursor:pointer;
+        z-index:10;
+        
+    }
+}
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="zahlungsmethoden_anzeigen_block1"] {
+		width:100%;
+		height:35px;
+		background-color:#b51d36;
+		float:left;
+		z-index:5
+    }
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="zahlungsmethoden_anzeigen_block1"] {
+		width:100%;
+		height:35px;
+		background-color:#b51d36;
+		z-index:5;
+		float:left;
+    }
+}
+
+
+
+
+
+
+
+
+.side3 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+
+
+
+ 
+.output_adresse{
+	
+	background-color:#ffffff;
+	border: 1px solid #e6e6e6 ;
+	height:60px;
+	cursor:pointer;
+	
+	
+}
+
+
+ .output_adresse:hover{
+	 background-color:#f2f2f2;
+	 
+ }
+
+ 
+	 @media only screen and (min-width: 768px) and (max-width: 999px){
+    /* For mobile phones: */
+    [class*="sidebar_checkout"] {
+	padding: 0.1px;
+	width: 39%;
+	height:300px;
+	float:right;
+	border-bottom: 1px solid #e6e6e6 ;
+	color: #00000;
+	z-index: 1;
+	font-family: 'Roboto', sans-serif;	
+    }
+}
+
+
+
+
+	 @media only screen and (min-width: 1000px)  {
+    /* For mobile phones: */
+    [class*="sidebar_checkout"] {
+	padding: 0.1px;
+	width: 45%;
+	height:300px;
+	float:right;
+	border-bottom: 1px solid #e6e6e6 ;
+	color: #00000;
+	z-index: 1;
+	font-family: 'Roboto', sans-serif;	
+    }
+}
+
+
+
+	 @media only screen and (max-width: 767px)  {
+    /* For mobile phones: */
+    [class*="sidebar_checkout"] {
+	padding: 0.1px;
+	width: 100%;
+	height:300px;
+	float:right;
+
+	border-bottom: 1px solid #e6e6e6 ;
+	color: #00000;
+	z-index: 1;
+	font-family: 'Roboto', sans-serif;	
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* The sticky */
+.sidebar_checkout {
+
+  overflow:auto;
+  height:100%;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+select{
+	
+	
+	color:#4E4E4E;
+	
+}
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+		.anrede_text{
+			width:20%;
+			line-height:20px;
+			text-transform: uppercase;
+			font-size:14px;
+			display: inline-block;
+		}
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+		.anrede_text{
+			width:50%;
+			line-height:20px;
+			text-transform: uppercase;
+			font-size:16px;
+			display: inline-block;
+			margin-bottom:20px;
+		}
+}
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+		.address_text,.land_text{
+			width:40%;
+			line-height:20px;
+			text-transform: uppercase;
+			font-size:14px;
+			display: inline-block;
+		}
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+		.address_text,.land_text{
+			width:50%;
+			line-height:20px;
+			text-transform: uppercase;
+			font-size:16px;
+			display: inline-block;
+			margin-bottom:20px;
+		}
+}
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+		.address_mobilnummer{
+			width:100%;
+			line-height:20px;
+			text-transform: uppercase;
+			font-size:14px;
+			display: inline-block;
+		}
+}
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+		.address_mobilnummer{
+			width:100%;
+			line-height:20px;
+			text-transform: uppercase;
+			font-size:16px;
+			display: inline-block;
+			margin-bottom:20px;
+		}
+}
+
+
+
+
+
+
+
+textarea{
+	padding: 10px;
+	border:1px solid #e6e6e6 ;
+	color:#4E4E4E;
+	box-sizing: border-box;
+}
+
+
+
+
+	 @media only screen and (min-width: 1000px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:45%;
+	border:1px solid #e6e6e6 ;
+	font-size:14px;;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+    }
+}
+
+	 @media only screen and (min-width: 768px) and (max-width: 999px){
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:60%;
+	border:1px solid #e6e6e6 ;
+	font-size:14px;;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+    }
+}
+
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="header_style"] {
+	background-color:#ffffff;
+	width:100%;
+
+	margin-top:50px;
+	font-size:16px;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+    }
+}
+
+
+
+#VIP_terms_conditions_checkbox_text{
+	cursor:pointer;
+	float:left;
+	text-decoration: underline;
+	margin-bottom:20px;
+	width:100%;
+	
+}
+
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+   #block_cart_back{
+    	display:none;
+    	
+    }
+    
+  }
+  
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    #block_cart_back {
+    		width:100%;
+	margin-bottom:20px;
+    	
+    }
+    
+  }
+
+ 
+ .bestellung{
+	 
+	 font-size:16px;
+	 line-height:35px;
+	 font-family: 'Roboto', sans-serif;
+	 
+ }
+ 
+
+
+input[type="checkbox"] {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+
+    cursor:pointer;
+}
+
+
+
+
+
+.image_order{
+	height:125px;
+	float:left;	
+}
+
+.style
+{
+	margin-left:10px;
+	float:left;
+	height:125px;
+	width:calc(100% - 150px - 100px)
+}
+
+
+
+
+
+
+
+.product_price
+{
+
+	float:right;
+
+	text-align:right;
+}
+
+
+ .select_size
+ {
+
+
+ 	width:150px;
+
+
+ 	height:105px;
+ 	vertical-align: bottom;
+ 	display: table-cell;
+ 	text-align:right;
+}
+
+
+
+
+
+.select_anzahl{
+	height:28px;	
+}
+
+
+
+	 @media only screen and (max-width: 350px) {
+    /* For mobile phones: */
+    .address_input_header,.adresse,.benachrichtigungen_text,.checkbox_unternehmensangaben,.address_other_input_header,.address_mobilnummer_input_header,.adresse_mobilnummer,.adresse_other,.unternehmensdetails,.haelfte_rechnungsadresse,.haelfte_lieferadresse{
+    	font-size:14px;
+    	
+    }
+    
+  }
+  	 @media only screen and (min-width: 350px) {
+    /* For mobile phones: */
+    .address_input_header,.adresse,.benachrichtigungen_text,.checkbox_unternehmensangaben,.address_other_input_header,.address_mobilnummer_input_header,.adresse_mobilnummer,.adresse_other,.unternehmensdetails,.haelfte_rechnungsadresse,.haelfte_lieferadresse{
+    	font-size:14px;
+    	
+    }
+    
+  }
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .VIP_selection{
+    	font-size:14px;
+    	
+    }
+    
+  }
+  
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    .VIP_selection {
+    	font-size:14px;
+    	
+    }
+    
+  }
+
+
+
+
+
+	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    .karten_text_css,.karten_text_css_pruefnummer,.ablaufdatum_text,.promo_code,.unternehmensdetails,.zahlung,.style,.anzahl,.karten_text_css_bic,.product_price{
+    	font-size:14px;
+    	
+    }
+    
+  }
+  
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    .karten_text_css,.karten_text_css_pruefnummer,.ablaufdatum_text,.promo_code,.unternehmensdetails,.zahlung,.style,.anzahl,.karten_text_css_bic,.product_price {
+    	font-size:14px;;
+    	
+    }
+    
+  }
+
+
+
+.karten_text_css{
+		float:left;
+		line-height:20px;
+
+		
+		width:100%;
+
+    
+}
+
+
+
+
+
+
+
+.karten_text_css_pruefnummer,.karten_text_css_bic{
+	float:right;
+	line-height:20px;
+
+
+	width:30%;
+}
+
+.adresse_mobilnummer{
+	padding-left:45px
+}
+
+
+	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    .ablaufdatum_text,.karten_text_css_pruefnummer,.karten_text_css,.karten_text_css_bic {
+		margin-top:10px;
+    }
+}
+
+	 @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .ablaufdatum_text,.karten_text_css_pruefnummer,.karten_text_css,.karten_text_css_bic {
+		margin-top:10px;
+    }
+}
+
+
+
+.ablaufdatum_text{
+	float:left;
+	line-height:20px;
+	width:70%;	
+}
+
+
+
+
+
+
+.gutscheincode_input{
+	
+	float:left;
+	width:80%;
+	 font-family: 'Roboto', sans-serif;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdown-content {
+
+
+
+  background-color: #FFFFFF;
+
+  color: #00000;
+  z-index: 1;
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ .promo_code{
+	 
+	 cursor:pointer;
+	 color:#b51d36;
+	 font-family: 'Roboto', sans-serif;
+	 
+ }
+ 
+
+ 
+ 
+  	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="summary"] {
+	background-color:#ffffff;
+	width:100%;
+	border:1px solid #e6e6e6 ;
+	font-size:14px;;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+	overflow-y:hidden;
+    }
+}
+  	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="summary"] {
+	background-color:#ffffff;
+	width:100%;
+
+	font-size:16px;
+	float:left;
+	font-family: 'Roboto', sans-serif;
+    }
+}
+ 
+ 
+
+ 
+ 	 @media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:50px;
+	 margin-top:50px;
+	 margin-right:50px;
+	 font-family: 'Roboto', sans-serif;
+        
+    }
+}
+
+
+ 	 @media only screen and (max-width: 767px) {
+    /* For mobile phones: */
+    [class*="zusammenfassung"] {
+	 margin-left:10px;
+	 margin-top:10px;
+	 margin-right:10px;
+	 font-family: 'Roboto', sans-serif;
+        
+    }
+}
+ 
+ 
+ 
+ .shopping_selection{
+ width:49%;float:left;border:1.0px solid #b51d36;
+ cursor:pointer;
+ }
+ 
+ 
+ .headline{
+	 
+
+	 border-bottom: 1px solid #e6e6e6 ;
+	 font-weight: bold;
+	 text-transform:uppercase;
+	 font-size:20px;
+	 font-family: 'Roboto', sans-serif;
+
+	 
+ }
+ 
+  .lingerie{
+	 width:100%;
+	 font-family: 'Roboto', sans-serif;
+	 margin-bottom:40px;
+
+ }
+ 
+
+ 
+  .checkbox_unternehmensangaben{
+	margin-right:10px;
+	height:15px;
+	width:15px;
+	float:left;
+ }
+ 
+
+ 
+  	 @media only screen and (max-width: 767px) {
+    .vorwahl
+ {
+
+	margin-top:-27px;
+	margin-left:10px;
+	width:5px;
+
+ } 	 	
+  	 	
+  	 }
+  
+  
+  
+    	 @media only screen and (min-width: 768px) {
+    .vorwahl
+ {
+
+	margin-top:-27px;
+	margin-left:10px;
+	width:5px;
+
+ } 	 	
+  	 	
+  	 }
+
+ 
+
+ 
+ .map{
+ 	border: 1px solid #e6e6e6;
+ 	pointer-events: none;
+ 	margin-top:20px;
+ 	float:left;
+
+ 
+ }
+
+ 
+ 	 @media only screen and (min-width: 767px) and (max-width: 1000px)  {
+    /* For mobile phones: */
+    [class*="map"] {
+         width:136px;height:136px;
+          	margin-bottom:40px;
+        
+    }
+}
+
+ 	 @media only screen and (min-width: 1000px)   {
+    /* For mobile phones: */
+    [class*="map"] {
+         width:186px;height:186px;
+          	margin-bottom:20px;
+        
+    }
+}
+
+
+
+
+
+ 	 @media only screen and (min-width: 400px) and (max-width: 766px) {
+    /* For mobile phones: */
+    [class*="map"] {
+         width:150px;height:150px;
+         margin-bottom:20px;
+        
+    }
+}
+
+ 	 @media only screen and (min-width: 10px) and (max-width: 400px) {
+    /* For mobile phones: */
+    [class*="map"] {
+         width:130px;height:130px;
+        
+    }
+}
+
+ .pac-container {
+
+    position: absolute;
+
+
+}
+ 
+ .adresse_input,.land_input{
+	 
+
+	 height:28px;
+	 font-family: 'Roboto', sans-serif;
+	 width:100%;
+
+	 box-sizing: border-box;
+	 
+
+
+	 
+ }
+ 
+
+ 
+  .unternehmensdetails{
+	 	width:100%;
+	line-height:20px;
+
+
+	display: inline-block;
+	 
+ }
+
+ 
+
+ 
+ 
+ 	 @media only screen and (max-width: 499px) {
+    /* For mobile phones: */
+    [class*="zahlungs_cover"] {
+	 width:100%;
+	z-index:10;
+	float:left;
+	margin-right:3px;
+    }
+}
+
+ 	 @media only screen and (min-width: 500px) {
+    /* For mobile phones: */
+    [class*="zahlungs_cover"] {
+	 width:19%;
+	z-index:10;
+	float:left;
+	margin-right:3px;        
+    }
+}
+ 
+ 
+ .zahlung{
+	 
+display:inline-block;
+
+	 border:1px solid #e6e6e6;
+	 text-align: center;
+	 height:60px;
+	 width:100%;
+	 z-index:1;
+	
+	 cursor:pointer;	
+
+	 line-height:25px;
+	 font-family: 'Roboto', sans-serif;
+	 margin-bottom:10px;
+
+	 
+ }
+ 
+ 
+
+.zahlungs_container {   
+    width: 100%
+	float:left;
+     text-align: justify;
+     height:70px;
+
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+ 
+  @media only screen and (min-width: 768px) {
+    /* For desktop : */
+    .karten_css{
+	width:100%;
+	 height:28px;
+	 font-family: 'Roboto', sans-serif;
+	 font-size:14px;;
+	 
+    }
+}
+
+
+ 
+  @media only screen and (max-width: 767px) {
+    /* For desktop : */
+    .karten_css{
+	width:100%;
+	 height:40px;
+	 font-family: 'Roboto', sans-serif;
+	 font-size:16px;
+	 	border:1px solid #e6e6e6 ;
+    }
+}
+ 
+ 
+ 
+ 
+ 
+
+
+ .schliessen_alert
+{
+	margin-right:10px;
+	margin-top:-10px;
+	float:right;
+	cursor:pointer;
+}
+ 
+ 
+
+
+
+
+
+
+
+
+.dialogIsOpen #page-wrap {
+
+  /* Blur and de-color */
+  -webkit-filter: blur(5px) grayscale(50%);
+
+  /* Recede */
+  -webkit-transform: scale(0.9);
+
+}
+
+
+
+
+
+
+
+	html, body {
+
+  
+
+
+margin: 0px;
+	
+
+
+}
+body {
+  position: relative
+}
+ 
+ 
+ 
+  .namen{
+	 
+	 width:140px;
+	 height:28px;
+	 font-family: 'Roboto', sans-serif;
+	 
+ }
+
+  
+  .trennlinie_datum{
+	 float:left;
+	 border-left:1px solid #e6e6e6;
+	 height:42px;
+ }
+ 
+ 
+
+ 
+
+
+ 

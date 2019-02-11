@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+{% include "header.html" %}
+
+<link type="text/css" rel="stylesheet" media="screen" href="/static/style_25.css" />
+
+
+
+  <link rel="stylesheet" type="text/css" href="/static/rangeslider.css">
+
+</head>
+  
+
+  <body style="font-family: 'Roboto', sans-serif;color: #4E4E4E;font-weight: 300;" onclick='reset_header()'>
+  
+
+
+
+
+    <div class="overlay" onclick='reset_sidebar()' ontouchstart='reset_sidebar()'><div class="loader"></div> </div>
+   <div class="modal_mobile_sidebar">					  
+  	<div id="mySidenav" class="sidenav">
+
+		</div>
+</div> 
+
+<div id="overall_page">
+
+  {% include "modals.html" %}
+
+
+			 {% include "header_main_body.html" %}
+
+	
+	
+	
+	
+	
+
+	
+	
+
+	<div id="x-mask_2" class="mask">
+		<div id='mein_showroom' style='display:none'>{% include "quiz_results.html" %}</div>
+			<div class="container_gerichte" ></div>
+		
+		
+		
+		<div id='sub_header_product_page'>
+
+		</div>
+	</div>
+	
+										
+
+{% include "quiz_footer.html" %}
+
+
+	{% include "header_sub.html" %}
+
+
+
+<script src="/static/gerichte_uebersicht_laden_8.js" ></script>
+
+	<script src="/static/slider_2.js"></script>
+
+
+
+<div class="header_bottom_all"><div class="header_detail"><div class="header-bottom"></div></div></div>
+</div>
+</body>
+<script type="text/javascript"  class="wishlist_quantity" >{{wishlist_quantity | safe}}</script>
+<script type="text/javascript"  class="cart_quantity" >{{cart_quantity | safe}}</script>
+
+<script type="text/javascript"  class="lingerie_data" >{{lingerie_offerings | safe}}</script>
+<script type="text/javascript"  class="VIP" >{{VIP | safe}}</script>
+<script type="text/javascript"  class="warenkorb_daten" >{{warenkorb | safe}}</script>	
+<script type="text/javascript"  class="links" >{{links | safe}}</script>
+<script type="text/javascript"  class="filter" >{{filter | safe}}</script>		
+<script type="text/javascript"  class="colors" >{{colors | safe}}</script>
+<script type="text/javascript"  class="wishlist" >{{wishlist | safe}}</script>
+<script type="text/javascript"  class="bestellungen" >{{bestellungen | safe}}</script>
+<script type="text/javascript"  id="currentbandsize" >{{currentbandsize | safe}}</script>
+<script type="text/javascript"  id="currentcupsize" >{{currentcupsize | safe}}</script>
+
+<script type="text/javascript"  id="recommendedbandsize" >{{recommendedbandsize | safe}}</script>
+<script type="text/javascript"  id="recommendedcupsize" >{{recommendedcupsize | safe}}</script>
+
+<script type="text/javascript"  id="recommendedsizetext" >{{recommendedsizetext | safe}}</script>
+<script type="text/javascript"  class="recommendedband" >{{recommendedband | safe}}</script>
+<script type="text/javascript"  class="recommendedcup" >{{recommendedcup | safe}}</script>
+<script type="text/javascript"  id="brustform" >{{brustform | safe}}</script>
+<script type="text/javascript"  id="cupproblem" >{{cupproblem | safe}}</script>
+<script type="text/javascript"  id="bandproblem" >{{bandproblem | safe}}</script>
+<script type="text/javascript"  id="strapproblem" >{{strapproblem | safe}}</script>
+<script type="text/javascript"  id="filter_size" >{{filter_size | safe}}</script>		
+<script type="text/javascript"  id="filter_color" >{{filter_color | safe}}</script>
+<script type="text/javascript"  id="filter_style" >{{filter_style | safe}}</script>
+<script type="text/javascript"  id="filter_padding" >{{filter_padding | safe}}</script>
+<script type="text/javascript"  id="start_page" >Nein</script>
+
+<script type="text/javascript">load_header("{{login}}");links_laden("{{url}}");lingerie_selection_laden();initialize();check_quiz_footer();</script>
+
+
+</html>
