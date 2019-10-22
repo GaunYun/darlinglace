@@ -34,7 +34,7 @@ paymill==0.1.1
 paymill-jsonobject==0.7.1b0
 paymill-wrapper==2.3.0
 phonenumbers==8.8.0
-Pillow==4.3.0
+Pillow==6.2.0
 pycparser==2.18
 pyOpenSSL==17.3.0
 PyPDF2==1.26.0
