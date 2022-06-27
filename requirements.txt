@@ -42,7 +42,7 @@ python-dateutil==2.6.1
 pytz==2017.2
 qrcode==5.3
 qrplatba==0.3.4
-reportlab==3.4.0
+reportlab==3.5.55
 requests==2.18.4
 shippo==1.5.1
 sitemap-generator==0.3.9
